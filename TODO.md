@@ -11,14 +11,6 @@ Prioridad: **A** = bloquea la publicación · **B** = mejora clara · **C** = op
 
 ### Material que solo puede aportar la familia
 
-- [ ] **T-05 (B) Recuperar las cuatro fotografías perdidas: Dalla, Carrejador, Trill, Garbells.**
-  Faltaban ya dentro del PDF (solo quedaba el pie y un enlace roto). Ver `NOTES.md` → "Lagunas". Si aparecen:
-  1. guardar el JPEG en `assets/images/` como `10-dalla.jpg`, `12-carrejador.jpg`, `14-trill.jpg`, `15-garbells.jpg`;
-  2. en `extract/to_markdown.py`, tabla `FIGURES`, sustituir el `None` de esa entrada por el nombre del fichero;
-  3. `python3 extract/to_markdown.py && python3 extract/check.py`;
-  4. retocar el texto de `site/src/pages/edicio.astro` (apartado "Què s'ha perdut") y `NOTES.md`.
-  La galería y los placeholders se actualizan solos (los genera `figures()` en `site/src/lib/llibre.ts`).
-
 - [ ] **T-07 (C) Lectura del texto por la familia / un hablante nativo y decisión sobre las erratas.**
   El criterio actual es reproducir el original tal cual (erratas incluidas; lista en `NOTES.md` → "Errores del original
   que se conservan"). Si se decide corregir alguna, hacerlo en `extract/to_markdown.py` con una tabla de sustituciones
@@ -64,6 +56,9 @@ Prioridad: **A** = bloquea la publicación · **B** = mejora clara · **C** = op
   de vez en cuando; `npm run build` y `python3 extract/check.py` son la prueba de regresión.
 
 ## Resueltas
+
+- [x] **T-05** Las cuatro fotografías perdidas (Dalla, Carrejador, Trill, Garbells) aportadas por la familia e
+  incorporadas como figuras 10, 12, 14 y 15 (2026-09-02).
 
 - [x] **T-04** Licencias: texto y fotos CC BY-NC-ND 4.0 (`LICENSE-CONTINGUT.md`), código MIT (`LICENSE`);
   mención en el pie del sitio y en "Sobre esta edició"; README (2026-09-02).

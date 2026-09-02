@@ -33,7 +33,8 @@ PARA_GAP = 25                          # px: salto vertical mayor → párrafo n
 COL_WIDTH = 510                        # px: ancho de la caja de texto
 SHORT = 15                             # px: una línea que acaba a más de esto del margen es "corta"
 
-# Pies de figura → fichero en assets/images (None = ilustración perdida en el original)
+# Pies de figura → fichero en assets/images (None = ilustración perdida). Las figuras 10, 12, 14 y 15 no estaban en el
+# PDF; las aportó la familia en septiembre de 2026 (ver NOTES.md).
 FIGURES = [
     ("Mapa dels Ports", "01-mapa-dels-ports.svg"),
     ("Mas dels Llivis", "02-mas-dels-llivis.jpg"),
@@ -44,12 +45,12 @@ FIGURES = [
     ("L’arada o aladre", "07-arada-o-aladre.jpg"),
     ("Forques", "08-forques.jpg"),
     ("Falç i zoqueta", "09-falc-i-zoqueta.jpg"),
-    ("Dalla", None),
+    ("Dalla", "10-dalla.jpg"),
     ("Carratellet", "11-carratellet.jpg"),
-    ("Carrejador", None),
+    ("Carrejador", "12-carrejador.jpg"),
     ("L’era del Mas de Julian", "13-era-del-mas-de-julian.jpg"),
-    ("Trill", None),
-    ("Garbells", None),
+    ("Trill", "14-trill.jpg"),
+    ("Garbells", "15-garbells.jpg"),
     ("Ramat en el Mas de Julian", "16-ramat-en-el-mas-de-julian.jpg"),
     ("Barraca de pastor", "17-barraca-de-pastor-serra-calduch.jpg"),
     ("Esquella", "18-esquella.jpg"),

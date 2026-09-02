@@ -12,7 +12,7 @@ const perdudes = figs.filter((f) => !f.file).length;
 ---
 <Base title="Il·lustracions">
   <h1>Il·lustracions</h1>
-  <p>Les {figs.length} fotografies del llibre, en l'ordre en què apareixen. {perdudes} d'elles ({figs.filter((f) => !f.file).map((f) => f.caption).join(', ')}) ja no estaven dins del PDF conservat i s'han perdut; si algú en conserva còpia, serà benvinguda. Cada imatge enllaça amb el fitxer a resolució original.</p>
+  <p>Les {figs.length} fotografies del llibre, en l'ordre en què apareixen. {perdudes > 0 ? `${perdudes} d'elles ja no estaven dins del PDF conservat i s'han perdut. ` : 'Quatre d\'elles (Dalla, Carrejador, Trill i Garbells) no eren dins del PDF i les ha aportat la família. '}Cada imatge enllaça amb el fitxer a resolució original.</p>
   <ul class="galeria">
     {figs.map((f) => (
       <li>

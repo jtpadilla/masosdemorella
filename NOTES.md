@@ -148,3 +148,11 @@ sistema de la ventana ampliada); el camino es de OSM (`llivis/cami-julia.json`).
 de la Garumba (OSM: 40.6162, -0.1600) está justo al norte del mas, Cinctorres al oeste-suroeste; la bassa no se distingue en
 la ortofoto y va marcada como posición aproximada; el pastador es interior. Los números de las fotos son los del índice
 de ilustraciones.
+
+## Las cuatro fotografías perdidas, recuperadas (2026-09-02, T-05)
+La familia ha aportado los originales de "Dalla", "Carrejador", "Trill" y "Garbells" (JPEG de 2048 px de lado mayor,
+sin EXIF). Se incorporan sin recomprimir como `assets/images/10-dalla.jpg`, `12-carrejador.jpg`, `14-trill.jpg` y
+`15-garbells.jpg`; `FIGURES` en `to_markdown.py` deja de tener entradas `None` y los placeholders desaparecen del texto,
+de la galería y de "Sobre esta edició". La sección "Lagunas" de arriba queda como registro histórico. La orientación de
+las fotos de la dalla y el carrejador es la del fichero recibido (no llevan EXIF): si estuvieran giradas, corregirlas
+con `convert -rotate` y regenerar.

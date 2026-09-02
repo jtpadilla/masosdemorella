@@ -60,7 +60,7 @@ Por qué:
 source/                 PDF original (intocable, artefacto de archivo)
 extract/                salida de extract/extract.sh: text/pNNN.txt, text/book.xml (fuentes), images/, render/ (ignorado en git)
 content/                MASTERS RECUPERADOS: un .md por capítulo, frontmatter con título/número
-assets/images/          JPEG originales renombrados NN-figura.jpg (NN = orden en el índice de ilustraciones; faltan 10,12,14,15);
+assets/images/          JPEG originales renombrados NN-figura.jpg (NN = orden en el índice de ilustraciones; 10,12,14,15 aportadas por la familia);
                         SVG generados: 01-mapa-dels-ports.svg (sustituye al JPEG de baja calidad), ed-*.svg (ilustraciones de esta edición)
 extract/mapa/           generadores de mapas SVG (mapalib.py, mapa_ports.py, mapa_denes.py, text2path.mjs) y datos OSM filtrados;
                         necesitan node + opentype.js: `npm i opentype.js@1` en un dir temporal y pasar su node_modules como argumento

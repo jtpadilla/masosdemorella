@@ -2,10 +2,9 @@
 import { Image } from 'astro:assets';
 import type { ImageMetadata } from 'astro';
 import Base from '../layouts/Base.astro';
-import { figures, figuresEdicio, href, llibre } from '../lib/llibre';
+import { figuresEdicio, href, llibre } from '../lib/llibre';
 const imatges = import.meta.glob<ImageMetadata>('../../../assets/images/ed-*.svg', { eager: true, import: 'default' });
 const perFitxer = Object.fromEntries(Object.entries(imatges).map(([k, v]) => [k.split('/').pop()!, v]));
-const perdudes = (await figures()).filter((f) => !f.file);
 ---
 <Base title="Sobre esta edició">
   <article class="text">
@@ -17,14 +16,13 @@ const perdudes = (await figures()).filter((f) => !f.file);
     <h2>Què s'ha pogut recuperar</h2>
     <ul>
       <li><strong>Tot el text.</strong> El PDF conservava el text com a text (no era un escaneig), de manera que s'ha extret sense errors de reconeixement i s'ha comprovat paraula per paraula contra l'original.</li>
-      <li><strong>26 de les 30 fotografies</strong>, a la resolució amb què l'autora les va incloure (la majoria, unes 2.350 × 1.570 píxels). Es conserven sense recomprimir; en la <a href={href('il-lustracions/')}>galeria</a> es poden obrir a mida original.</li>
+      <li><strong>Les 30 fotografies.</strong> 26 eren dins del PDF, a la resolució amb què l'autora les va incloure (la majoria, unes 2.350 × 1.570 píxels), i es conserven sense recomprimir. Les altres quatre (<em>Dalla</em>, <em>Carrejador</em>, <em>Trill</em> i <em>Garbells</em>) s'havien perdut abans de generar el PDF —només hi quedava el peu i un enllaç trencat— i les ha aportat la família a partir dels seus originals. En la <a href={href('il-lustracions/')}>galeria</a> es poden obrir totes a mida original.</li>
       <li>Les <strong>notes al peu</strong>, les cursives dels termes locals i les citacions.</li>
       <li>La <strong>paginació original</strong>: els números xicotets al marge del text indiquen on començava cada pàgina del PDF, per a poder-lo citar.</li>
     </ul>
 
     <h2>Què s'ha perdut o és imperfecte</h2>
     <ul>
-      <li>Quatre il·lustracions ja no eren dins del PDF: només hi quedava el peu de foto i un enllaç trencat. Són {perdudes.map((f, i) => <><em>{f.caption}</em>{i < perdudes.length - 1 ? ', ' : ''}</>)}, totes fotografies d'eines de segar i batre. Al seu lloc hi ha un requadre buit.</li>
       <li>El <em>Mapa dels Ports</em> era l'única imatge de baixa resolució (394 × 330 píxels) i s'ha tornat a dibuixar: mateixos tretze municipis i mateixos rètols que el mapa de l'autora, però amb els límits municipals reals (dades d'OpenStreetMap) i l'estil tipogràfic d'esta edició. El mapa original es conserva al repositori.</li>
       <li>L'índex del PDF remetia a una paginació diferent de la del propi PDF (probablement la de la maqueta definitiva a 17 × 23 cm). Esta edició usa la paginació del PDF; l'<a href={href('index-d-illustracions/')}>índex d'il·lustracions</a> es reprodueix amb els números originals.</li>
       <li>Els números dels apartats (1.1, 3.8…) s'havien perdut en generar el PDF (hi quedava un glif buit); s'han reassignat en ordre i comprovat contra l'índex de marcadors que el PDF sí conservava.</li>

@@ -142,7 +142,7 @@ En la pràctica el segador té una distinció entre esta ferramenta i la corbell
 
 La dalla és una peça que està formada per un full d’acer que mesura aproximadament uns 0’64m per 0’14m, àmplia i lleugerament corba. El tall està en la part còncava, en l’extrem posterior. La part més ampla forma com un coll pla retorçut sobre si mateix que acaba amb una anella, on s’encaixa un mànec de fusta. La mesura del mànec varia segons qui la usa, aproximadament 1’30m.
 
-<figure class="perduda"><div class="placeholder">Il·lustració perduda en l’original</div><figcaption>Dalla</figcaption></figure>
+![Dalla](../assets/images/10-dalla.jpg)
 
 Esta ferramenta es subjecta amb les dos mans i fa un recorregut circular prop de la terra. En cada moviment talla la planta que es queda tombada en la terra. La força es fa amb la mà dreta i es sega en sentit contrari de la inclinació de la planta.
 
@@ -178,7 +178,7 @@ La cavalleria que feia aquest treball, a part del cabestre, portava l’albardo,
 
 Les garbes es lligaven d’una en una amb les espigues cap avall pel costat i damunt de l’animal i es portaven a l’era formant una garbera fins que començava la batuda.
 
-<figure class="perduda"><div class="placeholder">Il·lustració perduda en l’original</div><figcaption>Carrejador</figcaption></figure>
+![Carrejador](../assets/images/12-carrejador.jpg)
 
 ## 3.9 L’era
 
@@ -198,7 +198,7 @@ Per a començar a rodar el llaurador conduïa l’animal pujant damunt d’ell, 
 
 Atès que s’acabava més prompte si el trill tenia pes damunt, ací és quan es divertia la canalla, era una gran sensació, era com un joc que durava fins que et cansaves i era molt divertit deixar-se caure en la palla i tornar a pujar quan el trill passava una altra vegada donant la volta.
 
-<figure class="perduda"><div class="placeholder">Il·lustració perduda en l’original</div><figcaption>Trill</figcaption></figure>
+![Trill](../assets/images/14-trill.jpg)
 
 També era costum molt usual que la persona que conduïa el trill estigués cantant. Diuen que així es compassava el ritme de les cavalleries i al sentir la veu coneguda es tranquil·litzaven.
 
@@ -214,7 +214,7 @@ Ara queda el treball de netejar de pedres i pols i separar la palla.
 
 Per a açò és necessari el garbell que és una peça redona de poca alçada amb la base plana plena de forats, que poden ser de distintes grandàries, per on es filtra el gra i així en el garbell queda la resta.
 
-<figure class="perduda"><div class="placeholder">Il·lustració perduda en l’original</div><figcaption>Garbells</figcaption></figure>
+![Garbells](../assets/images/15-garbells.jpg)
 
 Ja pareix que s’acaba el treball però cal netejar bé l’era amb el raspall, que està fet amb un manoll espès de branques de ginesta o una mata de botja lligada fort amb una corda.
 
