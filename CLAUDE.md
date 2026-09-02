@@ -2,9 +2,11 @@
 
 ## Qué es este proyecto
 
-Recuperar y publicar online el libro **"Masos de Morella. Vida i costums en la Dena dels Llivis"**
-de Francisca Julián i Querol (edición única y pequeña, sin ejemplares localizables; masters del editor
-perdidos). La única fuente que queda es `source/Masos_de_Morella_val1_17x23.pdf`, el PDF previo a imprenta.
+Recuperar y publicar online el libro de Francisca Julián i Querol, impreso como **"Masies de Morella. Vida i costums en
+la Dena dels Llivis"** (Publicacions de la Universitat Jaume I, 2006; edición única y pequeña, sin ejemplares localizables)
+y revisado por la autora en 2016 como **"Masos de Morella"** (PDF nunca impreso). **El sitio reproduce la revisión de 2016**
+(`source/Masos_de_Morella_val1_17x23.pdf`, validada contra el `.doc` de la autora); decisión T-19 (a), ver NOTES.md.
+La edición impresa solo existe como escaneo sin capa de texto (`source/Masos de Morella_Copia impressio.pdf`).
 
 Objetivo doble:
 1. **Reconstruir los masters** (texto + imágenes) en formatos abiertos y longevos (Markdown + JPEG originales),

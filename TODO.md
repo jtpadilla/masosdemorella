@@ -6,20 +6,17 @@ Lista de tareas pendientes. Cada una tiene un identificador (`T-nn`) para citarl
 Prioridad: **A** = bloquea la publicación · **B** = mejora clara · **C** = opcional.
 
 Estado (2026-09-02): el libro completo está publicado en https://jtpadilla.github.io/masosdemorella/ con sus 30 fotografías
-(ya a partir de los originales), tres ilustraciones añadidas por esta edición y licencias definidas. Queda por decidir
-qué edición representa el sitio (T-19), tras aparecer el escaneo de la edición impresa de 2006.
+(ya a partir de los originales), tres ilustraciones añadidas por esta edición y licencias definidas. El sitio reproduce la revisión de 2016 de la autora
+(decisión T-19 (a)); la edición impresa de 2006 queda documentada y como posible trabajo futuro (T-22).
 
 ## Pendientes
 
 ### Ediciones y originales
 
-- [ ] **T-19 (A) Decidir qué edición representa el sitio: la impresa (UJI 2006, "Masies") o la revisión de 2016 ("Masos").**
-  Ver `NOTES.md` → "Nuevo material de la familia". El sitio reproduce hoy el PDF de 2016; la edición que se imprimió es
-  la de 2006 (escaneo en `source/Masos de Morella_Copia impressio.pdf`), con presentación de Lluís Meseguer y texto
-  revisado por la editorial. Opciones: (a) mantener 2016 como texto base y documentar la relación con la edición
-  impresa; (b) pasar a la edición impresa (requiere OCR del escaneo —no hay tesseract en la máquina— y permiso para la
-  Presentació de Meseguer); (c) ofrecer las dos. En cualquier caso, corregir "Sobre esta edició", que hoy llama al
-  PDF de 2016 "el moment just abans d'enviar el llibre a impremta".
+- [ ] **T-22 (C) Recuperar el texto de la edición impresa de 2006 (opcional, trabajo aparte).**
+  OCR del escaneo `source/Masos de Morella_Copia impressio.pdf` (150 págs. a 300 ppp, sin capa de texto; no hay
+  tesseract en la máquina), cotejo con el PDF de 2006 y decisión sobre cómo ofrecerlo (segunda versión del texto o
+  notas de variantes). La Presentació de Lluís Meseguer requeriría su permiso.
 
 - [ ] **T-20 (B) Publicar los nuevos originales en el sitio.**
   El escaneo de la edición impresa (50 MB) y el PDF de 2016 a resolución completa (31 MB) en `dist/original/`, con
@@ -74,6 +71,9 @@ qué edición representa el sitio (T-19), tras aparecer el escaneo de la edició
   están en sus versiones actuales (checkout v7, setup-node v7, upload-pages-artifact v5, deploy-pages v5).
 
 ## Resueltas
+
+- [x] **T-19** Opción (a): el sitio reproduce la revisión de 2016; "Sobre esta edició" explica las dos versiones
+  (impresa UJI 2006 / revisión 2016) y de dónde sale cada cosa; README y CLAUDE.md alineados (2026-09-02).
 
 - [x] **T-18** Generación de mapas reproducible: `opentype.js` es dependencia de desarrollo de `site/`, los scripts la
   resuelven solos, y `extract/mapa/genera.sh` (= `npm run mapes`) regenera los cuatro SVG; salida byte a byte idéntica (2026-09-02).

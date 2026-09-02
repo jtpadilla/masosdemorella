@@ -9,25 +9,28 @@ const perFitxer = Object.fromEntries(Object.entries(imatges).map(([k, v]) => [k.
 <Base title="Sobre esta edició">
   <article class="text">
     <h1>Sobre esta edició</h1>
-    <p><em>{llibre.titol}. {llibre.subtitol}</em>, de {llibre.autora}, es va publicar en una única edició, xicoteta, de la qual no queda cap exemplar localitzable. Els originals de text i d'imatges de l'editorial també s'han perdut. L'única font que ha sobreviscut és el PDF que l'autora va generar el 17 de maig de 2016, just abans d'enviar el llibre a impremta.</p>
-    <p>Esta edició digital recupera el llibre a partir d'eixe PDF, amb una regla senzilla: <strong>no s'hi canvia res</strong>. El text es reprodueix tal com és, amb les seues formes valencianes, els seus castellanismes comentats en nota i les seues errates. Les úniques intervencions són tècniques i s'expliquen ací.</p>
+    <p><em>Masies de Morella. Vida i costums en la Dena dels Llivis</em>, de {llibre.autora}, es va publicar l'any 2006 en una única edició, xicoteta, de Publicacions de la Universitat Jaume I (ISBN 84-8021-570-4), de la qual no queda cap exemplar localitzable. Deu anys després, el 2016, l'autora va tornar sobre el text: el va revisar, va canviar el títol per <em>Masos de Morella</em> i en va preparar un nou PDF per a una reimpressió que no va arribar a fer-se.</p>
+    <p><strong>Esta edició digital reprodueix eixa revisió de 2016</strong>, l'última versió del llibre en què va treballar l'autora, i que és també la que la família conservava com a document de treball (el text en Word i les fotografies originals). El text es dóna tal com ella el va deixar, amb una regla senzilla: <strong>no s'hi canvia res</strong> —ni les formes valencianes, ni els castellanismes comentats en nota, ni les errates—. Les úniques intervencions són tècniques i s'expliquen ací.</p>
     <p>{llibre.context}</p>
+
+    <h2>Les dues versions del llibre</h2>
+    <p>Convé saber que la <strong>edició impresa de 2006</strong> no és idèntica a este text. Aquella va passar per la revisió editorial de la Universitat (tractament de textos de Lari Orenga Suliano): el pròleg, per exemple, hi comença «Seria, a hores d'ara, interessant recordar…», i les formes <em>meua</em> i <em>seua</em> substitueixen les <em>meva</em> i <em>seva</em> de l'original de l'autora; a més, s'obri amb una <em>Presentació</em> de Lluís Meseguer que ací no es reprodueix. La revisió de 2016 parteix del text de l'autora, no del text editat, i hi introdueix els seus propis retocs (per exemple, <em>via</em> → <em>havia</em>). La família conserva un escaneig de les proves d'impremta de 2006, sense capa de text; recuperar-ne el text és un treball pendent i, si es fa, esta pàgina ho dirà.</p>
 
     <h2>Què s'ha pogut recuperar</h2>
     <ul>
-      <li><strong>Tot el text.</strong> El PDF conservava el text com a text (no era un escaneig), de manera que s'ha extret sense errors de reconeixement i s'ha comprovat paraula per paraula contra l'original.</li>
-      <li><strong>Les 30 fotografies.</strong> 26 eren dins del PDF, a la resolució amb què l'autora les va incloure (la majoria, unes 2.350 × 1.570 píxels), i es conserven sense recomprimir. Les altres quatre (<em>Dalla</em>, <em>Carrejador</em>, <em>Trill</em> i <em>Garbells</em>) s'havien perdut abans de generar el PDF —només hi quedava el peu i un enllaç trencat— i les ha aportat la família a partir dels seus originals. En la <a href={href('il-lustracions/')}>galeria</a> es poden obrir totes a mida original.</li>
+      <li><strong>Tot el text de 2016.</strong> El PDF conservava el text com a text (no era un escaneig): s'ha extret sense errors de reconeixement, s'ha comprovat paraula per paraula contra el PDF i, després, contra el document de Word original de l'autora, amb què coincideix.</li>
+      <li><strong>Les 30 fotografies, a partir dels fitxers originals</strong> que conservava la família (la majoria a 3.072 × 2.048 píxels, sense recomprimir). En la <a href={href('il-lustracions/')}>galeria</a> es poden obrir a mida original. Quatre d'elles (<em>Dalla</em>, <em>Carrejador</em>, <em>Trill</em> i <em>Garbells</em>) ni tan sols eren dins del PDF —s'havien perdut abans de generar-lo— i s'han recuperat gràcies a eixos originals.</li>
       <li>Les <strong>notes al peu</strong>, les cursives dels termes locals i les citacions.</li>
-      <li>La <strong>paginació original</strong>: els números xicotets al marge del text indiquen on començava cada pàgina del PDF, per a poder-lo citar.</li>
+      <li>La <strong>paginació del PDF de 2016</strong>: els números xicotets al marge del text indiquen on començava cada pàgina, per a poder-lo citar. (No coincideix amb la paginació de l'edició impresa de 2006, que tenia unes 150 pàgines.)</li>
     </ul>
 
-    <h2>Què s'ha perdut o és imperfecte</h2>
+    <h2>Què és imperfecte</h2>
     <ul>
-      <li>El <em>Mapa dels Ports</em> era l'única imatge de baixa resolució (394 × 330 píxels) i s'ha tornat a dibuixar: mateixos tretze municipis i mateixos rètols que el mapa de l'autora, però amb els límits municipals reals (dades d'OpenStreetMap) i l'estil tipogràfic d'esta edició. El mapa original es conserva al repositori.</li>
-      <li>L'índex del PDF remetia a una paginació diferent de la del propi PDF (probablement la de la maqueta definitiva a 17 × 23 cm). Esta edició usa la paginació del PDF; l'<a href={href('index-d-illustracions/')}>índex d'il·lustracions</a> es reprodueix amb els números originals.</li>
+      <li>El <em>Mapa dels Ports</em> era l'única imatge de baixa resolució (394 × 330 píxels, també en l'original de la família) i s'ha tornat a dibuixar: mateixos tretze municipis i mateixos rètols que el mapa de l'autora, però amb els límits municipals reals (dades d'OpenStreetMap) i l'estil tipogràfic d'esta edició. El mapa original es conserva al repositori.</li>
+      <li>L'índex del PDF de 2016 remetia a una paginació diferent de la del propi PDF (la de la maqueta a 17 × 23 cm). Esta edició usa la paginació del PDF; l'<a href={href('index-d-illustracions/')}>índex d'il·lustracions</a> es reprodueix amb els números originals.</li>
       <li>Els números dels apartats (1.1, 3.8…) s'havien perdut en generar el PDF (hi quedava un glif buit); s'han reassignat en ordre i comprovat contra l'índex de marcadors que el PDF sí conservava.</li>
       <li>Les notes al peu, que l'original numerava per pàgina, van numerades per capítol.</li>
-      <li>La portada diu <em>Masos de Morella</em> i la capçalera de cada pàgina, <em>Masies de Morella</em>. S'ha respectat la portada.</li>
+      <li>La portada del PDF diu <em>Masos de Morella</em> i la capçalera de cada pàgina, <em>Masies de Morella</em> (el títol de 2006). S'ha respectat la portada.</li>
     </ul>
 
     <h2>Il·lustracions afegides</h2>
@@ -44,6 +47,6 @@ const perFitxer = Object.fromEntries(Object.entries(imatges).map(([k, v]) => [k.
 
     <h2>Com s'ha fet</h2>
     <p>La recuperació és reproduïble: el text i les imatges s'han extret del PDF amb programari lliure (Poppler) i s'han convertit a fitxers de text pla (Markdown) i JPEG, que són els nous originals del llibre. Este lloc web és només una manera de llegir-los. Tot el procés, les decisions preses i els problemes trobats estan documentats al <a href="https://github.com/jtpadilla/masosdemorella">repositori del projecte</a>, on també es poden proposar correccions o aportar fotografies.</p>
-    <p><a href={href('original/Masos_de_Morella_val1_17x23.pdf')}>Descarrega el PDF original</a> (15 MB).</p>
+    <p><a href={href('original/Masos_de_Morella_val1_17x23.pdf')}>Descarrega el PDF de 2016</a> (15 MB), la font d'esta edició.</p>
   </article>
 </Base>
