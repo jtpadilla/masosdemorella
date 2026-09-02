@@ -5,10 +5,29 @@ Lista de tareas pendientes. Cada una tiene un identificador (`T-nn`) para citarl
 
 Prioridad: **A** = bloquea la publicación · **B** = mejora clara · **C** = opcional.
 
-Estado (2026-09-02): el libro completo está publicado en https://jtpadilla.github.io/masosdemorella/ con sus 30 fotografías,
-tres ilustraciones añadidas por esta edición y licencias definidas. Ninguna tarea abierta bloquea nada.
+Estado (2026-09-02): el libro completo está publicado en https://jtpadilla.github.io/masosdemorella/ con sus 30 fotografías
+(ya a partir de los originales), tres ilustraciones añadidas por esta edición y licencias definidas. Queda por decidir
+qué edición representa el sitio (T-19), tras aparecer el escaneo de la edición impresa de 2006.
 
 ## Pendientes
+
+### Ediciones y originales
+
+- [ ] **T-19 (A) Decidir qué edición representa el sitio: la impresa (UJI 2006, "Masies") o la revisión de 2016 ("Masos").**
+  Ver `NOTES.md` → "Nuevo material de la familia". El sitio reproduce hoy el PDF de 2016; la edición que se imprimió es
+  la de 2006 (escaneo en `source/Masos de Morella_Copia impressio.pdf`), con presentación de Lluís Meseguer y texto
+  revisado por la editorial. Opciones: (a) mantener 2016 como texto base y documentar la relación con la edición
+  impresa; (b) pasar a la edición impresa (requiere OCR del escaneo —no hay tesseract en la máquina— y permiso para la
+  Presentació de Meseguer); (c) ofrecer las dos. En cualquier caso, corregir "Sobre esta edició", que hoy llama al
+  PDF de 2016 "el moment just abans d'enviar el llibre a impremta".
+
+- [ ] **T-20 (B) Publicar los nuevos originales en el sitio.**
+  El escaneo de la edición impresa (50 MB) y el PDF de 2016 a resolución completa (31 MB) en `dist/original/`, con
+  su descripción en "Sobre esta edició"; la dedicatoria del `Llegeix-me.txt` si la familia la confirma.
+
+- [ ] **T-21 (C) Aclarar la procedencia de `source/Fotos/Mapa_Dena.jpg`** (mapa manuscrito de la dena, no incluido
+  en el libro) y, si es de la autora o de dominio público, publicarlo como ilustración original; en todo caso usarlo
+  para resolver T-17.
 
 ### Depende de la familia
 

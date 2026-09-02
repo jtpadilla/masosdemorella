@@ -155,3 +155,36 @@ sin EXIF). Se incorporan sin recomprimir como `assets/images/10-dalla.jpg`, `12-
 `15-garbells.jpg`; `FIGURES` en `to_markdown.py` deja de tener entradas `None` y los placeholders desaparecen del texto,
 de la galería y de "Sobre esta edició". La sección "Lagunas" de arriba queda como registro histórico. Los ficheros de la dalla y el carrejador llegaron girados 90° (sin EXIF); se han enderezado con `convert -rotate 90`
 (sentido horario) y guardado con calidad 95; los originales recibidos siguen en `temp/` (fuera de git).
+
+## Nuevo material de la familia en `source/` (2026-09-02)
+Además del PDF de 2016 con el que se hizo la reconstrucción, la familia ha aportado:
+- `Fotos/`: **los 31 ficheros de imagen originales** (30 fotos del libro + `Mapa_Dena.jpg`). Casi todas a más resolución
+  que las incrustadas en el PDF (p. ej. 3072×2048 frente a 2353×1569) y, las de igual tamaño, menos comprimidas. Se han
+  sustituido las 30 de `assets/images/` por estos originales, byte a byte, salvo cinco (aixades, forques, falç, dalla,
+  carrejador) que llevaban una etiqueta EXIF de orientación errónea —los píxeles ya estaban bien orientados— y a las que
+  se ha quitado el segmento EXIF sin recomprimir para que los navegadores no las giren. `Mapa_Morella.JPG` es la misma
+  imagen de 394×330 del PDF (se mantiene el mapa redibujado). `Llegeix-me.txt`: "Fotografies antigues arxiu familiar de
+  Francisca Julian Querol. Fotografies noves de Tadeo Julian Querol. Dedicatòria: Als meus parents i amics que són o han
+  segut masovers" (la dedicatoria no aparece en el PDF de 2016).
+- `Mapa_Dena.jpg` (2368×3376): mapa de la Dena dels Llivis dibujado a mano, con leyenda en castellano ("Signos
+  convencionales"), masías, pistas, caminos, vías pecuarias, río, barrancos, ermita, tejería, molino, fuentes, bosque y
+  escala. No está entre las 30 ilustraciones del libro; procedencia por confirmar (¿Gamundí, *Morella, guía del antiguo
+  término*, 1991?). Coincide con el mapa de esta edición en la posición de "Solaneta", "Cantalà" (entre Cardona y
+  Modesto), etc. No se publica hasta aclarar su origen; sirve de referencia para T-17.
+- `Masos_de_Morella_val1_17x23.doc`: el máster de texto de 2016 (Word). Su texto coincide con el Markdown reconstruido
+  (las únicas diferencias son artefactos del índice: HYPERLINK, TOC…).
+- `Masies_de_Morella_val1_17x23.pdf` (17/05/2016 14:10, 107 págs., 31 MB): versión 38 minutos anterior a la nuestra,
+  con las mismas 27 imágenes pero a resolución completa (3072×2048).
+- `Masies_de_Morella_val1_17x23a.pdf` (3/04/2006, Acrobat PDFWriter desde Word, 110 págs.): el texto tal como se envió a
+  la editorial en 2006, con capa de texto. Frente a 2016 tiene 199 palabras distintas: la autora revisó formas
+  dialectales (via→havia, vien→havien, cuina→cuinava…).
+- **`Masos de Morella_Copia impressio.pdf` (escaneo de 2019, 150 págs., sin capa de texto): la edición impresa.**
+  Es *Masies de Morella. Vida i costums en la Dena dels Llivis*, **Publicacions de la Universitat Jaume I, 2006**,
+  ISBN 84-8021-570-4, impreso por Gràfiques Color Imprés (Castelló), "Tractament de textos: Lari Orenga Suliano",
+  fotografías antiguas del archivo familiar y nuevas de Tadeo Julian Querol. Pruebas de imprenta fechadas 19/6/06.
+  ~150 páginas a 17×23, con una **Presentació de Lluís Meseguer (págs. 9-10)** que no está en el PDF de 2016, y con el
+  texto revisado por la editorial (el pròleg impreso empieza "Seria, a hores d'ara, interessant recordar…"; el de 2016,
+  "Quan vaig decidir preparar el projecte…"). Índice impreso: Presentació 9, Pròleg 11, cap. 1 p. 13 … Conclusions 148,
+  Bibliografia 149, Índex d'il·lustracions 151. Es decir: **el libro que se imprimió es la edición UJI de 2006, y el PDF
+  de 2016 ("Masos de Morella") es una reelaboración posterior de la autora**, con título y texto distintos.
+- `TT1139M_.TTF`: la fuente Calligraph421 BT usada en la cita del privilegio del Ligalló.
