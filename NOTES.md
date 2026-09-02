@@ -35,3 +35,25 @@ Todas son fotos de aperos de labranza. Acción posible: pedir a la familia si co
 - Fuentes por fragmento en `extract/text/book.xml` (pdftohtml -xml): prefijo `FAAAAA+LiberationSerif` = cursiva,
   `EAAAAA+LiberationSerif` = negrita, `DAAAAA+` = redonda. pdftohtml además envuelve cursivas en `<i>`.
 - Notas al pie: cuerpo 7 pt (fontspec 18/19) al final de página, separadas por línea.
+
+## Reconstrucción a Markdown (extract/to_markdown.py) — decisiones
+- **Números de apartado**: en el PDF el "3.8." de cada apartado es un glifo vacío de la fuente Symbol (se perdió al
+  exportar). Se reasignan por orden dentro de cada capítulo y el script comprueba que los 47 apartados coinciden
+  con el índice de marcadores (`<outline>`) que sí conserva el PDF. Los subapartados 8.3.1–8.3.6 llevan el número
+  en el propio texto.
+- **Notas al pie**: el original las numera por página (casi siempre "1"). Se renumeran correlativamente por capítulo
+  (`[^n]`); el script comprueba que llamadas y definiciones cuadran (36 notas en total).
+- **Anclas de paginación**: `<a id="pNN"></a>` en el punto exacto del salto de página impreso (NN = paginación del PDF).
+- **Cursiva parcial**: en 7.4 el original tiene "L" en redonda y "laurà" en cursiva (y "S"/"embrà"); se unifica en
+  *Llaurà*, *Sembrà*. Regla general: un fragmento alfabético pegado a una palabra adopta el estilo de la palabra.
+- **Puntuación**: hereda el estilo de sus vecinos cuando ambos coinciden (evita `*.*`).
+- **Saltos de línea manuales**: las citas de prensa de 8.1 y algún pasaje de 7.4 tienen saltos de línea dentro del
+  párrafo; se detectan por línea corta seguida de interlineado normal y se conservan como salto duro (`\`).
+- **Rayas de diálogo** ("- On has estat?") se escapan (`\-`) para que Markdown no las convierta en lista.
+- **Remedios (5.7)**: "Ingredients: - x" se convierte en etiqueta en negrita + lista; "Preparació:" en negrita.
+- **Índice de ilustraciones**: se conserva como lista "Nombre — página", con los números de página del original
+  (que no coinciden con esta paginación, ver arriba). El índice general (págs. i-ii) no se transcribe: lo genera el sitio.
+- **Portada y portadilla** (págs. físicas 1 y 5): transcritas en `content/llibre.yaml`.
+- Página impresa 81 (física 86) está en blanco en el original; el ancla `p81` se emite junto a la de la 82.
+- Verificación: `extract/check.py` compara palabra a palabra PDF ↔ Markdown (recuento y orden). Resultado limpio:
+  las únicas diferencias son guiones de clítico que pdftotext elimina (posar-lo), exponentes (m²) y números de nota.

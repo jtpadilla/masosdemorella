@@ -65,28 +65,29 @@ site/                   proyecto Astro (lee content/ y assets/)
 NOTES.md                decisiones editoriales, lagunas, discrepancias detectadas
 ```
 
-## Flujo de trabajo de la reconstrucción
+## Estado y flujo de trabajo
 
-1. **Extracción** (herramientas disponibles en la máquina: poppler `pdftotext`/`pdfimages`/`pdftoppm`,
-   `gs`, ImageMagick, python3, node 24; **no** hay tesseract ni qpdf):
-   - `pdftotext -layout` por página a `extract/text/pNNN.txt`.
-   - `pdfimages -all` a `extract/images/` (bytes JPEG originales, sin recomprimir).
-   - `pdftoppm -r 150 -png` de todas las páginas a `extract/render/` como referencia visual para corregir.
-2. **Reconstrucción** en `content/`: un fichero por capítulo (Pròleg, 1-8, Conclusions, Bibliografia,
-   Índex d'il·lustracions). Reglas:
-   - Quitar cabeceras corridas ("Masies de Morella. Vida i costums…") y pies de página.
-   - Conservar la paginación original como ancla: `<span class="pag" id="p23"></span>` al inicio de cada página
-     impresa (permite citar "pág. 23" del original).
-   - Unir líneas partidas por la justificación; deshacer guiones de partición de palabra solo si la palabra
-     no lleva guion real (comprobar contra el render).
-   - Notas al pie → notas Markdown `[^n]`, numeradas por capítulo.
-   - Figuras → `![Pie](../assets/images/xx.jpg)` con el pie exacto del índice de ilustraciones.
-   - Cursivas y negritas: preservarlas (no se ven en `pdftotext`; hay que cotejar con el render o usar
-     `pdftotext -bbox-layout` / fuentes por span).
-3. **Revisión** capítulo a capítulo contra `extract/render/`. Anotar dudas en `NOTES.md`, no "corregir" el original.
-4. **Sitio**: Astro en `site/`, un `[slug].astro` por capítulo, índice general, galería de ilustraciones,
-   búsqueda, página "Sobre esta edición" explicando la recuperación y las lagunas, enlace al PDF original.
+**Hecho** (commit inicial + reconstrucción, 2026-09-02):
+1. `extract/extract.sh` — extracción reproducible desde el PDF (poppler: `pdftotext`, `pdftohtml -xml`, `pdfimages`,
+   `pdftoppm`). No hay tesseract ni qpdf en la máquina; no hacen falta.
+2. `extract/to_markdown.py` — genera `content/*.md` (12 ficheros: pròleg, 8 capítulos, conclusions, bibliografia,
+   índex d'il·lustracions) a partir de `extract/text/book.xml`. Las reglas están documentadas en su docstring y las
+   decisiones editoriales en `NOTES.md`. Es idempotente: borra y regenera `content/*.md`. **Las correcciones se hacen
+   en el script, no a mano en content/**, para que sigan siendo reproducibles.
+3. `extract/check.py` — verificación palabra a palabra PDF ↔ Markdown (recuento y orden). Debe seguir limpio tras
+   cualquier cambio en el script.
+
+**Pendiente**:
+4. Revisión visual capítulo a capítulo contra `extract/render/` (regenerar con `extract/extract.sh`; están en .gitignore).
+5. Sitio Astro en `site/`: un `[slug].astro` por capítulo, índice general generado desde los H1/H2, galería de
+   ilustraciones, búsqueda Pagefind, página "Sobre esta edición" (recuperación, lagunas, enlace al PDF original).
    Estilo: tipografía serif de libro, ancho de lectura ~65 caracteres, modo claro/oscuro, CSS de impresión.
+   Las figuras perdidas llegan como `<figure class="perduda">` y necesitan estilo propio.
+6. GitHub Actions → GitHub Pages.
+
+Formato de `content/*.md`: frontmatter `title`, `order`, `pages: [primera, última]` (paginación del PDF);
+anclas `<a id="pNN"></a>` en línea; figuras `![pie](../assets/images/NN-x.jpg)`; notas `[^n]` al final del fichero;
+saltos de línea duros con `\` al final de línea; rayas de diálogo escapadas `\-`.
 
 ## Convenciones
 

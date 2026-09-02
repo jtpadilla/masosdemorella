@@ -1,0 +1,35 @@
+---
+title: "BIBLIOGRAFIA"
+order: 10
+pages: [98, 98]
+---
+
+<a id="p98"></a>
+
+# BIBLIOGRAFIA
+
+- Cavanilles, Antoni Josep: “*Observaciones sobre la historia natural, geografía, agricultura, población y frutos del reyno de Valencia*”, Madrid, 1795.
+
+- Carceller, Alicia: “*Menjar i viure a Morella*”, Editorial Empúries, Barcelona, 1991.
+
+- Gamundí Carceller, Serafín: “*Morella, guía del antiguo término”,* Ajuntament de Morella, 1991.
+
+- Martínez, F. i Palanca, F.: “*Utillatge agrícola i ramader*”, Institut Alfons el Magnànim, València, 1991.
+
+- Meseguer Pallarés, Lluís B.: “*Boletín de Amigos de Morella y su Comarca*”, Volum XIV, 1994-95.
+
+- Mulet, Pascual: “*Estudio etnobotánico de la provincia de Castellón*”, Diputació Provincial de Castelló - Servei de publicacions, Castelló, 1991.
+
+- Muñoz Badía, Ricardo: “*Morella y Benifassar*”, Editorial Antinea, 2000.
+
+- Reher, D.: “*La familia en España pasado y presente*”, Alianza Editorial, Madrid, 1996.
+
+- Segura Barreda, José: “*Morella y sus aldeas*”, Facsímil, Impr. de F. Javier Soto, Morella, 1868.
+
+- Viruela Martínez, Rafael: “*Morella poblamiento, industria y agricultura*”, Diputació de Castellón, 1992.
+
+- Revista Setmanal del diari El Sol, 3 de juny de 1990.
+
+- Estatuts Associació Cofradia de San Antoni Abat de Morella, 1971.
+
+- Majorals de Sant Antoni 1997,.Morella, Penya Pinta.

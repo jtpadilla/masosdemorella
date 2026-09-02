@@ -1,0 +1,71 @@
+---
+title: "INDEX D’IL·LUSTRACIONS"
+order: 11
+pages: [99, 100]
+---
+
+<a id="p99"></a>
+
+# INDEX D’IL·LUSTRACIONS
+
+- Mapa dels Ports — 4
+
+- Mas dels Llivis — 5
+
+- Colada de la Serra dels Llivis — 7
+
+- Ermita de San Pere màrtir — 13
+
+- Rotllo de la festa en l’'ermita de Sant Pere Màrtir — 15
+
+- Aixades i ganxo — 18
+
+- L’arada o aladre — 19
+
+- Forques — 21
+
+- Falç i zoqueta — 24
+
+- Dalla — 25
+
+- Carratellet — 27
+
+- Carrejador — 28
+
+- L’era del Mas de Julian. Al fons Cinctorres — 29
+
+- Trill — 30
+
+- Garbells — 31
+
+- Ramat en el Mas de Julian. Al fons la Mola Garumba — 33
+
+- Barraca de pastor en la Serra Calduch — 37
+
+- Esquella — 39
+
+- Corrals del Mas de Julian — 41
+
+- Bassa del Mas de Julian — 44
+
+- Mas de Julian — 47
+
+- Pastador del Mas de Julian i al fons boca del forn — 50
+
+- La pastera — 52
+
+- Formatge, flitera i brull — 54
+
+- Portera — 63
+
+- La trufa — 65
+
+- Foto familiar del Mas de Julian (1925) — 70
+
+- Romeria de la Dena dels Llivis — 75
+
+- Tadeo Julian (1928) – Dansa dels llauradors — 81
+
+<a id="p100"></a>
+
+- Carrer amb adornaments – Sexenni any 1982 — 82
