@@ -12,3 +12,21 @@ llibre:
     Projecte de final del primer cicle de la Universitat per a Majors de la Universitat Jaume I,
     tutelat pel professor Lluís B. Meseguer Pallarés (segons el pròleg).
   portada_imatge: assets/images/21-mas-de-julian.jpg
+  # Edició impresa, segons la fitxa de l'editorial (tenda.uji.es, consultada el 2 de setembre de 2026: "ESGOTAT")
+  edicio_impresa:
+    titol: "Masos de Morella. Vida i costums en la dena dels Llivis"
+    autoria: "Julian Querol, Francisca"
+    editorial: "Publicacions de la Universitat Jaume I"
+    lloc: "Castelló de la Plana"
+    any: 2006
+    colleccio: "Fora de col·lecció"
+    isbn10: "84-8021-570-4"
+    isbn13: "978-84-8021-570-1"
+    pagines: 152
+    dimensions: "15 × 20 cm"
+    enquadernacio: "rústica cosida"
+    preu: "10,00 €"
+    estat: "esgotat"
+    url: "https://tenda.uji.es/pls/iglu/!GCPPA00.GCPPR0002?lg=CA&isbn=84-8021-570-4&id_art=720"
+    sinopsi: "El missatge d'aquesta crònica ben escrita és el de ser testimoni d'un món en trànsit de desaparició, d'un estil d'acarar el treball i la vida, d'uns principis i unes activitats narrades de primera mà per l'autora."
+

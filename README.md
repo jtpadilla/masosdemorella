@@ -14,6 +14,12 @@ família (`source/`): text (`content/`, Markdown) i fotografies (`assets/images/
 - `site/` — el lloc web (Astro); es publica a GitHub Pages en cada push a `main`.
 - `NOTES.md` — decisions editorials i tot el que s'ha trobat en l'original. `TODO.md` — tasques pendents.
 
+## Referència de l'edició impresa
+
+Julian Querol, Francisca: *Masos de Morella. Vida i costums en la dena dels Llivis*. Castelló de la Plana: Publicacions
+de la Universitat Jaume I, 2006. 152 p., 15 × 20 cm. ISBN 978-84-8021-570-1. Esgotada
+([fitxa de l'editorial](https://tenda.uji.es/pls/iglu/!GCPPA00.GCPPR0002?lg=CA&isbn=84-8021-570-4&id_art=720)).
+
 ## Llicències
 
 - Text: © Francisca Julián Querol; fotografies: © Tadeo Julián Querol i arxiu familiar. **CC BY-NC-ND 4.0** (vegeu `LICENSE-CONTINGUT.md`).

@@ -126,6 +126,7 @@ main.ample { width: min(100% - 2.5rem, 60rem); }
 
 /* ---- Cerca ------------------------------------------------------------- */
 #cerca { --pagefind-ui-font: var(--sans); --pagefind-ui-primary: var(--accent); --pagefind-ui-text: var(--tinta); --pagefind-ui-background: var(--fons); --pagefind-ui-border: var(--linia); --pagefind-ui-tag: var(--fons-2); --pagefind-ui-scale: 0.9; }
+.fitxa { font-style: normal; } .fitxa em { font-style: italic; } .fitxa .font { font-family: var(--sans); font-size: 0.75rem; color: var(--tinta-3); } .url { font-family: var(--sans); font-size: 0.85em; }
 .avis { font-family: var(--sans); font-size: 0.85rem; color: var(--tinta-2); border: 1px solid var(--linia); padding: 0.75rem 1rem; border-radius: 4px; background: var(--fons-2); }
 
 /* ---- Impressió --------------------------------------------------------- */

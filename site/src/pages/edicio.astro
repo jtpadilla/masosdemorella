@@ -42,6 +42,15 @@ const perFitxer = Object.fromEntries(Object.entries(imatges).map(([k, v]) => [k.
       </figure>
     ))}
 
+    <h2>Referència bibliogràfica</h2>
+    <p>L'edició impresa figura al catàleg de l'editorial amb estes dades (fitxa de la <a href={llibre.edicio_impresa.url}>tenda de publicacions de la Universitat Jaume I</a>, on consta com a <strong>esgotat</strong>):</p>
+    <blockquote class="fitxa">
+      <p>{llibre.edicio_impresa.autoria}: <em>{llibre.edicio_impresa.titol}</em>. {llibre.edicio_impresa.lloc}: {llibre.edicio_impresa.editorial}, {llibre.edicio_impresa.any}. {llibre.edicio_impresa.pagines} p., {llibre.edicio_impresa.dimensions}, {llibre.edicio_impresa.enquadernacio}, il·lustracions en blanc i negre. Col·lecció «{llibre.edicio_impresa.colleccio}». ISBN {llibre.edicio_impresa.isbn13} (ISBN-10 {llibre.edicio_impresa.isbn10}). Preu de catàleg: {llibre.edicio_impresa.preu}.</p>
+      <p>«{llibre.edicio_impresa.sinopsi}» <span class="font">(text de l'editorial)</span></p>
+    </blockquote>
+    <p>Curiositat: l'editorial titula el llibre <em>Masos de Morella</em>, com la portada del PDF de 2016, mentre que les proves d'impremta de 2006 diuen <em>Masies de Morella</em>. Els dos títols són, doncs, del mateix llibre.</p>
+    <p>Per a citar esta edició digital: Julián Querol, Francisca: <em>Masos de Morella. Vida i costums en la Dena dels Llivis</em> [revisió de l'autora, 2016]. Edició digital a cura de la família, 2026. <span class="url">https://jtpadilla.github.io/masosdemorella/</span></p>
+
     <h2>Drets i llicència</h2>
     <p>El text del llibre és de Francisca Julián Querol i les fotografies, de Tadeo Julián Querol (les noves) i de l'arxiu familiar (les antigues); es publiquen amb la llicència <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ca" rel="license">Creative Commons Reconeixement-NoComercial-SenseObraDerivada 4.0</a>: es poden copiar i compartir citant l'autora, sense ús comercial i sense modificar-los. Les il·lustracions afegides per esta edició tenen la mateixa llicència i incorporen dades d'<a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> (ODbL), de l'Institut Cartogràfic Valencià (CC BY 4.0) i de l'Instituto Geográfico Nacional (CC BY 4.0). El programari que genera esta edició és lliure (llicència MIT).</p>
 

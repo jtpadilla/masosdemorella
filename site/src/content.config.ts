@@ -24,6 +24,11 @@ export const collections = {
       data_pdf: z.coerce.date(),
       context: z.string(),
       portada_imatge: z.string(),
+      edicio_impresa: z.object({
+        titol: z.string(), autoria: z.string(), editorial: z.string(), lloc: z.string(), any: z.number(),
+        colleccio: z.string(), isbn10: z.string(), isbn13: z.string(), pagines: z.number(), dimensions: z.string(),
+        enquadernacio: z.string(), preu: z.string(), estat: z.string(), url: z.string(), sinopsi: z.string(),
+      }),
     }),
   }),
 };

@@ -196,3 +196,12 @@ y `jtpadilla/santjoans`. Datos del libro: pròleg (padre Tadeo Julian, del Mas d
 Cinctorres, Encarna de Francho). El colofón de 2006 acredita "Fotografies noves: Tadeo Julian Querol; antigues: arxiu
 familiar": se acredita así en pie, licencia y galería. Retratos en `site/src/assets/autors/` (de ramblacelumbres,
 src/assets/uploads/2014/03/2.jpg y 12.jpg). Editor y contacto: Juan Tadeo Padilla Julián, hijo de la autora.
+
+## Referencia bibliográfica de la edición impresa (2026-09-02)
+Única ficha localizada en línea: la tienda de Publicacions de la UJI (tenda.uji.es, id_art=720), con estado "ESGOTAT":
+*Masos de Morella. Vida i costums en la dena dels Llivis*, Julian Querol, Francisca; Fora de col·lecció; 1ª ed. 2006;
+152 págs.; 15 × 20 cm; rústica cosida; 10,00 €; ISBN 978-84-8021-570-1 (ISBN-10 84-8021-570-4, el del colofón). Nótese
+que la editorial titula "Masos" aunque las pruebas de imprenta escaneadas digan "Masies". No aparece en Google Books, Open
+Library, Todostuslibros, Iberlibro, Uniliber, Casa del Libro ni Dialnet (búsquedas del 2 de septiembre de 2026); Amazon,
+WorldCat y la BNE no respondieron a la consulta automática. Datos en `content/llibre.yaml` (`edicio_impresa`), mostrados
+en "Sobre esta edició" y como JSON-LD (schema.org/Book) en todas las páginas.
