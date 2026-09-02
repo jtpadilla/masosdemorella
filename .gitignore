@@ -1,10 +1,12 @@
-# IDE
+# IDE y sistema
 .idea/
-# Derivados generados
-site/dist/
-site/node_modules/
-site/.astro/
-# Renders de referencia (se regeneran con extract/extract.sh; son pesados)
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Derivados de extract/extract.sh: se regeneran a partir del PDF (son pesados).
+# render/ = PNG de cada página (referencia visual); images/ = JPEG en bruto (los buenos están en assets/images/)
 extract/render/
-# Imágenes brutas: duplican assets/images, se regeneran con extract.sh
 extract/images/
+
+# El proyecto Astro tiene su propio .gitignore en site/ (dist, node_modules, .astro, logs)
