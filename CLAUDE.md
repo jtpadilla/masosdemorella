@@ -92,7 +92,10 @@ NOTES.md                decisiones editoriales, lagunas, discrepancias detectada
 5. `.github/workflows/deploy.yml` publica en GitHub Pages en cada push a `main` (**hecho**; falta activar Pages en el
    repositorio: Settings → Pages → Source: GitHub Actions).
 
-**Pendiente**: revisión visual capítulo a capítulo contra `extract/render/`; decidir qué hacer con las 4 figuras perdidas y el mapa
+7. Revisión visual página a página contra `extract/render/` (**hecha**, 2026-09-02; hallazgos en NOTES.md).
+   `extract/segment.py N [N…]` imprime el Markdown de una página impresa para cotejarlo con `render/p-0NN.png` (NN = N+5).
+
+**Pendiente**: decidir qué hacer con las 4 figuras perdidas y el mapa
 de baja resolución (pedir a la familia); enlace al repositorio en la página "Sobre esta edició" cuando exista.
 
 Capturas de comprobación: `google-chrome --headless=new --screenshot=x.png --window-size=1280,3000 URL` contra `npx astro preview`.

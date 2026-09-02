@@ -42,11 +42,11 @@ Totes es celebraven el primer diumenge de Maig.
 
 Algunes de les rogatives desaparegudes son:
 
-\- Des de Sant Tomàs de Vilanova a Bordó, dena Primera del Riu, es va fer una rogativa des de 1649 fins a 1965.
+- Des de Sant Tomàs de Vilanova a Bordó, dena Primera del Riu, es va fer una rogativa des de 1649 fins a 1965.
 
-\- El vot de Sant Pere del Moll a Sant Pere de Castellfort, des de 1646 fins a 1936.
+- El vot de Sant Pere del Moll a Sant Pere de Castellfort, des de 1646 fins a 1936.
 
-\- El vot de Sant Pere dels Llivis a la Mare de Deu de la Font, des de 1650 fins a 1931.
+- El vot de Sant Pere dels Llivis a la Mare de Deu de la Font, des de 1650 fins a 1931.
 
 ## 7.3 Sant Antoni
 
@@ -72,11 +72,11 @@ Els masovers que podien anar al poble assitien a la representació de la plaça 
 
 El dia de la festa la celebració religiosa es un dels actes més importants amb la processó, la missa, la tornà del Sant a la cofradia, el repartiment de panoli, el retaule i les gropes. Les cavalleries van engalanades i muntades per una jove i un jove vestits amb el vestit típic de la ciutat. Per la vesprada la *Llaurà* i la *Sembrà* son actes molt vistosos.
 
-En els *Parells* o Gropes també es picaven. Els aparells eren de luxe i capritx. Cabestre, collar de campanes, mandil, rober, les feltres i el jou. El genet que saltava s’agafava als *tellons,* que son unes anses que te el jou, i donava un salt de d’alt a baix i de baix a dalt, i també de dins a fora i de fora a dins del jou. A les pobres mules el *tocat* els donava un cop amb el fuet i aquestes corrien al galop. El genet que <a id="p76" class="pag" data-p="76"></a>feia més filigranes, a banda de presumir, rebia l’aplaudiment dels assistents que hi havia en les voreres.
+En els *Parells* o Gropes també es picaven. Els aparells eren de luxe i capritx. Cabestre, collar de campanes, mandil, rober, les feltres i el jou. El genet que saltava s’agafava als *tellons*, que son unes anses que te el jou, i donava un salt de d’alt a baix i de baix a dalt, i també de dins a fora i de fora a dins del jou. A les pobres mules el *tocat* els donava un cop amb el fuet i aquestes corrien al galop. El genet que <a id="p76" class="pag" data-p="76"></a>feia més filigranes, a banda de presumir, rebia l’aplaudiment dels assistents que hi havia en les voreres.
 
-Al pavimentar els carrers ja no es pot córrer i saltar com abans i a causa d’això es va acabar l'emoció que havia perdurat tant de temps. També la mecanització del camp a provocat que hi hagin pocs animals de conreu i es molt difícil reunir algun *Parell.*
+Al pavimentar els carrers ja no es pot córrer i saltar com abans i a causa d’això es va acabar l'emoció que havia perdurat tant de temps. També la mecanització del camp a provocat que hi hagin pocs animals de conreu i es molt difícil reunir algun *Parell*.
 
-En la festa també intervenen personatges jocosos com el *Mondongo,* recreant el que es feia en les masies, i l’*Agostera*, personatge vinculat amb la sega.
+En la festa també intervenen personatges jocosos com el *Mondongo*, recreant el que es feia en les masies, i l’*Agostera*, personatge vinculat amb la sega.
 
 Els quintos de cada any es donen a conèixer desfilant amb un casquet militar i armats amb una granera amb la qual gasten bromes a les joves.
 
@@ -139,7 +139,7 @@ Els “Esquiladors i Peraires” representen als cardadors de llana, i “Els te
 
 ![Carrer amb adornaments – Sexenni any 1982](../assets/images/30-carrer-amb-adornaments-sexenni-1982.jpg)
 
-En els carrers on passa la processó son dignes de veure els adornaments, que durant tot l’any son elaborats pels veïns de cada <a id="p80" class="pag" data-p="80"></a>carrer, el quals mantenen completament el secret fins al final. El motius son molt variats: florals, històrics, artístics, etnològics, etc. Estos adornaments es confeccionen amb paper de colors tallat a trossos molt menuts. Cada trosset es treballa en *arrissaet, fulleta, caragolet*, etc., i després s’acobla al dibuix escollit. El resultat final queda exposat durant tots els dies de festa.
+En els carrers on passa la processó son dignes de veure els adornaments, que durant tot l’any son elaborats pels veïns de cada <a id="p80" class="pag" data-p="80"></a>carrer, el quals mantenen completament el secret fins al final. El motius son molt variats: florals, històrics, artístics, etnològics, etc. Estos adornaments es confeccionen amb paper de colors tallat a trossos molt menuts. Cada trosset es treballa en *arrissaet, fulleta*, *caragolet*, etc., i després s’acobla al dibuix escollit. El resultat final queda exposat durant tots els dies de festa.
 
 El Sexenni finalitza amb la romeria al Santuari de Vallivana en la tercera setmana d’octubre. En aquesta romeria la Verge torna a la seva casa fins el pròxim Sexenni.
 

@@ -22,21 +22,21 @@ Aproximadament a l’any cap de bestiar canvia les dents frontals o pal·les i c
 
 Quan fa la muda de les segones dents se li crida *andosc* al mascle i *andosca* a la femella, indistintament a cabres i ovelles.
 
-<a id="p30" class="pag" data-p="30"></a>Al quart any, quan canvien les penúltimes dents es criden *terserenc* i *terserenca.*
+<a id="p30" class="pag" data-p="30"></a>Al quart any, quan canvien les penúltimes dents es criden *terserenc* i *terserenca*.
 
 Aproximadament al quint any de vida l’animal té la dentició completa i llavors es diu que *ja ha tancat*
 
-A partir d’aquest moment resulta molt difícil saber l’edat d’una cabra o ovella al no haver-hi signes d’evolució. Es diu llavors que l’animal *entre a vell.*
+A partir d’aquest moment resulta molt difícil saber l’edat d’una cabra o ovella al no haver-hi signes d’evolució. Es diu llavors que l’animal *entre a vell*.
 
-El mascle del ramat cabrum destinat a la reproducció rep el nom de *boc* i el del ramat oví *borrego.*
+El mascle del ramat cabrum destinat a la reproducció rep el nom de *boc* i el del ramat oví *borrego*.
 
 El conjunt de caps d’una sola espècie o mixt s’anomena rabera o ramat.
 
-Si per algun motiu el ramat es divideix en un o més subgrups que es guarden separadament (per exemple quan se separen a les que estan prenyades de les què encara no ho estan) cada subgrup s’anomena *un tall.*
+Si per algun motiu el ramat es divideix en un o més subgrups que es guarden separadament (per exemple quan se separen a les que estan prenyades de les què encara no ho estan) cada subgrup s’anomena *un tall*.
 
-D’altra banda quan el ramat té menys quantitat de caps del que ha de tindre és una *punta de rabera.*
+D’altra banda quan el ramat té menys quantitat de caps del que ha de tindre és una *punta de rabera*.
 
-L’activitat de protecció i conducció del ramat es coneix com *guardar.*
+L’activitat de protecció i conducció del ramat es coneix com *guardar*.
 
 Normalment, tant en ramats de cabres com d’ovelles, no és estrany que el pastor dugui uns quants caps d’una altra espècie.
 
@@ -148,9 +148,9 @@ A l’hora de seleccionar un corder per a incorporar-lo al ramat el criteri era 
 
 Les millors mares són aquelles que tenen molta llet. Si té molta llet el corder està ben alimentat i per tant pesa més quan es ven.
 
-<a id="p37" class="pag" data-p="37"></a>
-
 La influència del mascle per a la reproducció també era molt important. D’ací que el pastor posés molt d’interès en seleccionar-lo.
+
+<a id="p37" class="pag" data-p="37"></a>
 
 ## 4.7 Corrals
 

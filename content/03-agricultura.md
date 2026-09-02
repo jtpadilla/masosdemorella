@@ -90,15 +90,17 @@ Quan es treballava en l’era també se li posava una peça anomenada ulleres, a
 
 Peces complementàries són:
 
-<a id="p20" class="pag" data-p="20"></a>\- La serreta: peça de metall en forma de mitja lluna, amb dents en la part còncava, que es posa sobre el nas.
+<a id="p20" class="pag" data-p="20"></a>
 
-\- El mos: peça de ferro que va dins de la boca.
+- La serreta: peça de metall en forma de mitja lluna, amb dents en la part còncava, que es posa sobre el nas.
+
+- El mos: peça de ferro que va dins de la boca.
 
 Estes dos peces s’uneixen en la base de les frontaleres per mitjà d’anelles que estes porten, i també serveixen per a subjectar la brida, així quan es tira d’esta per a dirigir-lo l’animal obeeix més i facilita la seva direcció.
 
 El primer que es posava abans de sortir del corral era l’albardo. Aquest aparell s’adapta al llom de l’animal, està farcit de llana de les ovelles i va revestit també amb llana la part que descansa damunt del llom i de pell o cuiro la part superior. El mateix serveix com a cadira de muntar que per a portar càrrega. Per a subjectar-lo s’utilitzava la singla, que és una tira ampla que cal passar per davall del ventre i subjectar-la per l’altre costat. La tafarra és més estreta i es passa per davall de la cua, així si cal baixar per un camí inclinat es subjecta per la part de darrere. I finalment el pitral, que com indica el seu nom és una peça que se subjecta en el pit i en el cabestre, així quan puja una costa també evita que s’escorrega cap a darrere.
 
-Si el mul o cavall havia de portar càrrega es subjectaven damunt de l’albardo altres aparells com la sàrria o el *carrejador.*
+Si el mul o cavall havia de portar càrrega es subjectaven damunt de l’albardo altres aparells com la sàrria o el *carrejador*.
 
 ## 3.5 Millorar la terra
 
@@ -146,7 +148,7 @@ Esta ferramenta es subjecta amb les dos mans i fa un recorregut circular prop de
 
 La dalla permet segar sense inclinar-se. La planta queda estesa formant fileres, per a després fer les garbes.
 
-Un complement que sempre acompanya al segador és la pedra d’esmolar, de forma redona i allargada. Esta pedra es passa pel full quan fa falta, ja que les pedres i les irregularitats del terreny espatllen molt el full i no talla bé. A aquest tipus de sega se li anomena *a la romana.*
+Un complement que sempre acompanya al segador és la pedra d’esmolar, de forma redona i allargada. Esta pedra es passa pel full quan fa falta, ja que les pedres i les irregularitats del terreny espatllen molt el full i no talla bé. A aquest tipus de sega se li anomena *a la romana*.
 
 ## 3.8 Segar
 

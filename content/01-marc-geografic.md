@@ -8,7 +8,7 @@ pages: [2, 7]
 
 # 1. MARC GEOGRÀFIC, HIDROGRAFIA I OROGRAFIA
 
-El terme de Morella amb els seus 383.549 Km2 és el més extens de la província de Castelló. El massís muntanyós dels Ports dóna el nom a esta comarca, sent Morella el seu capital.
+El terme de Morella amb els seus 383.549 Km² és el més extens de la província de Castelló. El massís muntanyós dels Ports dóna el nom a esta comarca, sent Morella el seu capital.
 
 “Todo el terreno son tierras amontonadas en colinas o que forman las faldas de los cerros y montes esparcidos por aquel dilatado término.” (Cavanilles 1795, tom 1, pàgina 9).
 
@@ -56,7 +56,7 @@ El terme municipal de Morella es divideix en diferents partides anomenades denes
 
 12. Dena del Muixacre.
 
-<a id="p4" class="pag" data-p="4"></a>Cadascuna d’aquestes denes estava composada per diverses masies i la corporació municipal de Morella nomenava entre els seus veïns un representat de l’ajuntament o *alcaldillo.*
+<a id="p4" class="pag" data-p="4"></a>Cadascuna d’aquestes denes estava composada per diverses masies i la corporació municipal de Morella nomenava entre els seus veïns un representat de l’ajuntament o *alcaldillo*.
 
 Algunes denes van arribar a tindre escola pròpia i moltes d’elles també tenien una ermita.
 

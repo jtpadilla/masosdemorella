@@ -41,13 +41,13 @@ FIGURES = [
     ("Ermita de San", "04-ermita-de-sant-pere-martir.jpg"),
     ("Rotllo de la festa", "05-rotllo-de-la-festa-ermita-sant-pere.jpg"),
     ("Aixades i ganxo", "06-aixades-i-ganxo.jpg"),
-    ("arada o aladre", "07-arada-o-aladre.jpg"),
+    ("L’arada o aladre", "07-arada-o-aladre.jpg"),
     ("Forques", "08-forques.jpg"),
     ("Falç i zoqueta", "09-falc-i-zoqueta.jpg"),
     ("Dalla", None),
     ("Carratellet", "11-carratellet.jpg"),
     ("Carrejador", None),
-    ("era del Mas de Julian", "13-era-del-mas-de-julian.jpg"),
+    ("L’era del Mas de Julian", "13-era-del-mas-de-julian.jpg"),
     ("Trill", None),
     ("Garbells", None),
     ("Ramat en el Mas de Julian", "16-ramat-en-el-mas-de-julian.jpg"),
@@ -154,9 +154,11 @@ class Converter:
         self.h2_count = 0
         self.para = []            # líneas del párrafo en construcción: listas de (texto, cursiva, negrita)
         self.para_kind = None
+        self.para_page = None     # página en la que empezó el párrafo en construcción
         self.last_top = None
         self.last_short = False
         self.colright = 0
+        self.colleft = 0
         self.page_no = None
         self.pending_anchor = ""
         self.page_continues = False
@@ -193,6 +195,14 @@ class Converter:
         self.para, self.para_kind = [], None
         if not text.strip():
             return
+        anchor = ""
+        if self.pending_anchor and self.para_page != self.page_no and kind != "h1":
+            anchor, self.pending_anchor = self.pending_anchor, ""   # el párrafo venía de la página anterior
+        self._emit_block(kind, text)
+        if anchor:
+            self.pending_anchor = anchor + self.pending_anchor
+
+    def _emit_block(self, kind, text):
         if kind == "h1":
             self.start_chapter(text)
         elif kind == "h2":
@@ -223,13 +233,15 @@ class Converter:
         runs.sort(key=lambda r: (r.top, r.left))
         lines = []
         for r in runs:
-            if lines and abs(r.top - lines[-1][0].top) <= LINE_TOL:
+            tol = 8 if r.kind in ("ref", "sup2", "noteno") else LINE_TOL
+            if lines and abs(r.top - lines[-1][0].top) <= tol:
                 lines[-1].append(r)
             else:
                 lines.append([r])
         self.page_no = pnum - PAGE_OFFSET
         self.pending_anchor += f'<a id="p{self.page_no}" class="pag" data-p="{self.page_no}"></a>'
         colleft = min((r.left for r in runs if r.kind == "body"), default=0)
+        self.colleft = colleft
         self.colright = colleft + COL_WIDTH
         self.last_top = None
         self.last_short = False
@@ -265,14 +277,18 @@ class Converter:
             return
         main = next((r for r in runs if r.kind not in ("ref", "sup2", "bullet", "body")), runs[0])
         kind = main.kind
-        if "bullet" in kinds:
+        dash_item = (runs[0].kind == "body" and runs[0].left > self.colleft + 12
+                     and (re.match(r"-\s", runs[0].text.lstrip()) or runs[0].text.strip() == "-"))
+        if "bullet" in kinds or dash_item:
             kind = "bullet"
+            if dash_item:
+                runs[0].text = re.sub(r"^\s*-\s*", "", runs[0].text)
         elif kind in ("body", "ref", "sup2"):
             kind = "body"
         continuing = gap is not None and gap <= PARA_GAP
         if kind == "body" and self.para_kind in ("quote", "bullet") and continuing:
             kind = self.para_kind
-        new_para = kind != self.para_kind or "bullet" in kinds or not continuing
+        new_para = kind != self.para_kind or "bullet" in kinds or dash_item or not continuing
         if kind == "h1" and self.para_kind == "h1" and gap is not None and gap < 35:
             new_para = False
         if self.cur and self.cur["slug"] == INDEX_SLUG and kind == "body":
@@ -280,6 +296,7 @@ class Converter:
         if new_para:
             self.flush()
             self.para_kind = kind
+            self.para_page = self.page_no
         line = self.styled([r for r in runs if r.kind != "bullet"])
         if self.pending_anchor and kind in ("body", "quote"):
             line.insert(0, (self.pending_anchor, False, False))
@@ -320,7 +337,8 @@ def merge_runs(runs):
             prev = runs[k - 1][1:] if k else None
             nxt = runs[k + 1][1:] if k + 1 < len(runs) else None
             if prev is None or nxt is None or prev == nxt:
-                i = b = None
+                i = b = (None, None) if (prev is not None and nxt is not None) else (False, False)
+                i, b = i[0], b[1]
         fixed.append((t, i, b))
     merged = []
     for t, i, b in fixed:
@@ -348,9 +366,8 @@ def merge_runs(runs):
 def render_runs(runs):
     s = ""
     for t, i, b in merge_runs(runs):
-        lead = t[: len(t) - len(t.lstrip())]
-        trail = t[len(t.rstrip()):]
-        core = t.strip()
+        m = re.match(r"^([\s,.;:!?)”»…]*)(.*?)([\s,.;:!?(”»…]*)$", t, flags=re.S)
+        lead, core, trail = m.group(1), m.group(2), m.group(3)
         if not core:
             s += t
             continue
@@ -385,12 +402,13 @@ def join_lines(lines, plain=False):
     text = re.sub(r"(?<=\S) ([.,;:!?])(?=\s|$)", r"\1", text)
     text = re.sub(r"[ ]{2,}", " ", text)
     text = re.sub(r"\*\*? \*\*?", " ", text)      # "*a* *b*" → "*a b*" (mismo estilo, separado por espacio)
+    text = text.replace("383.549 Km2", "383.549 Km²")   # el PDF pinta el 2 en superíndice pero lo guarda en línea
     return text
 
 
 def figure(caption):
     for prefix, fn in FIGURES:
-        if prefix in caption:
+        if caption.startswith(prefix):
             if fn is None:
                 return (f'<figure class="perduda"><div class="placeholder">Il·lustració perduda en l’original</div>'
                         f"<figcaption>{caption}</figcaption></figure>")
@@ -435,6 +453,8 @@ def main():
             fonts[fs.get("id")] = Font(fs)
         conv.page(int(page.get("number")), [Run(t, fonts[t.get("font")]) for t in page.iter("text")])
     conv.flush()
+    if conv.pending_anchor:
+        conv.emit("")
     check_outline(conv.chapters, tree)
 
     OUT.mkdir(exist_ok=True)

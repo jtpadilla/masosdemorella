@@ -12,7 +12,7 @@ pages: [98, 98]
 
 - Carceller, Alicia: “*Menjar i viure a Morella*”, Editorial Empúries, Barcelona, 1991.
 
-- Gamundí Carceller, Serafín: “*Morella, guía del antiguo término”,* Ajuntament de Morella, 1991.
+- Gamundí Carceller, Serafín: “*Morella, guía del antiguo término*”, Ajuntament de Morella, 1991.
 
 - Martínez, F. i Palanca, F.: “*Utillatge agrícola i ramader*”, Institut Alfons el Magnànim, València, 1991.
 

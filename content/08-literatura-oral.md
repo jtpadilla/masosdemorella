@@ -18,45 +18,45 @@ En el “*Boletín de Amigos de Morella y su Comarca*”, volum XIV de 1194-95, 
 
 El periòdic “*El clamor de la Democracia*” el dia 26 de novembre de 1882 deia:
 
-*“El hecho ocurrió de la siguiente manera. El recaudador de contribuciones Don Antonio Doménech que regresaba á Morella acompañado de dos guardias civiles que custodiaban los fondos de los pueblos Ares, Villafranca, Castellfort y Portell, al llegar cerca de la masía del Racó, en la partida dels Llivis recibieron á quemarropa, desde una tapia, una descarga, muriendo casi instantáneamente el recaudador señor Doménech y el guardia civil Antonio Andrés Martí. Los dos bagajeros huyeron hácia la masia del Racó, llevando la triste noticia á Morella. El otro guardia Jacinto Querol Gavaldá, natural de Rosell, que iba detrás de las primeras víctimas, se quedó haciendo fuego sobre los criminales, hasta que después de disparar quince tiros cayó atravesado de parte á parte.*\
-*En aquel momento llegó al punto de la catástrofe el peaton conductor de la correspondencia de Villafranca sin alarmarse por los tiros porque creia que procedian de cazadores. Al verle el guardia Querol, que estaba ya en agonia, se incorporó y le rogó que salvase las caballerias con el dinero, pero el peaton no pudo ni siquiera intentarlo porque en aquel momento asomó una cara enmascarada detrás de la pared y se oyó una detonación. El peaton se sintió herido en un brazo y huyó aterrado y tan sin conciencia de lo que le sucedía que buscando refugio pasó junto á varias masias sin entrar en ellas y* <a id="p83" class="pag" data-p="83"></a>*fue á parar á una que dista más de una hora del sitio en que se habia desarrollado el horrible drama y que está fuera de la ruta natural.”*
+“*El hecho ocurrió de la siguiente manera. El recaudador de contribuciones Don Antonio Doménech que regresaba á Morella acompañado de dos guardias civiles que custodiaban los fondos de los pueblos Ares, Villafranca, Castellfort y Portell, al llegar cerca de la masía del Racó, en la partida dels Llivis recibieron á quemarropa*, *desde una tapia, una descarga, muriendo casi instantáneamente el recaudador señor Doménech y el guardia civil Antonio Andrés Martí*. *Los dos bagajeros huyeron hácia la masia del Racó, llevando la triste noticia á Morella. El otro guardia Jacinto Querol Gavaldá, natural de Rosell, que iba detrás de las primeras víctimas, se quedó haciendo fuego sobre los criminales, hasta que después de disparar quince tiros cayó atravesado de parte á parte*.\
+*En aquel momento llegó al punto de la catástrofe el peaton conductor de la correspondencia de Villafranca sin alarmarse por los tiros porque creia que procedian de cazadores. Al verle el guardia Querol*, *que estaba ya en agonia, se incorporó y le rogó que salvase las caballerias con el dinero, pero el peaton no pudo ni siquiera intentarlo porque en aquel momento asomó una cara enmascarada detrás de la pared y se oyó una detonación. El peaton se sintió herido en un brazo y huyó aterrado y tan sin conciencia de lo que le sucedía que buscando refugio pasó junto á varias masias sin entrar en ellas y* <a id="p83" class="pag" data-p="83"></a>*fue á parar á una que dista más de una hora del sitio en que se habia desarrollado el horrible drama y que está fuera de la ruta natural*.”
 
 La crònica de “*El clamor de la Democracia*” del 3 de decembre de 1882 segueix narrant les notícies del crim:
 
-*“El guardia Jacinto Querol Gabaldá apenas se sintió herido se colocó detrás de una de las altas paredes que cierran el camino, comenzando una lucha desesperada retrocediendo hacia los cuatro caminos. Un reguero de sangre marcaba sus pasos y cada vez que se detenía á disparar el fusil, se formaba bajo sus pies un pequeño charco rojo. Los bagajeros le seguian aterrorizados con las caballerias de las riendas y así debieron llegar los tres hasta cerca de una balsa que hay junto al camino. Los bandidos entretanto habíanse corrido por detrás de la pared que les sirvió de parapeto en un principio, que por la desigualdad que forma el terreno domina fácilmente el camino, y viendo que su presa se le escapaba, uno de ellos se destacó y adelantó a través de un sembrado en dirección al guardia. Los bagajeros huyeron hacia la masia del Racó, más al guardia Querol debieron faltarle las fuerzas y cayó en medio del camino.*\
-*En aquellos momentos se presentó el conductor de la correspondencia de Villafranca; el guardia se incorporó y le rogó se llevase las caballerias con el dinero, pero el ladrón estaba ya detrás de la pared é hizo fuego sobre el pobre muchacho que al ver la siniestra catadura del bandido y sentirse herido en un brazo huyó en dirección contraria á traves de los campos. Lo que después sucedió nadie lo sabe; solo diremos que el cadáver del valiente guardia tenia otra herida grave en el cuerpo, además de las que recibió en un principio que era mortal de necesidad, y en la cabeza se pudieron apreciar hasta ocho heridas que debieron serle causadas á culatazos.”*
+“*El guardia Jacinto Querol Gabaldá apenas se sintió herido se colocó detrás de una de las altas paredes que cierran el camino, comenzando una lucha desesperada retrocediendo hacia los cuatro caminos. Un reguero de sangre marcaba sus pasos y cada vez que se detenía á disparar el fusil, se formaba bajo sus pies un pequeño charco rojo*. *Los bagajeros le seguian aterrorizados con las caballerias de las riendas y así debieron llegar los tres hasta cerca de una balsa que hay junto al camino. Los bandidos entretanto habíanse corrido por detrás de la pared que les sirvió de parapeto en un principio, que por la desigualdad que forma el terreno domina fácilmente el camino, y viendo que su presa se le escapaba, uno de ellos se destacó y adelantó a través de un sembrado en dirección al guardia. Los bagajeros huyeron hacia la masia del Racó, más al guardia Querol debieron faltarle las fuerzas y cayó en medio del camino*.\
+*En aquellos momentos se presentó el conductor de la correspondencia de Villafranca; el guardia se incorporó y le rogó se llevase las caballerias con el dinero, pero el ladrón estaba ya detrás de la pared é hizo fuego sobre el pobre muchacho que al ver la siniestra catadura del bandido y sentirse herido en un brazo huyó en dirección contraria á traves de los campos. Lo que después sucedió nadie lo sabe; solo diremos que el cadáver del valiente guardia tenia otra herida grave en el cuerpo, además de las que recibió en un principio que era mortal de necesidad, y en la cabeza se pudieron apreciar hasta ocho heridas que debieron serle causadas á culatazos*.”
 
 El mateix diari amb data de 3 de desembre de 1882 explica:
 
-*“El dia 26 llegó a dicha ciudad* [de Morella] *el gobernador civil don Eusebio Torner, y al dia siguiente salió hacia Castellfort, donde se le preparó una suculenta paella.*\
-*El señor gobernador piensa convocar en la masia dels Llivis a todos los masoveros del contorno, á fin de someterlos a un interrogatorio severo, y después será obsequiado con una paella no menos suculenta que la de Castellfort.*
+“*El dia 26 llegó a dicha ciudad* [de Morella] *el gobernador civil don Eusebio Torner, y al dia siguiente salió hacia Castellfort, donde se le preparó una suculenta paella*.\
+*El señor gobernador piensa convocar en la masia dels Llivis a todos los masoveros del contorno, á fin de someterlos a un interrogatorio severo, y después será obsequiado con una paella no menos suculenta que la de Castellfort*.
 
-<a id="p84" class="pag" data-p="84"></a>*Es creencia general que á pesar de la presencia del señor gobernador será muy difícil dar con los criminales y algunos llegan hasta perder las esperanzas.*\
-[…] *El señor Torner ha citado también á los alcaldes de los pueblos vecinos á Morella para pedirles informes y noticias que en nada se refieren á las próximas elecciones, y sí al delito que ha llenado de consternación á los pacíficos habitantes del Alto Maestrazgo.·”*
+<a id="p84" class="pag" data-p="84"></a>*Es creencia general que á pesar de la presencia del señor gobernador será muy difícil dar con los criminales y algunos llegan hasta perder las esperanzas*.\
+[…] *El señor Torner ha citado también á los alcaldes de los pueblos vecinos á Morella para pedirles informes y noticias que en nada se refieren á las próximas elecciones, y sí al delito que ha llenado de consternación á los pacíficos habitantes del Alto Maestrazgo*.·”
 
 Es busquen culpables i “*El clamor de la Democracia*” el 21 de desembre de 1882 diu:
 
-*“El comerciante señor* [Saturnino] *Almazan detenido en Madrid y trasladado á Morella por motivo del robo y asesinatos dels Llivis ha sido puesto en libertad.*\
-*El señór Almazan no ha podido estar en Madrid el dia de las elecciones.*\
-*Que es lo que se trataba de demostrar.”*
+“*El comerciante señor* [Saturnino] *Almazan detenido en Madrid y trasladado á Morella por motivo del robo y asesinatos dels Llivis ha sido puesto en libertad*.\
+*El señór Almazan no ha podido estar en Madrid el dia de las elecciones*.\
+*Que es lo que se trataba de demostrar*.”
 
 Altre sospitós va ser un jove de Forcall i el mateix periòdic escriu el dia 1 de febrer de 1883:
 
-*“[…] resulta que el referido jóven se hallaba en Ortells cuando se cometió el crímen, asistiendo á una tia suya á quien en aquel mismo dia se le administraron los últimos Sacramentos, lo cual han atestiguado el cura, el juez municipal y principales contribuyentes del pueblo.”*
+“[…] *resulta que el referido jóven se hallaba en Ortells cuando se cometió el crímen, asistiendo á una tia suya á quien en aquel mismo dia se le administraron los últimos Sacramentos, lo cual han atestiguado el cura, el juez municipal y principales contribuyentes del pueblo*.”
 
 La crònica de “*El clamor de la Democracia*” del 4 de febrer de 1883, parla d’un altre sospitós anomenat Antonio Vàzquez Gimerà, i diu d’ell:
 
-*“Respecto á el solo se sabe que se le tenia por honrado hasta ahora, y por lo tanto debe aplazarse todo juicio…”*
+“*Respecto á el solo se sabe que se le tenia por honrado hasta ahora, y por lo tanto debe aplazarse todo juicio*…”
 
 Les noticies continuen i el dia 11 de febrer de 1883 diu el citat diari respecte a uns altres sospitosos:
 
-*“Estos desgraciados quedaron libres al dia siguiente por no resultar nada contra ellos.*\
-*El vecindario de Morella compadeciéndose de la situación precaria de aquellos inocentes, les socorrió con limosnas para que puediesen regresar á sus pueblos.”*
+“*Estos desgraciados quedaron libres al dia siguiente por no resultar nada contra ellos*.\
+*El vecindario de Morella compadeciéndose de la situación precaria de aquellos inocentes, les socorrió con limosnas para que puediesen regresar á sus pueblos*.”
 
 <a id="p85" class="pag" data-p="85"></a>En “*El clamor de la Democracia*” del 19 de juliol de 1883 es pot llegir:
 
-*“El preso don Manuel Mars que se hallaba en las cárceles de Morella, como presunto cómplice del robo y asesinato ocurrido en la masia dels Llivis, se ahorcó el Martes.*\
-*Que Dios le haya perdonado.”*
+“*El preso don Manuel Mars que se hallaba en las cárceles de Morella, como presunto cómplice del robo y asesinato ocurrido en la masia dels Llivis, se ahorcó el Martes*.\
+*Que Dios le haya perdonado*.”
 
 Després de tot això mai es va poder esbrinar res més. El crim dels Llivis segueix sent un misteri al cap de cent vint-i-dos anys.
 
@@ -70,11 +70,11 @@ El primer fill, Antoni, com a primogènit, era l’hereu o *amillorat[^1]*. Els 
 
 El segon fill, Ramon, també va ser cridat a files a Cuba i allí va morir com tants altres.
 
-Un any després li va tocar el torn al tercer fill, Josep, el meu avi. Els meus besavis van pensar que amb un fill mort ja hi havia prou i van fer el mateix que amb el fill major, van comprar la quota. Aquest pagament sempre va ser recordat per tots els fills i comentat per tota la família anys després. La quantitat que es va pagar va ser 300 duros i per a aconseguir-los en aquell moment van haver de vendre una *gorrina de cria.*
+Un any després li va tocar el torn al tercer fill, Josep, el meu avi. Els meus besavis van pensar que amb un fill mort ja hi havia prou i van fer el mateix que amb el fill major, van comprar la quota. Aquest pagament sempre va ser recordat per tots els fills i comentat per tota la família anys després. La quantitat que es va pagar va ser 300 duros i per a aconseguir-los en aquell moment van haver de vendre una *gorrina de cria*.
 
 Els besavis l’any 1880 van fer testament i, com era la costum, van deixar en herència al fill major *Antoni*, el mas familiar, al meu avi Josep li van dotar amb 400 duros, a Maria, la única filla, li va correspondre com a dot la casa de Morella, on tota la família tenia dret a pernoctar quan eren festes o feia falta anar a Morella, i al fill més menut, *Benardo*, a l’estar fadrí li van dotar amb el maset de Conill, prop de la roca Parda en el terme de Cinctorres, el qual havia heretat
 
-<a id="p86" class="pag" data-p="86"></a>dels seus pares la besàvia Felipa. Una part d’aquest maset en l’actualitat encara pertany a la família Julian (als meus dos germans i a mi) i amb el temps se li coneix amb el nom de maset de *Benardo.*
+<a id="p86" class="pag" data-p="86"></a>dels seus pares la besàvia Felipa. Una part d’aquest maset en l’actualitat encara pertany a la família Julian (als meus dos germans i a mi) i amb el temps se li coneix amb el nom de maset de *Benardo*.
 
 Quan el meu avi Josep es casa amb *Manuela* (filla del mas de Sabater, de la dena de la Vespa) al igual que tots els que no eren propietaris, van viure un temps com a mitgers en un altre mas, pagant la meitat de la collita als seus propietaris.
 
@@ -100,7 +100,7 @@ Més tard van tornar els fills i dels gendres un també va regressar i els altre
 
 Ací va començar la postguerra i tots els seus problemes.
 
-En l’època del racionament, allà per l’any 1944, es va posar en marxa una obligació per a tots els llauradors que consistia en lliurar a Morella el *cupo*, que era una certa quantitat de blat que s’entregava al *“Servicio Nacional*”. El repartiment per masies sempre va ser desigual ja que es comptabilitzava per parells de mules però les terres no produïen totes el mateix, depenia del clima i del tipus de terra.
+En l’època del racionament, allà per l’any 1944, es va posar en marxa una obligació per a tots els llauradors que consistia en lliurar a Morella el *cupo*, que era una certa quantitat de blat que s’entregava al “*Servicio Nacional*”. El repartiment per masies sempre va ser desigual ja que es comptabilitzava per parells de mules però les terres no produïen totes el mateix, depenia del clima i del tipus de terra.
 
 Quan va aflorar el malestar entre els masovers es va optar per contar les garbes en el camp, però va ocórrer el mateix, segons la zona el blat era millor o pitjor.
 

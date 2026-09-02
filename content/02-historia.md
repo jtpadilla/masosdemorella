@@ -44,8 +44,7 @@ En 1412 va ser proclamat rei d’Aragó Ferran d’Antequera i durant el seu reg
 
 El dia 15 d’agost de 1414, el rei acompanyat del seu seguici va anar a arreplegar al Papa amb gran pompa al convent de Sant Francesc i davall pal·li van recórrer els carrers de Morella fins a l’església on es va celebrar la funció religiosa del dia de l’Assumpció de Maria Santíssima, titular de la dita església. Durant la celebració religiosa un frare el nom del qual sonava en tota Europa (Sant Vicent Ferrer) es va dirigir des del púlpit a Benedicte XIII i parlant en llatí va dir:
 
-> <a id="p11" class="pag" data-p="11"></a>“Mirad que estáis sobre la tierra para ser la ruina o la salvación de muchos. Si os obstináis en defender vuestros derechos en la tierra los cristianos no sabrán quien es el sucesor de Pedro.”\
-> [^2]
+> <a id="p11" class="pag" data-p="11"></a>“Mirad que estáis sobre la tierra para ser la ruina o la salvación de muchos. Si os obstináis en defender vuestros derechos en la tierra los cristianos no sabrán quien es el sucesor de Pedro.”[^2]
 
 Mes tard el Papa Luna es va refugiar a Peníscola fins que va morir en 1434 a l’edat de 90 anys.
 

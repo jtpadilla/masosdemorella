@@ -12,7 +12,7 @@ pages: [66, 72]
 
 La família en les masies era troncal, amb membres de fins a tres generacions.
 
-![Foto familiar del Mas de Julian (1925)](../assets/images/21-mas-de-julian.jpg)
+![Foto familiar del Mas de Julian (1925)](../assets/images/27-foto-familiar-mas-de-julian-1925.jpg)
 
 Les terres i la casa les heretava el fill major quan contreia matrimoni i s’instal·lava en la masia junt amb els pares i germans que estaven fadrins. D’estos últims, al què no volia ser llaurador se li facilitava aprendre algun ofici que desenvolupava en el poble, i si pel contrari li agradava la vida de mas, quan formava una família es buscava una masia en arrendament i vivia en ella.
 
@@ -106,7 +106,7 @@ Les relacions entre els veïns eren bones encara que la distància entre les mas
 
 Quan hi havia alguna mort entre els habitants de la masia era costum que aquella nit tots els veïns acompanyaren als familiars en la vetlla resant el rosari. A l’alba els oferien un lleuger esmorzar i al matí posaven el fèretre a lloms d’una cavalleria de càrrega per a portar-lo a Morella.
 
-A l’animal l’havia de guiar de la brida un xiquet o xiqueta, no havia de portar-lo una persona major. Quan parlava amb la meua cosina L. Julian Orti d’aquest tema em va dir: “*Jo vaig guiar el cavall amb el nostre avi difunt fins a Morella quan era xicoteta, i ens va costar tres hores arribar fins al poble”.*
+A l’animal l’havia de guiar de la brida un xiquet o xiqueta, no havia de portar-lo una persona major. Quan parlava amb la meua cosina L. Julian Orti d’aquest tema em va dir: “*Jo vaig guiar el cavall amb el nostre avi difunt fins a Morella quan era xicoteta, i ens va costar tres hores arribar fins al poble*”.
 
 En les zones rurals les estacions de l’any marcaven tota la vida. El llaurador que no tenia masia pròpia i vivia d’arrendatari, el dia 3 <a id="p71" class="pag" data-p="71"></a>d’abril era la data en què pagava a l’amo del mas de la forma convinguda. També aquest dia era l’indicat per a canviar de masia. Diuen que açò s’ha fet així des de temps antics perquè esta és l’època amb menys treball en el camp, els cereals encara no estan madurs i els llegums i creïlles encara és prompte per a sembrar-les.
 

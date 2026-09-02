@@ -57,3 +57,24 @@ Todas son fotos de aperos de labranza. Acción posible: pedir a la familia si co
 - Página impresa 81 (física 86) está en blanco en el original; el ancla `p81` se emite junto a la de la 82.
 - Verificación: `extract/check.py` compara palabra a palabra PDF ↔ Markdown (recuento y orden). Resultado limpio:
   las únicas diferencias son guiones de clítico que pdftotext elimina (posar-lo), exponentes (m²) y números de nota.
+
+## Revisión visual página a página (2026-09-02)
+Cotejadas las 100 páginas impresas del PDF (`extract/render/`) contra el Markdown (`extract/segment.py N` imprime el
+segmento entre anclas). Defectos encontrados y corregidos en `to_markdown.py`:
+- **Dos figuras enlazadas a la foto equivocada**: "Pastador del Mas de Julian…" (nº 22) y "Foto familiar del Mas de
+  Julian (1925)" (nº 27) mostraban la foto nº 21 porque el pie se emparejaba por subcadena ("Mas de Julian"). Ahora
+  se empareja por el inicio exacto del pie.
+- **Puntuación dentro de la cursiva** (`*alcaldillo.*`, `*, els topins*`, `germinar”.*`): en el original la puntuación
+  contigua a una palabra en cursiva a veces lleva cursiva y a veces no; se saca siempre fuera del énfasis. Es la
+  única normalización tipográfica además de la cursiva parcial (ver arriba).
+- **Llamadas de nota** a caballo de dos líneas (pág. 11): el superíndice va más alto que la línea y se agrupaba con la
+  siguiente; tolerancia mayor para superíndices.
+- **Listas con guion sangrado** (págs. 20, 74): ahora son listas Markdown; las rayas de diálogo a margen (contes) siguen
+  siendo párrafos con `\-`, y el programa de gremios del Sexenni (pág. 77-78) conserva sus saltos de línea.
+- **Ancla de página mal situada** cuando un párrafo acababa justo al final de página con la última línea llena y la
+  página siguiente empezaba con un título (págs. 37, 100): el ancla se colocaba antes del párrafo en vez de después.
+- **`383.549 Km²`** (pág. 2): el PDF pinta el 2 elevado pero lo almacena en línea con el texto; se corrige de forma
+  puntual (el otro caso, `3333m²`, sí venía como superíndice).
+Errores del original que se conservan tal cual: "Km." por "km" (pág. 5: "650 Km."), "1194-95" por "1994-95" (pág. 82),
+"cas urbà" (pág. 69), "l’’ermita" en el índice de ilustraciones, "(20 m2)" en línea (pág. 13), ausencia de punto en
+"de la pluja Aquestes" (pág. 39), "posarlo"/"acostumarlos" van con guion en el PDF (posar-lo) aunque pdftotext lo pierda.

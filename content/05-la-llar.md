@@ -36,7 +36,7 @@ A més del gos del pastor sempre tenien algun més per a la caça i també el qu
 
 <a id="p45" class="pag" data-p="45"></a>Normalment a la cuina donen dos portes, una que dóna a la recuina i l’altra al pastador.
 
-La recuina és el lloc que servia d’armari. En ella guardaven tots els útils de cuinar, que són molt nombrosos, com tot tipus d’olles, cassoles, paelles, totes molt fondes perquè al fregir alguna cosa no salti el menjar a la cendra*, els topins*, que són uns utensilis com una olla però més alta i més estreta, amb una sola ansa i que s’acosta al foc per la part que no la té, al costat de les brases i així pot estar molt de temps sense cremar-se el menjar.
+La recuina és el lloc que servia d’armari. En ella guardaven tots els útils de cuinar, que són molt nombrosos, com tot tipus d’olles, cassoles, paelles, totes molt fondes perquè al fregir alguna cosa no salti el menjar a la cendra, *els topins*, que són uns utensilis com una olla però més alta i més estreta, amb una sola ansa i que s’acosta al foc per la part que no la té, al costat de les brases i així pot estar molt de temps sense cremar-se el menjar.
 
 Els plats i tota la vaixella també tenien allí el seu lloc. Les peces que s’usaven menys sempre estaven arreglades perquè es veiessin com en una vitrina. Tot això estava col·locat damunt de prestatges.
 
@@ -58,7 +58,7 @@ El forn de les masies era de tipus morú, fet amb pedres a mitja altura de la pa
 
 La boca del forn era xicoteta, el just perquè es pogués posar la llenya primer i poder netejar-lo bé al final.
 
-![Pastador del Mas de Julian i al fons boca del forn](../assets/images/21-mas-de-julian.jpg)
+![Pastador del Mas de Julian i al fons boca del forn](../assets/images/22-pastador-del-mas-de-julian.jpg)
 
 El sòl era de lloses planes. En la volta eren més xicotetes per a poder donar-li la forma corba que es necessita.
 
@@ -212,7 +212,7 @@ Per a les llonganisses es necessitava meitat de carn magra i meitat de cansalada
 
 Quan s’acabava amb esta tasca ja era l’hora del sopar, que consistia en sopes de *mondongo*, o sigui amb el caldo de coure les botifarres, i fregit de la matança.
 
-Després començava el *bureo[^3]*, açò és, festa i ball que amenitzaven amb música de guitarra, bandúrria i llaüt. Aquestos instruments eren molt populars i les persones que sabien tocar-los estaven sempre convidades ja que no es concebia una matança sense *bureo.*
+Després començava el *bureo[^3]*, açò és, festa i ball que amenitzaven amb música de guitarra, bandúrria i llaüt. Aquestos instruments eren molt populars i les persones que sabien tocar-los estaven sempre convidades ja que no es concebia una matança sense *bureo*.
 
 Aquest ritual es feia en totes les masies i com s’ajudaven els uns als altres al desembre i al gener és quan els joves més es veien i es coneixien davall la mirada atenta de les famílies.
 
@@ -229,6 +229,7 @@ Alguns d’aquestos remeis eren:
 **Ingredients:**
 
 - 1 part d’ortigues[^4].
+
 - 1 part de berbena[^5].
 
 **Preparació:** Picar les plantes, fer una cataplasma i posar damunt del colp.
@@ -253,7 +254,8 @@ Alguns d’aquestos remeis eren:
 
 **Ingredients:**
 
-- Arrels de *jovenal[^8].*
+- Arrels de *jovenal[^8]*.
+
 - Espígol mascle[^9].
 
 **Preparació:** Picar les arrels del *jovenal* i els fulls de l’espígol i posar-lo sobre el furóncol.
@@ -263,9 +265,13 @@ Alguns d’aquestos remeis eren:
 **Ingredients:**
 
 - Una mica de sàlvia[^10].
-- Una mica de *coscolleta[^11].*
-- Una mica de *corronyer[^12].*
+
+- Una mica de *coscolleta[^11]*.
+
+- Una mica de *corronyer[^12]*.
+
 - Una mica de savina[^13].
+
 - Unes fulles d’ortiga.
 
 **Preparació:** Barrejar tots els ingredients i fer una infusió que s’ha de prendre regularment.
@@ -278,7 +284,7 @@ Alguns d’aquestos remeis eren:
 
 **Preparació:** Fer una infusió amb la flor de pi arreplegada en el mes de Maig.
 
-**7. Per a calmar el mal de panxa.**
+**7. Per a calmar el mal de panxa**.
 
 **Ingredients:**
 
@@ -298,8 +304,9 @@ Alguns d’aquestos remeis eren:
 
 **Ingredients:**
 
-- *Espartet[^16].*
-- Cabellera de *panissa[^17].*
+- *Espartet[^16]*.
+
+- Cabellera de *panissa[^17]*.
 
 **Preparació:** Fer una tisana i prendre tres vegades al dia.
 
@@ -308,6 +315,7 @@ Alguns d’aquestos remeis eren:
 **Ingredients:**
 
 - Pericó.
+
 - Oli d’oliva.
 
 **Preparació:** Posar el pericó en oli d’oliva i deixar reposar. Després fer fregues en la zona afectada.
@@ -317,8 +325,11 @@ Alguns d’aquestos remeis eren:
 **Ingredients:**
 
 - 3 unces de celiandre[^18].
+
 - 1 unça de gra de fonoll.
+
 - 2 unces de matafaluga[^19].
+
 - 1 unça de sucre.
 
 **Preparació:** Posar a remulla durant una nit el celiandre. Triturar la matafaluga, el fonoll i el celiandre i barrejar amb el sucre. Després es prenen dos cullerades i s’ha de fer repòs.
@@ -351,7 +362,7 @@ La gent del camp era molt observadora. Segons la forma dels núvols sabien si an
 
 La trufa és el nom vulgar dels fongs ascomicets pertanyents al gènere tuber que viuen com a paràsits, com a berrugues, sobre arrels de les alzines. Són de forma més o menys esfèrica, de color negre, quelcom gris i travessat per venes grisenques.
 
-El tuf cabrum que a vegades emet va portar a grecs i romans a pensar que les trufes posseïen virtuts afrodisíaques. Francesc de Diego Calonge, cap de la Universitat d’investigació de micologia, en el Real Jardí Botànic de Madrid, afirma que: “*La trufa se vale de su olor para llamar la atención de los animales y hacer que estos se la coman. Debido a que sus esporas no son digestivas, las defecan y vuelven a germinar”.*
+El tuf cabrum que a vegades emet va portar a grecs i romans a pensar que les trufes posseïen virtuts afrodisíaques. Francesc de Diego Calonge, cap de la Universitat d’investigació de micologia, en el Real Jardí Botànic de Madrid, afirma que: “*La trufa se vale de su olor para llamar la atención de los animales y hacer que estos se la coman*. *Debido a que sus esporas no son digestivas, las defecan y vuelven a germinar*”.
 
 Quan els grecs van comprendre que es tractava d’un menjar exquisit van ensinistrar porcs per a localitzar-les. El porc té l’olfacte magnífic i l’olor de la trufa negra és semblant a la què emet una porca en zel a l’orinar. Però els buscadors es van adonar que els porcs amb el morro removien el terreny en excés destrossant els filaments microscòpics del fong i impedint la formació de noves trufes durant dos o tres anys. Llavors van començar a ensinistrar gossos. Qualsevol gos val per a la tasca però cal ensinistrar-lo seguint un procés. Quan el gos té fam se li permet que olori la trufa i se li dóna una mica, després se li posa el menjar. Als deu mesos el gos està preparat per a la recerca. La vespra de la recol·lecció l’animal deu dejunar. En el camp olora fins a localitzar la trufa i comença a furgar, llavors se li dóna l’alt i un poc de pa o el que més li agradi.
 
