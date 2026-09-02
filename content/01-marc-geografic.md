@@ -56,6 +56,8 @@ El terme municipal de Morella es divideix en diferents partides anomenades denes
 
 12. Dena del Muixacre.
 
+![Les dotze denes del terme de Morella, amb la Dena dels Llivis destacada](../assets/images/ed-mapa-de-les-denes.svg)
+
 <a id="p4" class="pag" data-p="4"></a>Cadascuna d’aquestes denes estava composada per diverses masies i la corporació municipal de Morella nomenava entre els seus veïns un representat de l’ajuntament o *alcaldillo*.
 
 Algunes denes van arribar a tindre escola pròpia i moltes d’elles també tenien una ermita.

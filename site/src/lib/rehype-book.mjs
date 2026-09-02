@@ -2,6 +2,7 @@
  * Ajustos d'HTML per al text del llibre:
  * - <p><img></p>  →  <figure class="figura"><img><figcaption>alt</figcaption></figure>
  * - <img> del Markdown: amplada màxima de 1200 px (l'original va a ~2350 px)
+ * - fitxers ed-*: il·lustracions d'esta edició → <figure class="figura editorial">
  * Les àncores de pàgina <a id="p23" class="pag" data-p="23"></a> arriben ja formades des del Markdown (són HTML en
  * brut i no passen per rehype).
  */
@@ -19,10 +20,11 @@ function walk(node) {
         const img = meaningful[0];
         const caption = img.properties.alt ?? '';
         img.properties.width = 1200;
+        const editorial = /(^|\/)ed-[^/]*$/.test(String(img.properties.src ?? ''));
         return {
           type: 'element',
           tagName: 'figure',
-          properties: { className: ['figura'] },
+          properties: { className: editorial ? ['figura', 'editorial'] : ['figura'] },
           children: [
             img,
             { type: 'element', tagName: 'figcaption', properties: {}, children: [{ type: 'text', value: caption }] },

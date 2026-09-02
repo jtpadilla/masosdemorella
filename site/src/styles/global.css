@@ -65,6 +65,7 @@ p { margin: 0 0 0.9em; }
 .figura { margin: 2rem 0; }
 .figura img, .figura img[data-astro-image] { width: auto; max-width: 100%; max-height: 75vh; margin-inline: auto; border-radius: 3px; }
 .figura figcaption, .perduda figcaption { font-style: italic; color: var(--tinta-2); font-size: 0.9em; text-align: center; margin-top: 0.5rem; }
+.figura.editorial figcaption::before { content: "Il·lustració d’esta edició · "; font-family: var(--sans); font-style: normal; font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--tinta-3); }
 .perduda { margin: 2rem 0; }
 .perduda .placeholder { border: 1px dashed var(--tinta-3); border-radius: 3px; padding: 2.5rem 1rem; text-align: center; color: var(--tinta-3); font-family: var(--sans); font-size: 0.85rem; background: var(--fons-2); }
 .perduda .placeholder::after { content: ' — el PDF ja no contenia esta fotografia.'; }

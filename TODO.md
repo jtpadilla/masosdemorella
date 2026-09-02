@@ -75,8 +75,9 @@ Prioridad: **A** = bloquea la publicación · **B** = mejora clara · **C** = op
 
 ## Resueltas
 
-- [x] **T-14** Mapa de las denes incorporado según la opción (b): apartado "Il·lustracions d'esta edició" al final de la
-  galería y en "Sobre esta edició"; el texto del libro no cambia (2026-09-02).
+- [x] **T-14** Mapa de las denes incorporado: en el capítulo 1 tras la lista de las doce denes, como figura editorial
+  marcada "Il·lustració d'esta edició" (tabla `INSERTS` de `to_markdown.py`), y además en la galería y en "Sobre esta
+  edició" (2026-09-02).
 
 - [x] **T-06** Mapa dels Ports redibujado en SVG a partir de límites municipales reales (OSM), mismo contenido y
   rótulos que el original, estilo del libro. Generador: `extract/mapa/mapa_ports.py`. Ver `NOTES.md` (2026-09-02).

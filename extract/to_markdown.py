@@ -83,6 +83,13 @@ CHAPTER_SLUGS = {
 }
 INDEX_SLUG = "11-index-d-illustracions"
 
+# Ilustraciones de esta edición (no existen en el original): se insertan tras el bloque indicado, como imagen
+# Markdown con fichero ed-*.svg; el sitio las marca como editoriales (rehype-book) por el prefijo del fichero.
+INSERTS = {
+    "12. Dena del Muixacre.": "![Les dotze denes del terme de Morella, amb la Dena dels Llivis destacada]"
+                              f"({IMG}/ed-mapa-de-les-denes.svg)",
+}
+
 
 class Font:
     def __init__(self, el):
@@ -433,6 +440,8 @@ def assemble(blocks):
         if out:
             out.append("")
         out.append(blk)
+        if blk in INSERTS:
+            out += ["", INSERTS[blk]]
     return "\n".join(out).lstrip("\n")
 
 

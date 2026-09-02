@@ -27,6 +27,7 @@ md = Counter()
 for f in sorted((ROOT / "content").glob("*.md")):
     t = f.read_text(encoding="utf-8")
     t = re.sub(r"^---.*?---", "", t, flags=re.S)                 # frontmatter
+    t = re.sub(r"!\[[^\]]*\]\([^)]*/ed-[^)]*\)", "", t)          # ilustraciones de esta edición
     t = re.sub(r"<[^>]+>", "", t)                                # html (anclas, figuras perdidas)
     t = re.sub(r"\]\([^)]*\)", "]", t)                           # rutas de imagen
     t = re.sub(r"\[\^\d+\]:?", "", t)                            # notas
@@ -58,6 +59,7 @@ for f in sorted((ROOT / "content").glob("*.md")):
     t = re.sub(r"^---.*?---", "", t, flags=re.S)
     notes += re.findall(r"^\[\^\d+\]: (.*)$", t, flags=re.M)
     t = re.sub(r"^\[\^\d+\]: .*$", "", t, flags=re.M)
+    t = re.sub(r"!\[[^\]]*\]\([^)]*/ed-[^)]*\)", "", t)
     t = re.sub(r"<[^>]+>", "", t)
     t = re.sub(r"\]\([^)]*\)", "]", t)
     t = re.sub(r"\[\^\d+\]", "", t)

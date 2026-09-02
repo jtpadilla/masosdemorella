@@ -89,7 +89,7 @@ El original omitía Vilafranca, que también pertenece a la comarca; se respeta 
 papel, Morella destacada, rótulos en EB Garamond convertidos a trazados (`extract/mapa/text2path.mjs`, opentype.js).
 El JPEG original se conserva sin tocar en `assets/images/01-mapa-dels-ports.jpg`.
 
-## Mapa de les denes (2026-09-02) — ilustración nueva, aún sin colocar
+## Mapa de les denes (2026-09-02) — ilustración nueva de esta edición
 OSM contiene las doce denes de Morella como relaciones `boundary=historic` (con código INE: siguen siendo entidades
 singulares de población). Coinciden una a una con la lista del capítulo 1. Geometría en `extract/mapa/denes.osm.json`
 (incluye 25 masos con nombre de la zona de los Llivis, por si se hace un mapa de detalle de la dena).
@@ -98,3 +98,6 @@ edición, no del original) con la numeración y los nombres del libro y la Dena 
 Equivalencias de nombre: "Dena de la Pobla d'Alcolea" (libro) = "Dena de la Pobleta" (OSM); "Dena del Herbeset" =
 "Dena d'Herbeset". El núcleo urbano de Morella no pertenece a ninguna dena (hueco en el centro del mapa).
 Los dos mapas comparten `extract/mapa/mapalib.py`.
+Colocación: se inserta en el capítulo 1 tras la lista de las doce denes (tabla `INSERTS` de `to_markdown.py`; el sitio
+la marca "Il·lustració d'esta edició" en el pie por el prefijo `ed-` del fichero) y además en la galería (apartado
+propio) y en "Sobre esta edició". Es la única adición al texto del original; `check.py` la excluye del cotejo.
