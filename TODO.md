@@ -9,10 +9,6 @@ Prioridad: **A** = bloquea la publicación · **B** = mejora clara · **C** = op
 
 ### Publicación
 
-- [ ] **T-03 (B) Enlazar el repositorio desde el sitio.**
-  Añadir la URL del repositorio en `site/src/pages/edicio.astro` (párrafo "Com s'ha fet": "documentats al
-  repositori del projecte") y en el pie de `site/src/layouts/Base.astro`. Depende de T-01.
-
 - [ ] **T-04 (B) Decidir la licencia y la mención de derechos.**
   El texto y las fotos son de Francisca Julián i Querol (2016). Hace falta decidir, con la familia, bajo qué
   condiciones se publica (p. ej. CC BY-NC-ND para texto e imágenes; el código del sitio puede ir con MIT) y
@@ -73,6 +69,8 @@ Prioridad: **A** = bloquea la publicación · **B** = mejora clara · **C** = op
   de vez en cuando; `npm run build` y `python3 extract/check.py` son la prueba de regresión.
 
 ## Resueltas
+
+- [x] **T-03** Enlace al repositorio en el pie y en "Sobre esta edició" (2026-09-02).
 
 - [x] **T-01 / T-02** Repositorio `jtpadilla/masosdemorella` (público) y GitHub Pages activado con origen
   "GitHub Actions"; sitio publicado en https://jtpadilla.github.io/masosdemorella/ (2026-09-02).
