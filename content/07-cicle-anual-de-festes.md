@@ -4,7 +4,7 @@ order: 7
 pages: [73, 80]
 ---
 
-<a id="p73"></a>
+<a id="p73" class="pag" data-p="73"></a>
 
 # 7. CICLE ANUAL DE FESTES
 
@@ -32,7 +32,7 @@ El 13 de Juny es dona panoli en Sant Antoni de la Vespa.
 
 El dia 24 de Juny en Sant Pere Apòstol del Moll es dona rotllo.
 
-<a id="p74"></a>El 10 de Juliol es reparteix rotllo en el peiró de San Cristòfol, dena de Morella la Vella i de la Roca. Esta celebració també te vot.
+<a id="p74" class="pag" data-p="74"></a>El 10 de Juliol es reparteix rotllo en el peiró de San Cristòfol, dena de Morella la Vella i de la Roca. Esta celebració també te vot.
 
 ## 7.2 Rogatives
 
@@ -60,7 +60,7 @@ Una altra de les seves funcions es realitzar el acapte o capta, que es una espè
 
 També es obligació seva encarregar-se de l’elaboració de la pasta típica i tradicional anomenada panoli.
 
-<a id="p75"></a>El Majoral també organitza la Pujada del Sant des de la cofradia fins l’Església Arxiprestal de Morella, la Processó General, la celebració de la missa solemne el dia de Sant Antoni, al final dels dies de festa la missa funeral per tots el cofrades difunts, i la Tornà del Sant a la cofradia, moment en el que es reparteix el panoli i aiguardent en el saló general segons la tradició i costum.
+<a id="p75" class="pag" data-p="75"></a>El Majoral també organitza la Pujada del Sant des de la cofradia fins l’Església Arxiprestal de Morella, la Processó General, la celebració de la missa solemne el dia de Sant Antoni, al final dels dies de festa la missa funeral per tots el cofrades difunts, i la Tornà del Sant a la cofradia, moment en el que es reparteix el panoli i aiguardent en el saló general segons la tradició i costum.
 
 En aquesta festa es munta una foguera en la plaça de l’Església Arxiprestal, on es representa la vida del Sant, i també es celebren pels carrers els actes típics d’aquest dia com el simulacre de la *Llaurà* i la *Sembrà*, i el *Contrabando*, que es un acte que simula com uns guàrdies del segle XIX detenen a uns contrabandistes.
 
@@ -72,7 +72,7 @@ Els masovers que podien anar al poble assitien a la representació de la plaça 
 
 El dia de la festa la celebració religiosa es un dels actes més importants amb la processó, la missa, la tornà del Sant a la cofradia, el repartiment de panoli, el retaule i les gropes. Les cavalleries van engalanades i muntades per una jove i un jove vestits amb el vestit típic de la ciutat. Per la vesprada la *Llaurà* i la *Sembrà* son actes molt vistosos.
 
-En els *Parells* o Gropes també es picaven. Els aparells eren de luxe i capritx. Cabestre, collar de campanes, mandil, rober, les feltres i el jou. El genet que saltava s’agafava als *tellons,* que son unes anses que te el jou, i donava un salt de d’alt a baix i de baix a dalt, i també de dins a fora i de fora a dins del jou. A les pobres mules el *tocat* els donava un cop amb el fuet i aquestes corrien al galop. El genet que <a id="p76"></a>feia més filigranes, a banda de presumir, rebia l’aplaudiment dels assistents que hi havia en les voreres.
+En els *Parells* o Gropes també es picaven. Els aparells eren de luxe i capritx. Cabestre, collar de campanes, mandil, rober, les feltres i el jou. El genet que saltava s’agafava als *tellons,* que son unes anses que te el jou, i donava un salt de d’alt a baix i de baix a dalt, i també de dins a fora i de fora a dins del jou. A les pobres mules el *tocat* els donava un cop amb el fuet i aquestes corrien al galop. El genet que <a id="p76" class="pag" data-p="76"></a>feia més filigranes, a banda de presumir, rebia l’aplaudiment dels assistents que hi havia en les voreres.
 
 Al pavimentar els carrers ja no es pot córrer i saltar com abans i a causa d’això es va acabar l'emoció que havia perdurat tant de temps. També la mecanització del camp a provocat que hi hagin pocs animals de conreu i es molt difícil reunir algun *Parell.*
 
@@ -92,7 +92,7 @@ En el any del Sexenni la bandera surt a rebre a la Verge i als romers quan es fa
 
 Dir Sexenni en Morella es recordar el Vot del Poble que el 14 de febrer de 1673 el Jurats i Prohoms de Morella van acordar i diu així:
 
-> “El Justicia Jurats y Consell de Morella tenen a be donar gràsies a la Imperatris de totes les creatures y Senyora nostra, la Verge de <a id="p77"></a>Vallivana, ara y en tots tems en un novenari de sis anys per l’benefisi de la salud alcanzada en l’any pasat.”
+> “El Justicia Jurats y Consell de Morella tenen a be donar gràsies a la Imperatris de totes les creatures y Senyora nostra, la Verge de <a id="p77" class="pag" data-p="77"></a>Vallivana, ara y en tots tems en un novenari de sis anys per l’benefisi de la salud alcanzada en l’any pasat.”
 
 Amb poques excepcions s’ha seguit complint. Sols durant les guerres carlistes es va endarrerir la celebració però el Vot del Poble a continuat endavant.
 
@@ -113,7 +113,7 @@ El diumenge, després de la missa solemne ve el retaule, presidit cada dia pel g
 Els gremis celebren la seva festa en un ordre establert:\
 \- Diumenge: L’ajuntament i el clero.
 
-<a id="p78"></a>\- Dilluns: La Marquesa de Fuente de Sol, cambrera de la Verge.\
+<a id="p78" class="pag" data-p="78"></a>\- Dilluns: La Marquesa de Fuente de Sol, cambrera de la Verge.\
 \- Dimarts: Gremi de llauradors.\
 \- Dimecres: Colònia Morellano-Catalana.\
 \- Dijous: Colònia de Morellans absents.\
@@ -127,7 +127,7 @@ La “Dansa dels Torners” representa a l’ajuntament i pareix ser que procede
 
 ![Tadeo Julian (1928) – Dansa dels llauradors](../assets/images/29-tadeo-julian-1928-dansa-dels-llauradors.jpg)
 
-“Els Llauradors” es un altra dansa que com el seu nom indica representen al gremi de llauradors. Aquesta dansa la composen nou <a id="p79"></a>xiquets i nou xiquetes acompanyats de dolçaina i tabal. El xiquet que va en el centre de la primera fila recita una poesia quan passa per davant de la Casa Cofradia el dia de la Processó General.
+“Els Llauradors” es un altra dansa que com el seu nom indica representen al gremi de llauradors. Aquesta dansa la composen nou <a id="p79" class="pag" data-p="79"></a>xiquets i nou xiquetes acompanyats de dolçaina i tabal. El xiquet que va en el centre de la primera fila recita una poesia quan passa per davant de la Casa Cofradia el dia de la Processó General.
 
 Al gremi del comerç el representen les “Reines Heroïnes de la Bíblia” i personatges històrics de la Història Sagrada.
 
@@ -139,7 +139,7 @@ Els “Esquiladors i Peraires” representen als cardadors de llana, i “Els te
 
 ![Carrer amb adornaments – Sexenni any 1982](../assets/images/30-carrer-amb-adornaments-sexenni-1982.jpg)
 
-En els carrers on passa la processó son dignes de veure els adornaments, que durant tot l’any son elaborats pels veïns de cada <a id="p80"></a>carrer, el quals mantenen completament el secret fins al final. El motius son molt variats: florals, històrics, artístics, etnològics, etc. Estos adornaments es confeccionen amb paper de colors tallat a trossos molt menuts. Cada trosset es treballa en *arrissaet, fulleta, caragolet*, etc., i després s’acobla al dibuix escollit. El resultat final queda exposat durant tots els dies de festa.
+En els carrers on passa la processó son dignes de veure els adornaments, que durant tot l’any son elaborats pels veïns de cada <a id="p80" class="pag" data-p="80"></a>carrer, el quals mantenen completament el secret fins al final. El motius son molt variats: florals, històrics, artístics, etnològics, etc. Estos adornaments es confeccionen amb paper de colors tallat a trossos molt menuts. Cada trosset es treballa en *arrissaet, fulleta, caragolet*, etc., i després s’acobla al dibuix escollit. El resultat final queda exposat durant tots els dies de festa.
 
 El Sexenni finalitza amb la romeria al Santuari de Vallivana en la tercera setmana d’octubre. En aquesta romeria la Verge torna a la seva casa fins el pròxim Sexenni.
 

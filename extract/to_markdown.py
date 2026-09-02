@@ -2,7 +2,7 @@
 """Reconstruye content/*.md a partir de extract/text/book.xml (pdftohtml -xml).
 
 Reglas principales (ver CLAUDE.md):
-- Se descartan cabecera corrida y número de página; el número impreso se conserva como ancla <a id="pNN">
+- Se descartan cabecera corrida y número de página; el número impreso se conserva como ancla <a id="pNN" class="pag" data-p="NN">
   (en línea, en el punto exacto del salto, si cae dentro de un párrafo).
 - Fuentes → estilo: F*=cursiva, E*/H*/B*=negrita. Cuerpos: 24pt sans negrita = capítulo (H1),
   21pt sans negrita precedido por glifo Symbol = apartado numerado (H2), 18pt sans negrita = subapartado (H3),
@@ -211,7 +211,7 @@ class Converter:
             self.cur["notes"].append((self.note_counter, text))
         else:
             text = re.sub(r"^(Ingredients|Preparació):", r"**\1:**", text)
-            text = re.sub(r"^((?:<a id=\"p\d+\"></a>)*)-(\s)", r"\1\\-\2", text, flags=re.M)   # raya de diálogo, no lista
+            text = re.sub(r"^((?:<a id=\"p\d+\"[^>]*></a>)*)-(\s)", r"\1\\-\2", text, flags=re.M)   # raya de diálogo, no lista
             if self.cur["slug"] == INDEX_SLUG:
                 text = "- " + re.sub(r"\s*\.{3,}\s*(\d+)$", r" — \1", text)
             self.emit(text)
@@ -228,7 +228,7 @@ class Converter:
             else:
                 lines.append([r])
         self.page_no = pnum - PAGE_OFFSET
-        self.pending_anchor += f'<a id="p{self.page_no}"></a>'
+        self.pending_anchor += f'<a id="p{self.page_no}" class="pag" data-p="{self.page_no}"></a>'
         colleft = min((r.left for r in runs if r.kind == "body"), default=0)
         self.colright = colleft + COL_WIDTH
         self.last_top = None

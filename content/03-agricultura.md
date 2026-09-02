@@ -4,7 +4,7 @@ order: 3
 pages: [15, 28]
 ---
 
-<a id="p15"></a>
+<a id="p15" class="pag" data-p="15"></a>
 
 # 3. AGRICULTURA
 
@@ -30,7 +30,7 @@ El treball de preparar la terra és diferent en cada cultiu, però sempre es dó
 
 Fins molt avançat el segle XX estos treballs es realitzaven de forma tradicional, basada en ferramentes que utilitzava l’home, a vegades amb l’ajuda dels animals.
 
-<a id="p16"></a>
+<a id="p16" class="pag" data-p="16"></a>
 
 ## 3.2 Cavar i llaurar
 
@@ -42,7 +42,7 @@ El nom més conegut de la ferramenta que s’usa és l’aixada, de la que hi ha
 
 ![Aixades i ganxo](../assets/images/06-aixades-i-ganxo.jpg)
 
-L’aixada està formada per un full o làmina de ferro més o menys grossa, de forma i dimensions diverses, que té en una part un tall i en <a id="p17"></a>l’altra un forat on encaixa el mànec de fusta, que mesurarà des de 0’70m fins a 0’90m i forma amb el full un angle més o menys agut. El llarg d’aquest mànec varia segons la funció i la forma que es vol.
+L’aixada està formada per un full o làmina de ferro més o menys grossa, de forma i dimensions diverses, que té en una part un tall i en <a id="p17" class="pag" data-p="17"></a>l’altra un forat on encaixa el mànec de fusta, que mesurarà des de 0’70m fins a 0’90m i forma amb el full un angle més o menys agut. El llarg d’aquest mànec varia segons la funció i la forma que es vol.
 
 Les aixades es poden agrupar en diferents categories de la següent manera:
 
@@ -60,7 +60,7 @@ L’arada o aladre segons el Diccionari de la llengua catalana es un instrument 
 
 ![L’arada o aladre](../assets/images/07-arada-o-aladre.jpg)
 
-L’ús de la tracció animal modifica la forma i aspectes de les labors antigues. En l’àrea on s’utilitza es remunta al moment de la <a id="p18"></a>domesticació o introducció dels animals, que després seran empleats en les tasques agrícoles.
+L’ús de la tracció animal modifica la forma i aspectes de les labors antigues. En l’àrea on s’utilitza es remunta al moment de la <a id="p18" class="pag" data-p="18"></a>domesticació o introducció dels animals, que després seran empleats en les tasques agrícoles.
 
 Hi ha dos maneres de llaurar: l’arada asimètrica y l’arada simètrica
 
@@ -80,7 +80,7 @@ En la quadra o el corral era freqüent trobar el serrador o corbellot. Açò és
 
 Quan calia manipular la palla i l’herba per als llits dels animals s’utilitzaven forques de fusta o de ferro. Però per a remoure els llits on la palla es mescla amb el fem, que després serveix com a abonament, s’utilitzava el ganxo de fem, que és com una aixada amb tres o quatre dents llargues tipus tenidor.
 
-<a id="p19"></a>
+<a id="p19" class="pag" data-p="19"></a>
 
 ![Forques](../assets/images/08-forques.jpg)
 
@@ -90,7 +90,7 @@ Quan es treballava en l’era també se li posava una peça anomenada ulleres, a
 
 Peces complementàries són:
 
-<a id="p20"></a>\- La serreta: peça de metall en forma de mitja lluna, amb dents en la part còncava, que es posa sobre el nas.
+<a id="p20" class="pag" data-p="20"></a>\- La serreta: peça de metall en forma de mitja lluna, amb dents en la part còncava, que es posa sobre el nas.
 
 \- El mos: peça de ferro que va dins de la boca.
 
@@ -106,7 +106,7 @@ Un dels problemes més importants que afrontava el llaurador de la societat rura
 
 La forma més pràctica i tradicional de fer l’abonament era aprofitar el fem dels animals del bestiar, animals de corral i les bèsties de càrrega.
 
-La brutícia normal que es feia en la quadra el llaurador l’augmentava preparant llits de palla que es mesclen amb els excrements i l’orina. Quan hi havia una bona quantitat s’apartava amb el ganxo i es deixava en un costat. Per a emmagatzemar-ho el portaven al camp on <a id="p21"></a>s’amuntonava en una part o es repartia per tot el camp. Més tard abans de llaurar s’igualava amb els ganxos de fem.
+La brutícia normal que es feia en la quadra el llaurador l’augmentava preparant llits de palla que es mesclen amb els excrements i l’orina. Quan hi havia una bona quantitat s’apartava amb el ganxo i es deixava en un costat. Per a emmagatzemar-ho el portaven al camp on <a id="p21" class="pag" data-p="21"></a>s’amuntonava en una part o es repartia per tot el camp. Més tard abans de llaurar s’igualava amb els ganxos de fem.
 
 Segons el costum popular abans de netejar les quadres cal tindre en compte que sigui divendres i a ser possible lluna vella, perquè si es fa així mai hi ha en els corrals ni puces ni altres paràsits.
 
@@ -122,7 +122,7 @@ També hi ha una altra forma de sembrar anomenada *a xorret[^2]*. Esta manera é
 
 Per a saber l’extensió d’una masia es calculava per les parelles d’animals de càrrega que hi havia en ella. Així per cada parella de cavalleria que es tenia es calculava sobre uns cinquanta jornals. Un jornal és l’extensió de camp que una parella d’animals de càrrega llaura en un dia, que traduït a metres quadrats són 3333m²/jornal.
 
-<a id="p22"></a>
+<a id="p22" class="pag" data-p="22"></a>
 
 ## 3.7 Ferramentes de cultiu
 
@@ -136,7 +136,7 @@ En la pràctica el segador té una distinció entre esta ferramenta i la corbell
 
 ![Falç i zoqueta.](../assets/images/09-falc-i-zoqueta.jpg)
 
-<a id="p23"></a>Quan s’usen estes ferramentes és necessari portar protecció en la mà que va arreplegant les plantes. La *zoqueta[^3]* és com una espècie de guant fet d’una peça de fusta on es posen tres dits, cor, anul·lar i menut, deixant els altres dos per a subjectar les herbes o cereals. Si no es porta esta protecció és molt fàcil tallar-se en la mà, per això el segador la utilitza sempre.
+<a id="p23" class="pag" data-p="23"></a>Quan s’usen estes ferramentes és necessari portar protecció en la mà que va arreplegant les plantes. La *zoqueta[^3]* és com una espècie de guant fet d’una peça de fusta on es posen tres dits, cor, anul·lar i menut, deixant els altres dos per a subjectar les herbes o cereals. Si no es porta esta protecció és molt fàcil tallar-se en la mà, per això el segador la utilitza sempre.
 
 La dalla és una peça que està formada per un full d’acer que mesura aproximadament uns 0’64m per 0’14m, àmplia i lleugerament corba. El tall està en la part còncava, en l’extrem posterior. La part més ampla forma com un coll pla retorçut sobre si mateix que acaba amb una anella, on s’encaixa un mànec de fusta. La mesura del mànec varia segons qui la usa, aproximadament 1’30m.
 
@@ -152,7 +152,7 @@ Un complement que sempre acompanya al segador és la pedra d’esmolar, de forma
 
 L’època de la sega era entre juny i juliol, encara que segons el temps que ha fet s’avançava o retardava.
 
-<a id="p24"></a>Per a obtenir el gra encara queda molt de treball, perquè la collita que està segada en el camp cal portar-la a l’era.
+<a id="p24" class="pag" data-p="24"></a>Per a obtenir el gra encara queda molt de treball, perquè la collita que està segada en el camp cal portar-la a l’era.
 
 Per a segar un camp es necessitava més d’una persona. Quan arribava esta època en les masies col·laboraven tots, majors i xicotets, així podien acabar prompte, ja que si es presentava una tempestat, el mateix si el gra estava en el camp o en l’era es perdia la collita i esta era el treball de tot un any, a més de la subsistència de persones i animals.
 
@@ -162,7 +162,7 @@ El treball de l’agostera el realitzava normalment la filla major. A part de po
 
 L’agostera era un figura imprescindible durant l’època de la sega.
 
-<a id="p25"></a>
+<a id="p25" class="pag" data-p="25"></a>
 
 ![Carratellet](../assets/images/11-carratellet.jpg)
 
@@ -172,7 +172,7 @@ Era costum sembrar un tros de camp amb sègol per a fer els vencills, perquè aq
 
 A mesura que es feien les garbes estes quedaven en el camp formant cavallons fins que es poguessin transportar a l’era. El transport es realitzava a lloms de les cavalleries, molt de matí, així les espigues estaven fresques i no es queia el gra pel camí.
 
-La cavalleria que feia aquest treball, a part del cabestre, portava l’albardo, i damunt d’aquest es subjectava el *carrejador*, que és un aparell on es lligaven les garbes. Aquest aparell està fet amb dos <a id="p26"></a>barres de fusta que mesuren sobre un metre de llarg i s’uneixen per dos travessers també de fusta.
+La cavalleria que feia aquest treball, a part del cabestre, portava l’albardo, i damunt d’aquest es subjectava el *carrejador*, que és un aparell on es lligaven les garbes. Aquest aparell està fet amb dos <a id="p26" class="pag" data-p="26"></a>barres de fusta que mesuren sobre un metre de llarg i s’uneixen per dos travessers també de fusta.
 
 Les garbes es lligaven d’una en una amb les espigues cap avall pel costat i damunt de l’animal i es portaven a l’era formant una garbera fins que començava la batuda.
 
@@ -186,7 +186,7 @@ El treball de la batuda consisteix a tallar la palla molt xicoteta i separar-la 
 
 Per a estos menesters s’utilitzava el trill, que està construït amb una taula de fusta forta com l’alzina, té forma rectangular i la part davantera un poc més estreta i alçada. Per la part de baix té incrustades pedres de pedrenyal i trossos de ferro en forma de serra. La grandària depenia de les necessitats. La mesura més corrent era sobre un metre.
 
-<a id="p27"></a>
+<a id="p27" class="pag" data-p="27"></a>
 
 ![L’era del Mas de Julian. Al fons Cinctorres.](../assets/images/13-era-del-mas-de-julian.jpg)
 
@@ -200,7 +200,7 @@ Atès que s’acabava més prompte si el trill tenia pes damunt, ací és quan e
 
 També era costum molt usual que la persona que conduïa el trill estigués cantant. Diuen que així es compassava el ritme de les cavalleries i al sentir la veu coneguda es tranquil·litzaven.
 
-<a id="p28"></a>De tant en tant s’utilitzava l’assot que és un tros de cuiro trenat i unit a un mànec, que a l’esclafir en l’aire té un so que estimula l’animal sense pegar-li.
+<a id="p28" class="pag" data-p="28"></a>De tant en tant s’utilitzava l’assot que és un tros de cuiro trenat i unit a un mànec, que a l’esclafir en l’aire té un so que estimula l’animal sense pegar-li.
 
 Per a remoure i voltejar la palla s’utilitzava la forca i la pala.
 

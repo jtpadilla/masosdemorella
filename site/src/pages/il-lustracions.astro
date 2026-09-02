@@ -1,0 +1,35 @@
+---
+import { Image } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
+import Base from '../layouts/Base.astro';
+import { figures, href, slugOf, titolCurt } from '../lib/llibre';
+
+const imatges = import.meta.glob<ImageMetadata>('../../../assets/images/*.jpg', { eager: true, import: 'default' });
+const perFitxer = Object.fromEntries(Object.entries(imatges).map(([k, v]) => [k.split('/').pop()!, v]));
+const figs = await figures();
+const perdudes = figs.filter((f) => !f.file).length;
+---
+<Base title="Il·lustracions">
+  <h1>Il·lustracions</h1>
+  <p>Les {figs.length} fotografies del llibre, en l'ordre en què apareixen. {perdudes} d'elles ({figs.filter((f) => !f.file).map((f) => f.caption).join(', ')}) ja no estaven dins del PDF conservat i s'han perdut; si algú en conserva còpia, serà benvinguda. Cada imatge enllaça amb el fitxer a resolució original.</p>
+  <ul class="galeria">
+    {figs.map((f) => (
+      <li>
+        <figure>
+          {f.file ? (
+            <a href={perFitxer[f.file].src} title="Obri la imatge a resolució original">
+              <Image src={perFitxer[f.file]} alt={f.caption} width={640} />
+            </a>
+          ) : (
+            <div class="perduda-mini">Il·lustració perduda</div>
+          )}
+          <figcaption>
+            <span class="num">{f.n}</span>{f.caption}
+            <a class="on" href={href(`${slugOf(f.capitol)}/`)}>{titolCurt(f.capitol.data.title)}</a>
+          </figcaption>
+        </figure>
+      </li>
+    ))}
+  </ul>
+</Base>
+<style is:global>main { width: min(100% - 2.5rem, 60rem); }</style>

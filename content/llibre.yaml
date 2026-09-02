@@ -1,13 +1,14 @@
 # Metadatos del libro, transcritos de la portada y portadilla del PDF original (págs. físicas 1 y 5).
-titol: "Masos de Morella"
-subtitol: "Vida i costums en la Dena dels Llivis"
-autora: "Francisca Julian i Querol"
+llibre:
+  titol: "Masos de Morella"
+  subtitol: "Vida i costums en la Dena dels Llivis"
+  autora: "Francisca Julian i Querol"
 # La cabecera corrida de todas las páginas usa otra forma del título (se respeta como dato):
-titol_capcalera: "Masies de Morella. Vida i costums en la Dena dels Llivis"
-llengua: ca-ES-valencia
+  titol_capcalera: "Masies de Morella. Vida i costums en la Dena dels Llivis"
+  llengua: ca-ES-valencia
 # El PDF se generó el 17/05/2016 (LibreOffice Writer 4.2); metadato Author: "Francisca Julián Querol".
-data_pdf: 2016-05-17
-context: >
-  Projecte de final del primer cicle de la Universitat per a Majors de la Universitat Jaume I,
-  tutelat pel professor Lluís B. Meseguer Pallarés (segons el pròleg).
-portada_imatge: assets/images/21-mas-de-julian.jpg
+  data_pdf: 2016-05-17
+  context: >
+    Projecte de final del primer cicle de la Universitat per a Majors de la Universitat Jaume I,
+    tutelat pel professor Lluís B. Meseguer Pallarés (segons el pròleg).
+  portada_imatge: assets/images/21-mas-de-julian.jpg

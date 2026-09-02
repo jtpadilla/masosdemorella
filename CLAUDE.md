@@ -61,7 +61,7 @@ source/                 PDF original (intocable, artefacto de archivo)
 extract/                salida de extract/extract.sh: text/pNNN.txt, text/book.xml (fuentes), images/, render/ (ignorado en git)
 content/                MASTERS RECUPERADOS: un .md por capítulo, frontmatter con título/número
 assets/images/          JPEG originales renombrados NN-figura.jpg (NN = orden en el índice de ilustraciones; faltan 10,12,14,15)
-site/                   proyecto Astro (lee content/ y assets/)
+site/                   proyecto Astro 7 (lee content/ y assets/); .github/workflows/deploy.yml lo publica
 NOTES.md                decisiones editoriales, lagunas, discrepancias detectadas
 ```
 
@@ -77,13 +77,25 @@ NOTES.md                decisiones editoriales, lagunas, discrepancias detectada
 3. `extract/check.py` — verificación palabra a palabra PDF ↔ Markdown (recuento y orden). Debe seguir limpio tras
    cualquier cambio en el script.
 
-**Pendiente**:
-4. Revisión visual capítulo a capítulo contra `extract/render/` (regenerar con `extract/extract.sh`; están en .gitignore).
-5. Sitio Astro en `site/`: un `[slug].astro` por capítulo, índice general generado desde los H1/H2, galería de
-   ilustraciones, búsqueda Pagefind, página "Sobre esta edición" (recuperación, lagunas, enlace al PDF original).
-   Estilo: tipografía serif de libro, ancho de lectura ~65 caracteres, modo claro/oscuro, CSS de impresión.
-   Las figuras perdidas llegan como `<figure class="perduda">` y necesitan estilo propio.
-6. GitHub Actions → GitHub Pages.
+4. `site/` — sitio Astro 7 (**hecho**, 2026-09-02). `npm run build` = astro build + copia del PDF a `dist/original/` +
+   índice Pagefind. `npm run dev` para desarrollo (la búsqueda solo funciona en el build). Piezas:
+   - `astro.config.mjs`: procesador Markdown `unified()` de `@astrojs/markdown-remark` (Astro 7 usa otro por defecto),
+     smartypants desactivado (no tocar la tipografía del original), `site`/`base` derivados de `GITHUB_REPOSITORY`.
+   - `src/content.config.ts`: colección `llibre` (glob sobre `../content/*.md`) y `meta` (file sobre `../content/llibre.yaml`,
+     que por eso tiene la clave superior `llibre:`). Vite tiene `fs.allow: ['..']` porque content/ y assets/ están fuera.
+   - `src/lib/rehype-book.mjs`: `<p><img></p>` → `<figure class="figura">` + figcaption, ancho máx. 1200 px.
+     Las anclas de página llegan ya formadas desde el Markdown (HTML en bruto, rehype no las ve).
+   - `src/lib/llibre.ts`: helpers (`href()` respeta `base`, `slugOf`, `figures()` extrae las figuras del propio Markdown).
+   - Páginas: `/` portada+índice, `/[slug]/` capítulo con anterior/siguiente, `/il-lustracions/`, `/cerca/`, `/edicio/`.
+   - Estilo en `src/styles/global.css`: EB Garamond (fontsource, autoalojada), claro/oscuro con botón, números de
+     página al margen (`a.pag::after`), impresión. UI del sitio en valenciano, como el libro.
+5. `.github/workflows/deploy.yml` publica en GitHub Pages en cada push a `main` (**hecho**; falta activar Pages en el
+   repositorio: Settings → Pages → Source: GitHub Actions).
+
+**Pendiente**: revisión visual capítulo a capítulo contra `extract/render/`; decidir qué hacer con las 4 figuras perdidas y el mapa
+de baja resolución (pedir a la familia); enlace al repositorio en la página "Sobre esta edició" cuando exista.
+
+Capturas de comprobación: `google-chrome --headless=new --screenshot=x.png --window-size=1280,3000 URL` contra `npx astro preview`.
 
 Formato de `content/*.md`: frontmatter `title`, `order`, `pages: [primera, última]` (paginación del PDF);
 anclas `<a id="pNN"></a>` en línea; figuras `![pie](../assets/images/NN-x.jpg)`; notas `[^n]` al final del fichero;

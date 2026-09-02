@@ -4,7 +4,7 @@ order: 8
 pages: [82, 96]
 ---
 
-<a id="p81"></a><a id="p82"></a>
+<a id="p81" class="pag" data-p="81"></a><a id="p82" class="pag" data-p="82"></a>
 
 # 8. LITERATURA ORAL
 
@@ -19,7 +19,7 @@ En el “*Boletín de Amigos de Morella y su Comarca*”, volum XIV de 1194-95, 
 El periòdic “*El clamor de la Democracia*” el dia 26 de novembre de 1882 deia:
 
 *“El hecho ocurrió de la siguiente manera. El recaudador de contribuciones Don Antonio Doménech que regresaba á Morella acompañado de dos guardias civiles que custodiaban los fondos de los pueblos Ares, Villafranca, Castellfort y Portell, al llegar cerca de la masía del Racó, en la partida dels Llivis recibieron á quemarropa, desde una tapia, una descarga, muriendo casi instantáneamente el recaudador señor Doménech y el guardia civil Antonio Andrés Martí. Los dos bagajeros huyeron hácia la masia del Racó, llevando la triste noticia á Morella. El otro guardia Jacinto Querol Gavaldá, natural de Rosell, que iba detrás de las primeras víctimas, se quedó haciendo fuego sobre los criminales, hasta que después de disparar quince tiros cayó atravesado de parte á parte.*\
-*En aquel momento llegó al punto de la catástrofe el peaton conductor de la correspondencia de Villafranca sin alarmarse por los tiros porque creia que procedian de cazadores. Al verle el guardia Querol, que estaba ya en agonia, se incorporó y le rogó que salvase las caballerias con el dinero, pero el peaton no pudo ni siquiera intentarlo porque en aquel momento asomó una cara enmascarada detrás de la pared y se oyó una detonación. El peaton se sintió herido en un brazo y huyó aterrado y tan sin conciencia de lo que le sucedía que buscando refugio pasó junto á varias masias sin entrar en ellas y* <a id="p83"></a>*fue á parar á una que dista más de una hora del sitio en que se habia desarrollado el horrible drama y que está fuera de la ruta natural.”*
+*En aquel momento llegó al punto de la catástrofe el peaton conductor de la correspondencia de Villafranca sin alarmarse por los tiros porque creia que procedian de cazadores. Al verle el guardia Querol, que estaba ya en agonia, se incorporó y le rogó que salvase las caballerias con el dinero, pero el peaton no pudo ni siquiera intentarlo porque en aquel momento asomó una cara enmascarada detrás de la pared y se oyó una detonación. El peaton se sintió herido en un brazo y huyó aterrado y tan sin conciencia de lo que le sucedía que buscando refugio pasó junto á varias masias sin entrar en ellas y* <a id="p83" class="pag" data-p="83"></a>*fue á parar á una que dista más de una hora del sitio en que se habia desarrollado el horrible drama y que está fuera de la ruta natural.”*
 
 La crònica de “*El clamor de la Democracia*” del 3 de decembre de 1882 segueix narrant les notícies del crim:
 
@@ -31,7 +31,7 @@ El mateix diari amb data de 3 de desembre de 1882 explica:
 *“El dia 26 llegó a dicha ciudad* [de Morella] *el gobernador civil don Eusebio Torner, y al dia siguiente salió hacia Castellfort, donde se le preparó una suculenta paella.*\
 *El señor gobernador piensa convocar en la masia dels Llivis a todos los masoveros del contorno, á fin de someterlos a un interrogatorio severo, y después será obsequiado con una paella no menos suculenta que la de Castellfort.*
 
-<a id="p84"></a>*Es creencia general que á pesar de la presencia del señor gobernador será muy difícil dar con los criminales y algunos llegan hasta perder las esperanzas.*\
+<a id="p84" class="pag" data-p="84"></a>*Es creencia general que á pesar de la presencia del señor gobernador será muy difícil dar con los criminales y algunos llegan hasta perder las esperanzas.*\
 […] *El señor Torner ha citado también á los alcaldes de los pueblos vecinos á Morella para pedirles informes y noticias que en nada se refieren á las próximas elecciones, y sí al delito que ha llenado de consternación á los pacíficos habitantes del Alto Maestrazgo.·”*
 
 Es busquen culpables i “*El clamor de la Democracia*” el 21 de desembre de 1882 diu:
@@ -53,7 +53,7 @@ Les noticies continuen i el dia 11 de febrer de 1883 diu el citat diari respecte
 *“Estos desgraciados quedaron libres al dia siguiente por no resultar nada contra ellos.*\
 *El vecindario de Morella compadeciéndose de la situación precaria de aquellos inocentes, les socorrió con limosnas para que puediesen regresar á sus pueblos.”*
 
-<a id="p85"></a>En “*El clamor de la Democracia*” del 19 de juliol de 1883 es pot llegir:
+<a id="p85" class="pag" data-p="85"></a>En “*El clamor de la Democracia*” del 19 de juliol de 1883 es pot llegir:
 
 *“El preso don Manuel Mars que se hallaba en las cárceles de Morella, como presunto cómplice del robo y asesinato ocurrido en la masia dels Llivis, se ahorcó el Martes.*\
 *Que Dios le haya perdonado.”*
@@ -74,7 +74,7 @@ Un any després li va tocar el torn al tercer fill, Josep, el meu avi. Els meus 
 
 Els besavis l’any 1880 van fer testament i, com era la costum, van deixar en herència al fill major *Antoni*, el mas familiar, al meu avi Josep li van dotar amb 400 duros, a Maria, la única filla, li va correspondre com a dot la casa de Morella, on tota la família tenia dret a pernoctar quan eren festes o feia falta anar a Morella, i al fill més menut, *Benardo*, a l’estar fadrí li van dotar amb el maset de Conill, prop de la roca Parda en el terme de Cinctorres, el qual havia heretat
 
-<a id="p86"></a>dels seus pares la besàvia Felipa. Una part d’aquest maset en l’actualitat encara pertany a la família Julian (als meus dos germans i a mi) i amb el temps se li coneix amb el nom de maset de *Benardo.*
+<a id="p86" class="pag" data-p="86"></a>dels seus pares la besàvia Felipa. Una part d’aquest maset en l’actualitat encara pertany a la família Julian (als meus dos germans i a mi) i amb el temps se li coneix amb el nom de maset de *Benardo.*
 
 Quan el meu avi Josep es casa amb *Manuela* (filla del mas de Sabater, de la dena de la Vespa) al igual que tots els que no eren propietaris, van viure un temps com a mitgers en un altre mas, pagant la meitat de la collita als seus propietaris.
 
@@ -94,7 +94,7 @@ Quan va arribar l’època de la Guerra Civil els avis, els seus nets i tres fil
 
 Junt amb les tropes també van arribar els anomenats regulars, que van agafar sense permís de ningú el poc que havia per a menjar.
 
-<a id="p87"></a>Durant els bombardejos, molt nombrosos, els avis, les seves filles Juliana, Rosario i Josefina i els nets, es refugiaven en una cova que hi ha en la part baixa del bosc.
+<a id="p87" class="pag" data-p="87"></a>Durant els bombardejos, molt nombrosos, els avis, les seves filles Juliana, Rosario i Josefina i els nets, es refugiaven en una cova que hi ha en la part baixa del bosc.
 
 Més tard van tornar els fills i dels gendres un també va regressar i els altres dos van morir al front.
 
@@ -112,7 +112,7 @@ També anaven en grups la Guàrdia Civil. Aquestos demanaven menjar i dormien en
 
 Al final es va optar per evacuar les masies per a poder controlar millor la situació. Durant el dia cada família treballava en les seves terres i per la nit acudien al mas que tenien assignat.
 
-Els meus avis i tots els de la seva casa, així com els habitants del mas de Cardona i del mas de Guardiola, havien de romandre junts en el mas d’Adell, que està situat en el centre de les tres masies. En aquest cas tots tenien vincles familiars doncs un fill i una filla de Julian es van casar amb una filla i un fill de Guardiola, i una filla de Guardiola va fer el mateix amb un fill del mas d'Adell. En veritat tots eren <a id="p88"></a>parents en algun grau i entre tots, majors i menuts sumaven més de vint.
+Els meus avis i tots els de la seva casa, així com els habitants del mas de Cardona i del mas de Guardiola, havien de romandre junts en el mas d’Adell, que està situat en el centre de les tres masies. En aquest cas tots tenien vincles familiars doncs un fill i una filla de Julian es van casar amb una filla i un fill de Guardiola, i una filla de Guardiola va fer el mateix amb un fill del mas d'Adell. En veritat tots eren <a id="p88" class="pag" data-p="88"></a>parents en algun grau i entre tots, majors i menuts sumaven més de vint.
 
 En el mas de Julian, en la xicoteta horta que estava al costat d’una bassa on també es rentava la roba, es conreaven cols, bledes, enciams, cebes, carabasses per a la confitura, tomates i poc més, sempre en petites quantitats. Al voltant hi havia algun fruiter i ametllers, el fruit dels quals era necessari per a l’hivern, durant el qual es menjava amb mel, en pastes fetes al forn i també amb torró en Nadal.
 
@@ -124,7 +124,7 @@ En el mas de Julian, Tadeo (el meu pare) es va casar a Cinctorres amb Encarna de
 
 En l’època de la sega, en la matança i quan els feia falta ajuda als germans i nebots, pujaven des de Cinctorres on vivíem fins al mas i el meu pare, que era el ferrer del poble, aprofitava el viatge per a ferrar les cavalleries de càrrega del mas. Per arribar caminàvem dos hores com a mínim. Primer dos quilòmetres i mig per la carretera que va a Morella i després quan deixàvem eixa carretera pel costat de Caldes entràvem en La Màquina que es el nom de la masia on vivia la família de la tia Rosario en les meves quatre cosines. Allí sempre érem ben rebuts amb alegria i després de xerrar un poc continuàvem el camí i creuàvem el riu, gairebé sempre sec però molt perillós quan hi ha tempestes ja que recull l’aigua de barrancs i de la Rambla Celumbres. Aquest riu el passàvem pel costat del Molí Vicent ja en el terme de Morella, dins de la dena de la Vespa, i després calia pujar per la ombria de la Torre Massa per un camí de ferradura fins a l’alt de la Serra Calduch on comença la finca del mas de Julian.
 
-Quan arribàvem la tia, que ja ens havia sentit, preparava aigua amb sucre per als menuts i crec que als majors també amb un dollet d’anís. <a id="p89"></a>A l’estiu si la nit era clara ens assentàvem a l’era per a mirar les estrelles i les constel·lacions. El tios ens deien els seus noms: El Camí de Santiago, el qual seguien el peregrins per a arribar a l’apòstol, el Carro, els Bordons, etc. Quan alguna vegada queia una estrella fugaç a l’endemà el primer que fèiem era anar a buscar-la perquè creiem que realment podia estar en algun lloc.
+Quan arribàvem la tia, que ja ens havia sentit, preparava aigua amb sucre per als menuts i crec que als majors també amb un dollet d’anís. <a id="p89" class="pag" data-p="89"></a>A l’estiu si la nit era clara ens assentàvem a l’era per a mirar les estrelles i les constel·lacions. El tios ens deien els seus noms: El Camí de Santiago, el qual seguien el peregrins per a arribar a l’apòstol, el Carro, els Bordons, etc. Quan alguna vegada queia una estrella fugaç a l’endemà el primer que fèiem era anar a buscar-la perquè creiem que realment podia estar en algun lloc.
 
 Jo recorde a l’avi Josep a l’hivern assegut en una cadira menuda en un racó al costat del foc contant-nos històries de la família, contes i endevinalles que tots escoltàvem, i quan era l’hora d’anar a dormir agafava del cresoler, que estava en una paret de la cuina, un cresol per a cadascun dels dormitoris del mas, pujàvem per l’escala com una processó i després ens acomiadàvem fins al matí següent amb un “bona nit”.
 
@@ -142,7 +142,7 @@ També recorde les carboneres, que en temps d’escassesa van fer desaparèixer 
 
 Una altra cosa que no he oblidat es el sabor de les panotxes de panís tendres que agafàvem del camp i rostíem a la brasa i els crits de les ties renyint-nos al agafar-les.
 
-<a id="p90"></a>Entre les normes a seguir que tots el xiquets coneixíem estaven les següents: no alçar cap pedra del camp ni dels camins per a evitar la possible picadura d’algun escurçó, no tirar pedres a les basses ni fonts, no agafar els nius que trobàvem, norma molt difícil de complir, no pujar a la servera del mas d’Adell que limitava les dos finques i les rames i fruites de la qual queien al nostre costat, i tantes altres coses.
+<a id="p90" class="pag" data-p="90"></a>Entre les normes a seguir que tots el xiquets coneixíem estaven les següents: no alçar cap pedra del camp ni dels camins per a evitar la possible picadura d’algun escurçó, no tirar pedres a les basses ni fonts, no agafar els nius que trobàvem, norma molt difícil de complir, no pujar a la servera del mas d’Adell que limitava les dos finques i les rames i fruites de la qual queien al nostre costat, i tantes altres coses.
 
 Durant anys els nombrosos nets i nebots varem gaudir dels jocs junts i de la llibertat de passar un dies inoblidables en el mas.
 
@@ -180,7 +180,7 @@ Vaig anar al porquet: porquet donam cansalada.
 
 Vaig anar a la bellotera: bellotera donam bellotes.
 
-<a id="p91"></a>\- No vull que no em dones vent.
+<a id="p91" class="pag" data-p="91"></a>\- No vull que no em dones vent.
 
 A l’endemà pel matí es va girar una ventà.
 
@@ -230,7 +230,7 @@ I Mig Gallet va dir: - Riu, riuet, entra pel meu bec.
 
 I l’aigua així ho va fer.
 
-<a id="p92"></a>Mes avant va trobar unes maces grans que li van preguntar:
+<a id="p92" class="pag" data-p="92"></a>Mes avant va trobar unes maces grans que li van preguntar:
 
 \- On vas Mig Gallet?
 
@@ -276,7 +276,7 @@ Aleshores el Rei va manar que el portaren on estaven els borregos per a que esto
 
 Quan Mig Gallet va entrar en els borregos va aparèixer la rabosa i se’ls va menjar a tots.
 
-<a id="p93"></a>El Rei molt enfadat va fer que tiraren a Mig Gallet dins d’uns gerros d’aigua per a que s’ofegués, però quan estava dins van aparèixer les maces i van trencar els gerros.
+<a id="p93" class="pag" data-p="93"></a>El Rei molt enfadat va fer que tiraren a Mig Gallet dins d’uns gerros d’aigua per a que s’ofegués, però quan estava dins van aparèixer les maces i van trencar els gerros.
 
 El Rei desesperat va ordenar que posaren llenya per a fer una carbonera i que tiraren dins a Mig Gallet per a que es cremés, però en el moment que anaven a llançar-lo va aparèixer l’aigua i ho va apagar tot.
 
@@ -308,7 +308,7 @@ Els borregos un poc espantats van cavil·lar que podien fer i al final li van di
 
 Al llop li va parèixer bé i el borregos van començar a córrer, i quan van arribar on estava ell no van frenar i li van passar per damunt atropellant-lo.
 
-<a id="p94"></a>El llop molt dolorit es va alçar del sòl com va poder i va continuar la recerca del seu banquet.
+<a id="p94" class="pag" data-p="94"></a>El llop molt dolorit es va alçar del sòl com va poder i va continuar la recerca del seu banquet.
 
 Al cap d’una estona es va trobar a una egua i la seva cria i li va dir a la mare:
 
@@ -340,7 +340,7 @@ Magolat, ferit i completament banyat el llop va decidir gitar-se baix d’un arb
 
 En açò estava el llop quan un llenyataire que estava damunt de l'arbre ho va escoltar i sense pensar-ho ni un moment li va llançar damunt la destral.
 
-<a id="p95"></a>El llop al rebre el fortíssim colp es va alçar de repent i va començar a córrer espaordit desapareixent d’allí per a sempre per a no tornar a molestar mai més a cap animalet de la contornada.
+<a id="p95" class="pag" data-p="95"></a>El llop al rebre el fortíssim colp es va alçar de repent i va començar a córrer espaordit desapareixent d’allí per a sempre per a no tornar a molestar mai més a cap animalet de la contornada.
 
 I conte contat s’ha acabat.
 
@@ -390,7 +390,7 @@ Aquest es un joc en el que es fica un puny damunt de l’altre i es diu:
 
 \- Els bouets se l’han beguda.
 
-<a id="p96"></a>\- Que s’han fet els bouets?
+<a id="p96" class="pag" data-p="96"></a>\- Que s’han fet els bouets?
 
 \- A llaurar se n’han anat.
 

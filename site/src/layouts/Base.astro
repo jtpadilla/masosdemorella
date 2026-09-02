@@ -1,0 +1,72 @@
+---
+import '@fontsource/eb-garamond/400.css';
+import '@fontsource/eb-garamond/400-italic.css';
+import '@fontsource/eb-garamond/500.css';
+import '@fontsource/eb-garamond/600.css';
+import '../styles/global.css';
+import { href, llibre } from '../lib/llibre';
+
+interface Props {
+  title?: string;
+  description?: string;
+  lang?: string;
+}
+const { title, description = `${llibre.titol}. ${llibre.subtitol}, de ${llibre.autora}. Edició digital.`, lang = 'ca' } = Astro.props;
+const fullTitle = title ? `${title} · ${llibre.titol}` : `${llibre.titol} — ${llibre.subtitol}`;
+const nav = [
+  { path: '', label: 'Índex' },
+  { path: 'il-lustracions/', label: 'Il·lustracions' },
+  { path: 'cerca/', label: 'Cerca' },
+  { path: 'edicio/', label: 'Sobre esta edició' },
+];
+const current = Astro.url.pathname;
+---
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <meta name="author" content={llibre.autora} />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="icon" href={href('favicon.svg')} type="image/svg+xml" />
+    <script is:inline>
+      // Tema guardat per l'usuari, abans de pintar (evita el parpelleig)
+      try { const t = localStorage.getItem('tema'); if (t) document.documentElement.dataset.theme = t; } catch {}
+    </script>
+  </head>
+  <body>
+    <a class="salta" href="#contingut">Ves al contingut</a>
+    <header class="capcalera">
+      <a class="marca" href={href('')}>
+        <span class="marca-titol">{llibre.titol}</span>
+        <span class="marca-sub">{llibre.subtitol}</span>
+      </a>
+      <nav aria-label="Principal">
+        {nav.map((n) => (
+          <a href={href(n.path)} aria-current={current === href(n.path) ? 'page' : undefined}>{n.label}</a>
+        ))}
+        <button id="tema" type="button" aria-label="Canvia entre tema clar i fosc" title="Tema clar / fosc">◐</button>
+      </nav>
+    </header>
+    <main id="contingut">
+      <slot />
+    </main>
+    <footer class="peu">
+      <p>{llibre.titol}. {llibre.subtitol} — {llibre.autora}, 2016.</p>
+      <p>Edició digital de recuperació a partir de l'únic PDF conservat. <a href={href('edicio/')}>Com s'ha fet</a> · <a href={href('original/Masos_de_Morella_val1_17x23.pdf')}>PDF original</a></p>
+    </footer>
+    <script>
+      const btn = document.getElementById('tema');
+      btn?.addEventListener('click', () => {
+        const root = document.documentElement;
+        const dark = root.dataset.theme
+          ? root.dataset.theme === 'dark'
+          : matchMedia('(prefers-color-scheme: dark)').matches;
+        root.dataset.theme = dark ? 'light' : 'dark';
+        try { localStorage.setItem('tema', root.dataset.theme); } catch {}
+      });
+    </script>
+  </body>
+</html>

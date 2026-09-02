@@ -1,0 +1,138 @@
+/* ---- Tokens ------------------------------------------------------------ */
+:root {
+  --fons: #fbf8f2;
+  --fons-2: #f2ede3;
+  --tinta: #221f1a;
+  --tinta-2: #5b554b;
+  --tinta-3: #8a8378;
+  --linia: #d9d2c4;
+  --accent: #8a3b1c;
+  --accent-2: #b5562f;
+  --serif: 'EB Garamond', 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif;
+  --sans: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --mida: clamp(1.1rem, 1rem + 0.45vw, 1.3rem);
+  --mesura: 36rem;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) { --fons: #16130f; --fons-2: #1f1b16; --tinta: #e9e2d5; --tinta-2: #b9b0a1; --tinta-3: #857d70; --linia: #3a342c; --accent: #e0a07d; --accent-2: #f0b895; color-scheme: dark; }
+}
+:root[data-theme='dark'] { --fons: #16130f; --fons-2: #1f1b16; --tinta: #e9e2d5; --tinta-2: #b9b0a1; --tinta-3: #857d70; --linia: #3a342c; --accent: #e0a07d; --accent-2: #f0b895; color-scheme: dark; }
+
+/* ---- Base -------------------------------------------------------------- */
+* { box-sizing: border-box; }
+html { background: var(--fons); color: var(--tinta); font-family: var(--serif); font-size: var(--mida); line-height: 1.55; -webkit-text-size-adjust: 100%; }
+body { margin: 0; min-height: 100dvh; display: flex; flex-direction: column; }
+main { flex: 1; width: min(100% - 2.5rem, var(--mesura)); margin: 0 auto; padding: 2rem 0 4rem; }
+a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 0.15em; }
+a:hover { color: var(--accent-2); }
+img { max-width: 100%; height: auto; display: block; }
+h1, h2, h3, h4 { font-family: var(--sans); line-height: 1.2; letter-spacing: -0.01em; text-wrap: balance; }
+h1 { font-size: 1.6rem; font-weight: 700; margin: 0 0 1.5rem; }
+h2 { font-size: 1.25rem; font-weight: 700; margin: 2.5rem 0 0.75rem; }
+h3 { font-size: 1.05rem; font-weight: 700; margin: 2rem 0 0.5rem; }
+p { margin: 0 0 0.9em; }
+.salta { position: absolute; left: -999px; top: 0; background: var(--accent); color: #fff; padding: 0.5rem 1rem; }
+.salta:focus { left: 0.5rem; top: 0.5rem; z-index: 10; }
+
+/* ---- Capçalera i peu --------------------------------------------------- */
+.capcalera { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 0.5rem 1.5rem; width: min(100% - 2.5rem, 60rem); margin: 0 auto; padding: 1rem 0 0.75rem; border-bottom: 1px solid var(--linia); font-family: var(--sans); font-size: 0.85rem; }
+.marca { text-decoration: none; color: var(--tinta); display: flex; flex-direction: column; }
+.marca-titol { font-family: var(--serif); font-size: 1.35rem; font-weight: 600; letter-spacing: 0.02em; }
+.marca-sub { color: var(--tinta-2); font-style: italic; font-family: var(--serif); font-size: 0.95rem; }
+.capcalera nav { display: flex; flex-wrap: wrap; gap: 0.25rem 1.1rem; align-items: center; }
+.capcalera nav a { color: var(--tinta-2); text-decoration: none; padding: 0.25rem 0; border-bottom: 2px solid transparent; }
+.capcalera nav a:hover, .capcalera nav a[aria-current='page'] { color: var(--tinta); border-bottom-color: var(--accent); }
+#tema { background: none; border: 1px solid var(--linia); border-radius: 999px; color: var(--tinta-2); cursor: pointer; font-size: 1rem; line-height: 1; padding: 0.25rem 0.5rem; }
+#tema:hover { color: var(--tinta); border-color: var(--tinta-3); }
+.peu { width: min(100% - 2.5rem, 60rem); margin: 0 auto; padding: 1.5rem 0 2rem; border-top: 1px solid var(--linia); color: var(--tinta-2); font-size: 0.85rem; font-family: var(--sans); }
+.peu p { margin: 0 0 0.3em; }
+
+/* ---- Text del llibre --------------------------------------------------- */
+.capitol-cap { margin-bottom: 2.5rem; }
+.capitol-num { font-family: var(--sans); color: var(--accent); font-weight: 700; font-size: 0.85rem; letter-spacing: 0.15em; text-transform: uppercase; margin: 0 0 0.4rem; }
+.capitol-cap h1 { font-size: 1.9rem; margin: 0; }
+.capitol-cap h1.majuscules { font-size: 1.5rem; letter-spacing: 0.04em; }
+.capitol-meta { color: var(--tinta-3); font-family: var(--sans); font-size: 0.8rem; margin-top: 0.75rem; }
+.text { hyphens: auto; -webkit-hyphens: auto; }
+.text p { text-align: justify; text-align-last: left; }
+.text blockquote { margin: 1.25em 0; padding: 0 0 0 1.1em; border-left: 3px solid var(--linia); color: var(--tinta-2); font-style: italic; }
+.text blockquote em { font-style: normal; }
+.text ul, .text ol { padding-left: 1.4em; margin: 0 0 1em; }
+.text li { margin-bottom: 0.25em; }
+.text sup { font-size: 0.7em; line-height: 0; }
+.text sup a { text-decoration: none; padding: 0 0.1em; }
+.figura { margin: 2rem 0; }
+.figura img, .figura img[data-astro-image] { width: auto; max-width: 100%; max-height: 75vh; margin-inline: auto; border-radius: 3px; }
+.figura figcaption, .perduda figcaption { font-style: italic; color: var(--tinta-2); font-size: 0.9em; text-align: center; margin-top: 0.5rem; }
+.perduda { margin: 2rem 0; }
+.perduda .placeholder { border: 1px dashed var(--tinta-3); border-radius: 3px; padding: 2.5rem 1rem; text-align: center; color: var(--tinta-3); font-family: var(--sans); font-size: 0.85rem; background: var(--fons-2); }
+.perduda .placeholder::after { content: ' — el PDF ja no contenia esta fotografia.'; }
+.footnotes { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--linia); font-size: 0.85em; color: var(--tinta-2); }
+.footnotes .notes-titol { font-family: var(--sans); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.1em; margin: 0 0 0.75rem; color: var(--tinta-3); }
+.footnotes ol { padding-left: 1.5em; }
+.footnotes p { text-align: left; margin-bottom: 0.4em; }
+.footnotes .data-footnote-backref { text-decoration: none; }
+/* Números de pàgina de l'original, al marge */
+a.pag { position: relative; text-decoration: none; }
+a.pag::after { content: attr(data-p); position: absolute; left: -3.2rem; width: 2.6rem; text-align: right; top: 0.15em; font-family: var(--sans); font-size: 0.65rem; color: var(--tinta-3); user-select: none; }
+@media (max-width: 40rem) { .text p { text-align: left; } }
+@media (max-width: 52rem) {
+  a.pag::after { position: static; display: inline-block; width: auto; margin-right: 0.35em; padding: 0 0.3em; border: 1px solid var(--linia); border-radius: 2px; vertical-align: 0.2em; }
+}
+.text > a.pag::after, .text > p > a.pag:only-child::after { top: 0; }
+
+/* ---- Índex en el capítol i navegació ---------------------------------- */
+.en-este { font-family: var(--sans); font-size: 0.85rem; border: 1px solid var(--linia); border-radius: 4px; padding: 0.9rem 1.1rem; margin: 0 0 2.5rem; background: var(--fons-2); }
+.en-este strong { display: block; color: var(--tinta-3); text-transform: uppercase; letter-spacing: 0.1em; font-size: 0.7rem; margin-bottom: 0.4rem; }
+.en-este ol { margin: 0; padding: 0; list-style: none; columns: 2; column-gap: 2rem; }
+.en-este li { break-inside: avoid; margin-bottom: 0.15em; }
+.en-este a { color: var(--tinta); text-decoration: none; }
+.en-este a:hover { color: var(--accent); }
+.seguent { display: flex; justify-content: space-between; gap: 1rem; margin-top: 3.5rem; padding-top: 1.25rem; border-top: 1px solid var(--linia); font-family: var(--sans); font-size: 0.85rem; }
+.seguent a { text-decoration: none; max-width: 48%; }
+.seguent a:last-child { text-align: right; margin-left: auto; }
+.seguent small { display: block; color: var(--tinta-3); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; }
+
+/* ---- Portada / índex general ------------------------------------------ */
+.portada { text-align: center; margin: 1rem 0 3rem; }
+.portada img { border-radius: 4px; margin: 0 auto 1.75rem; box-shadow: 0 10px 30px -12px rgba(0,0,0,0.45); }
+.portada h1 { font-family: var(--serif); font-size: 2.4rem; font-weight: 600; letter-spacing: 0.02em; margin: 0; }
+.portada .sub { font-style: italic; font-size: 1.3rem; color: var(--tinta-2); margin: 0.25rem 0 0.75rem; }
+.portada .autora { font-family: var(--sans); font-size: 0.9rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--tinta-2); margin: 0; }
+.taula { list-style: none; padding: 0; margin: 0; }
+.taula > li { padding: 0.9rem 0; border-top: 1px solid var(--linia); }
+.taula > li:last-child { border-bottom: 1px solid var(--linia); }
+.taula .cap { display: flex; align-items: baseline; gap: 0.75rem; text-decoration: none; color: var(--tinta); font-size: 1.15rem; }
+.taula .cap .n { font-family: var(--sans); font-size: 0.8rem; font-weight: 700; color: var(--accent); min-width: 1.2rem; }
+.taula .cap .pag { margin-left: auto; font-family: var(--sans); font-size: 0.75rem; color: var(--tinta-3); }
+.taula .cap:hover { color: var(--accent); }
+.taula ol { list-style: none; padding: 0.35rem 0 0 1.95rem; margin: 0; font-size: 0.95rem; columns: 2; column-gap: 2rem; }
+.taula ol li { break-inside: avoid; }
+.taula ol a { color: var(--tinta-2); text-decoration: none; }
+.taula ol a:hover { color: var(--accent); }
+@media (max-width: 40rem) { .taula ol, .en-este ol { columns: 1; } }
+
+/* ---- Galeria ----------------------------------------------------------- */
+main.ample { width: min(100% - 2.5rem, 60rem); }
+.galeria { display: grid; grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr)); gap: 1.75rem 1.5rem; padding: 0; margin: 0; list-style: none; }
+.galeria figure { margin: 0; }
+.galeria img { aspect-ratio: 3 / 2; object-fit: cover; width: 100%; border-radius: 3px; }
+.galeria figcaption { font-size: 0.9rem; margin-top: 0.5rem; }
+.galeria .num { font-family: var(--sans); font-size: 0.7rem; color: var(--tinta-3); margin-right: 0.4em; }
+.galeria .on { display: block; font-family: var(--sans); font-size: 0.75rem; color: var(--tinta-3); }
+.galeria .perduda-mini { aspect-ratio: 3 / 2; border: 1px dashed var(--tinta-3); border-radius: 3px; display: grid; place-items: center; color: var(--tinta-3); font-family: var(--sans); font-size: 0.8rem; background: var(--fons-2); }
+
+/* ---- Cerca ------------------------------------------------------------- */
+#cerca { --pagefind-ui-font: var(--sans); --pagefind-ui-primary: var(--accent); --pagefind-ui-text: var(--tinta); --pagefind-ui-background: var(--fons); --pagefind-ui-border: var(--linia); --pagefind-ui-tag: var(--fons-2); --pagefind-ui-scale: 0.9; }
+.avis { font-family: var(--sans); font-size: 0.85rem; color: var(--tinta-2); border: 1px solid var(--linia); padding: 0.75rem 1rem; border-radius: 4px; background: var(--fons-2); }
+
+/* ---- Impressió --------------------------------------------------------- */
+@media print {
+  html { background: #fff; color: #000; font-size: 11pt; }
+  .capcalera nav, #tema, .seguent, .en-este, .salta { display: none; }
+  main { width: auto; max-width: none; padding: 0; }
+  a { color: inherit; text-decoration: none; }
+  a.pag::after { color: #666; }
+  .figura { break-inside: avoid; }
+}

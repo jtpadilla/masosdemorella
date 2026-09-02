@@ -4,7 +4,7 @@ order: 1
 pages: [2, 7]
 ---
 
-<a id="p2"></a>
+<a id="p2" class="pag" data-p="2"></a>
 
 # 1. MARC GEOGRÀFIC, HIDROGRAFIA I OROGRAFIA
 
@@ -24,7 +24,7 @@ Les característiques del seu relleu i l’allunyament de la costa fan que el se
 
 Els límits del terme municipal són al nord amb el terme de Xiva, Herbés i Torre d’Arques en la província de Terol, al sud Ares del Maestre i Catí, a l’est Castell de Cabres, Vallibona i Xert, i a l’oest Castellfort, Cinctorres, Forcall, Xiva, Palanques i Ortells.
 
-<a id="p3"></a>
+<a id="p3" class="pag" data-p="3"></a>
 
 ![Mapa dels Ports](../assets/images/01-mapa-dels-ports.jpg)
 
@@ -56,7 +56,7 @@ El terme municipal de Morella es divideix en diferents partides anomenades denes
 
 12. Dena del Muixacre.
 
-<a id="p4"></a>Cadascuna d’aquestes denes estava composada per diverses masies i la corporació municipal de Morella nomenava entre els seus veïns un representat de l’ajuntament o *alcaldillo.*
+<a id="p4" class="pag" data-p="4"></a>Cadascuna d’aquestes denes estava composada per diverses masies i la corporació municipal de Morella nomenava entre els seus veïns un representat de l’ajuntament o *alcaldillo.*
 
 Algunes denes van arribar a tindre escola pròpia i moltes d’elles també tenien una ermita.
 
@@ -70,7 +70,7 @@ Mas de Marín, d’Adell, de Cros, dels Llivis, de la Torre Querol, de Modest, d
 
 ![Mas dels Llivis](../assets/images/02-mas-dels-llivis.jpg)
 
-La Dena dels Llivis està situada al sud-oest dins del terme municipal de Morella, encaixada entre el riu Torre Segura i la Serra Calduch <a id="p5"></a>d’una banda i pel mateix riu i el turó de la Llátova i la rambla de la Cana d’Ares per una altra.
+La Dena dels Llivis està situada al sud-oest dins del terme municipal de Morella, encaixada entre el riu Torre Segura i la Serra Calduch <a id="p5" class="pag" data-p="5"></a>d’una banda i pel mateix riu i el turó de la Llátova i la rambla de la Cana d’Ares per una altra.
 
 La capital de la dena és la Torre Querol. Esta masia està fortificada en el centre de la dena i ubicada en un altiplà que domina tot el territori. És el lloc adequat per a realitzar actes col·lectius referents als assumptes de la dena. La seva torre es va rebaixar al nivell de la teulada del mas a mitjan segle XVIII.
 
@@ -94,7 +94,7 @@ Cada masia té una o més fonts particulars i a més hi ha altres més important
 
 La dena dels Llivis és plana en tota la vega i també ho és l’altiplà que comprèn des de la Masia dels Llivis fins a la de Julian. En el seu conjunt és de pendents suaus.
 
-<a id="p6"></a>A més de la Serra Calduch, que arranca de la Masia de Julian i acaba en la de Racó, està també la de Marinet, que ve del Mas de Marín i acaba en la Torre Blanca amb pronunciats pendents.
+<a id="p6" class="pag" data-p="6"></a>A més de la Serra Calduch, que arranca de la Masia de Julian i acaba en la de Racó, està també la de Marinet, que ve del Mas de Marín i acaba en la Torre Blanca amb pronunciats pendents.
 
 Dins del mont comú de Carrascals podem destacar el turó de la Clotxa, en el que està el punt més elevat de la dena amb els seus 1080m., el Collet de Llambroix i el Collet de la Corralisa. Les muntanes de Carrascals deuen el seu nom actual a l’abundància de la massa arbòria de carrasques o alzines però antigament s’anomenaven Na Monreala.
 
@@ -112,7 +112,7 @@ Per a desplaçar-se entre les masies hi ha una xarxa de camins que arriben a tot
 
 ![Colada de la Serra dels Llivis](../assets/images/03-colada-de-la-serra-dels-llivis.jpg)
 
-<a id="p7"></a>Les carrerades o assegadors són les vies per on té dret a transitar el ramat per a desplaçar-se d’una masia a una altra o bé per a la transhumància. Tenen distints noms segons l’amplària. La paret que les separa de les finques per on passen és inconfusible perquè té damunt la pedra alera perquè no pugui botar el bestiar als camps per on transita.
+<a id="p7" class="pag" data-p="7"></a>Les carrerades o assegadors són les vies per on té dret a transitar el ramat per a desplaçar-se d’una masia a una altra o bé per a la transhumància. Tenen distints noms segons l’amplària. La paret que les separa de les finques per on passen és inconfusible perquè té damunt la pedra alera perquè no pugui botar el bestiar als camps per on transita.
 
 L’agricultura és de secà i a causa del tipus de terra hi ha varietat en l’explotació dels seus cultius. Quan es vivia en totes les masies es procurava tindre un xicotet hort al costat d’alguna bassa o font i així cultivar verdures de temporada en xicotetes quantitats.
 

@@ -4,7 +4,7 @@ order: 0
 pages: [1, 1]
 ---
 
-<a id="p1"></a>
+<a id="p1" class="pag" data-p="1"></a>
 
 # PRÒLEG
 

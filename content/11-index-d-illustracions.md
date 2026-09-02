@@ -4,7 +4,7 @@ order: 11
 pages: [99, 100]
 ---
 
-<a id="p99"></a>
+<a id="p99" class="pag" data-p="99"></a>
 
 # INDEX D’IL·LUSTRACIONS
 
@@ -66,6 +66,6 @@ pages: [99, 100]
 
 - Tadeo Julian (1928) – Dansa dels llauradors — 81
 
-<a id="p100"></a>
+<a id="p100" class="pag" data-p="100"></a>
 
 - Carrer amb adornaments – Sexenni any 1982 — 82

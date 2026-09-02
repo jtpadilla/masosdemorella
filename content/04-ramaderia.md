@@ -4,7 +4,7 @@ order: 4
 pages: [29, 42]
 ---
 
-<a id="p29"></a>
+<a id="p29" class="pag" data-p="29"></a>
 
 # 4. RAMADERIA
 
@@ -22,7 +22,7 @@ Aproximadament a l’any cap de bestiar canvia les dents frontals o pal·les i c
 
 Quan fa la muda de les segones dents se li crida *andosc* al mascle i *andosca* a la femella, indistintament a cabres i ovelles.
 
-<a id="p30"></a>Al quart any, quan canvien les penúltimes dents es criden *terserenc* i *terserenca.*
+<a id="p30" class="pag" data-p="30"></a>Al quart any, quan canvien les penúltimes dents es criden *terserenc* i *terserenca.*
 
 Aproximadament al quint any de vida l’animal té la dentició completa i llavors es diu que *ja ha tancat*
 
@@ -46,7 +46,7 @@ La llet de cabra també és necessària per als corders que no els vol sa mare (
 
 La funció de les cabres també és de vegades la de conduir el ramat. Un pastor d’un mas comentava que les cabres en un ramat d’ovelles sempre les arrosseguen i van davant quan estan assentades. És en l’estiu quan està funció fa més efecte, perquè quan fa calor no es mouen ni mengen.
 
-<a id="p31"></a>El ramat pot ser més gran o xicotet segons el clima i l’àrea que tenen per a pasturar. El ramat de base dels masos solia tindre entre 50 i 300 caps de bestiar.
+<a id="p31" class="pag" data-p="31"></a>El ramat pot ser més gran o xicotet segons el clima i l’àrea que tenen per a pasturar. El ramat de base dels masos solia tindre entre 50 i 300 caps de bestiar.
 
 En les masies de la plana fèrtil estan els ramats més nombrosos per ser més grans els camps de cultiu i les zones de past. Ací l’herba és millor i els ramats són més fàcils de guardar pel pastor.
 
@@ -68,7 +68,7 @@ A l’hivern amb els calcetins de llana, que teixien les dones del mas amb la ll
 
 La brusa i la faixa s’han usat fins fa molt poc.
 
-<a id="p32"></a>Per a tapar-se del fred o de la calor usaven barret de palla o de feltre, segons l’època de l’any, i penjada al muscle sempre la manta de pastor, que servia tant per a guardar-se del fred com de la pluja.
+<a id="p32" class="pag" data-p="32"></a>Per a tapar-se del fred o de la calor usaven barret de palla o de feltre, segons l’època de l’any, i penjada al muscle sempre la manta de pastor, que servia tant per a guardar-se del fred com de la pluja.
 
 Esta manta també servia, amb els extrems doblegats formant una butxaca, per a transportar els corders nascuts el mateix dia en el camp i que encara no podien caminar.
 
@@ -82,7 +82,7 @@ Normalment d’una peça eixia tot el cos del sarró i la tapa que el tanca. Els
 
 El sistema per a cosir-lo és el utilitzat pels assaonadors. Es foradava el cuiro i després a continuació es passava l’agulla amb les tires de pell convertides en un fort fil.
 
-El pastor sempre portava en el sarró cordell, xicotetes peces de fusta, ungüents casolans, el necessari per a curar la pota trencada d’un animal si arribava el cas, una navalla i matèria primera que el pastor utilitzava durant la jornada de guarda per a *matar el temps*, com per exemple fusta per a fer culleres, formatgeres o un canó per a guardar les agulles de teixir llana. Aquest últim és un tub amb dibuixos en la <a id="p33"></a>fusta, quasi sempre com una greca de formes geomètriques molt boniques.
+El pastor sempre portava en el sarró cordell, xicotetes peces de fusta, ungüents casolans, el necessari per a curar la pota trencada d’un animal si arribava el cas, una navalla i matèria primera que el pastor utilitzava durant la jornada de guarda per a *matar el temps*, com per exemple fusta per a fer culleres, formatgeres o un canó per a guardar les agulles de teixir llana. Aquest últim és un tub amb dibuixos en la <a id="p33" class="pag" data-p="33"></a>fusta, quasi sempre com una greca de formes geomètriques molt boniques.
 
 També les barraques que es veuen pels camps i serres eren construïdes pels pastors. Estes són quasi sempre de forma circular. Estan fetes amb pedres planes unes damunt d’altres, sense argamassa, fins que arriben a l’altura del sostre, a partir de la qual cada cercle de pedres sobreïx uns centímetres cap a l’interior de la construcció per a anar tancant el sostre i finalitzar-lo amb una sola pedra gran en el centre. Estes construccions a simple vista pareixen fràgils però aguanten sense caure durant anys i anys. Són un exemple d’arquitectura en sec.
 
@@ -94,7 +94,7 @@ El gos era sens dubte de gran ajuda per a la conducció i guarda del ramat.
 
 La seva raça era una mescla i s’assemblava als que hi ha en les regions d’Aragó i Catalunya. Són animals no molt grans, llanuts, de color negre i blanc, de potes curtes i àgils, i el seu caràcter és desconfiat amb els estranys.
 
-<a id="p34"></a>Perquè un gos sigui bo ha de guardar les marges del camí que creuen els camps de cultiu. A més mai fa mal a les ovelles quan les mossega si abandonen el grup, i actuen sigil·losament.
+<a id="p34" class="pag" data-p="34"></a>Perquè un gos sigui bo ha de guardar les marges del camí que creuen els camps de cultiu. A més mai fa mal a les ovelles quan les mossega si abandonen el grup, i actuen sigil·losament.
 
 El gos està en tot moment al costat del pastor i es guia pels seus crits i gestos per a fer el que li ordena com donar-li la volta al ramat, parar-lo, assetjar a un cap o evitar que el bestiar traspassi el límit marcat. Aquest animal és el company del pastor.
 
@@ -112,7 +112,7 @@ La seva construcció és molt senzilla. Es talla la branca de la grandària de l
 
 Un altre procediment per a castigar als corders que ocasionen problemes durant la guarda (per exemple menjar dels cultius o no seguir al ramat) és llançar pedres amb la mà. La pedra es llança amb un ràpid gir del braç des de darrere cap a davant fins a arribar a l’altura de la cintura, on surt disparada a gran velocitat.
 
-<a id="p35"></a>
+<a id="p35" class="pag" data-p="35"></a>
 
 ## 4.5 Les manses y l’esquella
 
@@ -128,7 +128,7 @@ No tots els animals portaven el mateix tipus d’esquella al coll. Si són de di
 
 ![Esquella](../assets/images/18-esquella.jpg)
 
-<a id="p36"></a>L’esquella és una espècie de campana quasi cilíndrica que està feta de ferro o de llautó, amb un ansa xicoteta en la part superior per on passa la corretja de cuiro que la sosté i la penja al coll de l’animal. La corretja es tanca amb una sivella metàl·lica.
+<a id="p36" class="pag" data-p="36"></a>L’esquella és una espècie de campana quasi cilíndrica que està feta de ferro o de llautó, amb un ansa xicoteta en la part superior per on passa la corretja de cuiro que la sosté i la penja al coll de l’animal. La corretja es tanca amb una sivella metàl·lica.
 
 Dins de l’esquella hi ha un tros de cuiro del que es penja el batall, la funció del qual consisteix a colpejar els costats i produir el so. L’acústica depèn del material de què està fet. La fusta de boix o en el seu lloc un os xicotet de la canella de l’ovella és el que preferia el pastor.
 
@@ -148,7 +148,7 @@ A l’hora de seleccionar un corder per a incorporar-lo al ramat el criteri era 
 
 Les millors mares són aquelles que tenen molta llet. Si té molta llet el corder està ben alimentat i per tant pesa més quan es ven.
 
-<a id="p37"></a>
+<a id="p37" class="pag" data-p="37"></a>
 
 La influència del mascle per a la reproducció també era molt important. D’ací que el pastor posés molt d’interès en seleccionar-lo.
 
@@ -170,7 +170,7 @@ Els corrals integrats estaven construïts amb un mur de pedra seca de forma quad
 
 Les dimensions eren molt variables i estaven determinades pel nombre de caps de bestiar.
 
-<a id="p38"></a>Per a permetre la circulació de l’aire a l’interior en cada tros de la paret es practicaven una espècie de ranures que també servien com a desguàs quan plovia o nevava.
+<a id="p38" class="pag" data-p="38"></a>Per a permetre la circulació de l’aire a l’interior en cada tros de la paret es practicaven una espècie de ranures que també servien com a desguàs quan plovia o nevava.
 
 En la part alta del mur, per a evitar que entrés cap animal de rapinya, es col·locaven pedres planes apegades entre si de forma vertical. Aquest tipus de mur o paret s’anomena pedra alera.
 
@@ -188,7 +188,7 @@ Per contra, les plantes que més els agraden són el margall i els citrons, que 
 
 Una part del terreny que es cultivava en les explotacions agrícoles es dedicava a produir farratge. L’extensió variava segons els animals que es tenien i la superfície de terra disponible.
 
-<a id="p39"></a>La major quantitat de farratge era consumida per les bèsties de càrrega i també menjaven els animals domèstics com els porcs, conills, gallines i altres aus.
+<a id="p39" class="pag" data-p="39"></a>La major quantitat de farratge era consumida per les bèsties de càrrega i també menjaven els animals domèstics com els porcs, conills, gallines i altres aus.
 
 Les espècies més freqüents eren el pipirigall, l’alfals, la palla, etc. Estos eren els productes que més s’utilitzaven perquè també els donaven a les cabres i ovelles quan es necessitava en un moment determinat augmentar la ració perquè no podien eixir al camp per la neu o la pluja.
 
@@ -212,7 +212,7 @@ Els basses eren com a estanys fets en la terra, poc fondos, de dimensions variab
 
 També calia tindre en compte que on es construïa la bassa la terra havia de ser argilosa, així l’aigua no es filtrava ni es perdia.
 
-<a id="p40"></a>
+<a id="p40" class="pag" data-p="40"></a>
 
 ![Bassa del Mas de Julian](../assets/images/20-bassa-del-mas-de-julian.jpg)
 
@@ -230,7 +230,7 @@ A diferència dels dos tipus anteriors ací l’aigua flueix sempre de la font i
 
 L’època dels naixements era sempre quan més treball tenia el pastor.
 
-Havia d’estar pendent de les ovelles i cabres que havien de parir per a ajudar-les en el cas que el part fora difícil i també perquè les mares <a id="p41"></a>llepessin bé els nounats, ja que això era un signe que els acceptaven, si no ho feien els abandonaven.
+Havia d’estar pendent de les ovelles i cabres que havien de parir per a ajudar-les en el cas que el part fora difícil i també perquè les mares <a id="p41" class="pag" data-p="41"></a>llepessin bé els nounats, ja que això era un signe que els acceptaven, si no ho feien els abandonaven.
 
 A més havien de carregar amb la cria en el braç o en la manta que porta damunt fins que pogués caminar.
 
@@ -252,7 +252,7 @@ Normalment el feien els esquiladors, que eren homes que treballaven per parelles
 
 ## 4.12 La venda
 
-Quan arribava l’època de vendre els corders eren els compradors els que acudien al mas a veure i comprar la mercaderia que el pastor tenia assenyalada per a vendre. Estos caps tenien entre quatre i cinc mesos. <a id="p42"></a>El preu es negociava a ull, valorant la raça de l’animal, el pes i també l’oferta.
+Quan arribava l’època de vendre els corders eren els compradors els que acudien al mas a veure i comprar la mercaderia que el pastor tenia assenyalada per a vendre. Estos caps tenien entre quatre i cinc mesos. <a id="p42" class="pag" data-p="42"></a>El preu es negociava a ull, valorant la raça de l’animal, el pes i també l’oferta.
 
 Es pesaven amb una romana i es tancava el tracte amb una encaixada de mans.
 

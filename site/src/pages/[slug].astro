@@ -1,0 +1,45 @@
+---
+import Base from '../layouts/Base.astro';
+import { capitols, href, numeroCapitol, render, slugOf, titolCurt, type Capitol } from '../lib/llibre';
+
+export async function getStaticPaths() {
+  const caps = await capitols();
+  return caps.map((c, i) => ({
+    params: { slug: slugOf(c) },
+    props: { c, anterior: caps[i - 1] ?? null, seguent: caps[i + 1] ?? null },
+  }));
+}
+interface Props { c: Capitol; anterior: Capitol | null; seguent: Capitol | null }
+const { c, anterior, seguent } = Astro.props;
+const { Content, headings } = await render(c);
+const apartats = headings.filter((h) => h.depth === 2 && h.slug !== 'footnote-label');
+const num = numeroCapitol(c.data.title);
+const titol = c.data.title.replace(/^\d+\.\s*/, '');
+const [p1, p2] = c.data.pages;
+---
+<Base title={titolCurt(c.data.title)}>
+  <article data-pagefind-body>
+    <header class="capcalera-capitol capitol-cap">
+      {num && <p class="capitol-num">Capítol {num}</p>}
+      <h1 class:list={[{ majuscules: titol === titol.toUpperCase() }]}>{titol}</h1>
+      <p class="capitol-meta" data-pagefind-ignore>{p1 === p2 ? `Pàgina ${p1}` : `Pàgines ${p1}–${p2}`} de l'original</p>
+    </header>
+    {apartats.length > 1 && (
+      <nav class="en-este" aria-label="Apartats del capítol" data-pagefind-ignore>
+        <strong>En este capítol</strong>
+        <ol>{apartats.map((h) => <li><a href={`#${h.slug}`}>{h.text}</a></li>)}</ol>
+      </nav>
+    )}
+    <div class="text">
+      <Content />
+    </div>
+  </article>
+  <nav class="seguent" aria-label="Capítol anterior i següent">
+    {anterior && <a href={href(`${slugOf(anterior)}/`)}><small>Anterior</small>← {titolCurt(anterior.data.title)}</a>}
+    {seguent && <a href={href(`${slugOf(seguent)}/`)}><small>Següent</small>{titolCurt(seguent.data.title)} →</a>}
+  </nav>
+</Base>
+<style is:global>
+  /* El H1 del Markdown duplica la capçalera del capítol: s'amaga */
+  .text > h1:first-of-type { display: none; }
+</style>

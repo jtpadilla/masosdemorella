@@ -1,0 +1,23 @@
+---
+import Base from '../layouts/Base.astro';
+import { href } from '../lib/llibre';
+const base = href('pagefind/');
+---
+<Base title="Cerca">
+  <h1>Cerca en el llibre</h1>
+  <link rel="stylesheet" href={`${base}pagefind-ui.css`} />
+  <div id="cerca"></div>
+  <p class="avis" id="avis-cerca" hidden>L'índex de cerca es genera en construir el lloc (<code>npm run build</code>); no està disponible en el servidor de desenvolupament.</p>
+  <script is:inline define:vars={{ base }}>
+    const s = document.createElement('script');
+    s.src = `${base}pagefind-ui.js`;
+    s.onload = () => new PagefindUI({ element: '#cerca', showSubResults: true, showImages: false, translations: {
+      placeholder: 'Cerca una paraula o expressió…', clear_search: 'Neteja', load_more: 'Més resultats',
+      search_label: 'Cerca en el llibre', zero_results: 'Cap resultat per a [SEARCH_TERM]',
+      many_results: '[COUNT] resultats per a [SEARCH_TERM]', one_result: '[COUNT] resultat per a [SEARCH_TERM]',
+      searching: 'Cercant [SEARCH_TERM]…', filters_label: 'Filtres', alt_search: 'Cap resultat per a [SEARCH_TERM]. Mostrant resultats per a [DIFFERENT_TERM]',
+    } });
+    s.onerror = () => { document.getElementById('avis-cerca').hidden = false; };
+    document.head.append(s);
+  </script>
+</Base>

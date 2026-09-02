@@ -4,7 +4,7 @@ order: 5
 pages: [43, 65]
 ---
 
-<a id="p43"></a>
+<a id="p43" class="pag" data-p="43"></a>
 
 # 5. LA LLAR
 
@@ -16,7 +16,7 @@ Totes les masies són molt semblants. Estan construïdes amb pedra i tenen els m
 
 Encara que la vivenda i els corrals estiguessin adossats per algun costat, les portes d’entrada de cadascun d’ells sempre estaven en costats oposats.
 
-El que entenem com a façana sempre estava orientada cap al sud i l’oest perquè així rebia tot el sol i menys aire. Açò és important en el clima fred tant per a la casa com per a la part descoberta dels corrals. <a id="p44"></a>També estava al costat del mas el graner, on també es guardaven les ferramentes i els útils de cultiu.
+El que entenem com a façana sempre estava orientada cap al sud i l’oest perquè així rebia tot el sol i menys aire. Açò és important en el clima fred tant per a la casa com per a la part descoberta dels corrals. <a id="p44" class="pag" data-p="44"></a>També estava al costat del mas el graner, on també es guardaven les ferramentes i els útils de cultiu.
 
 L’orientació més freda és el nord i l’est, que sempre coincidia amb la part posterior de l’edifici. Ací només es veia alguna xicoteta finestra que hi havia en l’estada que s’usava com a assecador, és a dir, on s’emmagatzemen els productes de la matança i tot el menjar que necessitava temperatura freda i seca.
 
@@ -34,7 +34,7 @@ El gat complia la missió de controlar als possibles ratolins que buscaven el gr
 
 A més del gos del pastor sempre tenien algun més per a la caça i també el que estava ensenyat per a buscar trufes.
 
-<a id="p45"></a>Normalment a la cuina donen dos portes, una que dóna a la recuina i l’altra al pastador.
+<a id="p45" class="pag" data-p="45"></a>Normalment a la cuina donen dos portes, una que dóna a la recuina i l’altra al pastador.
 
 La recuina és el lloc que servia d’armari. En ella guardaven tots els útils de cuinar, que són molt nombrosos, com tot tipus d’olles, cassoles, paelles, totes molt fondes perquè al fregir alguna cosa no salti el menjar a la cendra*, els topins*, que són uns utensilis com una olla però més alta i més estreta, amb una sola ansa i que s’acosta al foc per la part que no la té, al costat de les brases i així pot estar molt de temps sense cremar-se el menjar.
 
@@ -50,7 +50,7 @@ En el pis superior estaven els dormitoris de tota la família i també les sales
 
 També està el *secador* que rep aquest nom perquè era on es guardava tot el menjar que necessitava una temperatura freda. Esta estada sempre estava orientada al cerç, que és l’aire del nord-est.
 
-<a id="p46"></a>En ella es guardaven tots els productes de matança com pernils, carn salada i fumada, embotit, adob fet amb oli que es conservava en gerres de fang, i també el formatge. Tot es penjava del sostre perquè si entrava un gos o un gat es posava les bótes. També es guardaven ací els penjolls de raïm, que així es conservaven fins a Nadal, els codonys que sobraven de fer la carn de codony, el *mostillo[^1]* fet amb el most de raïm i també el *brescam* dels ruscos, l’arrop que es feia amb mel i carabassa, i molts postres més.
+<a id="p46" class="pag" data-p="46"></a>En ella es guardaven tots els productes de matança com pernils, carn salada i fumada, embotit, adob fet amb oli que es conservava en gerres de fang, i també el formatge. Tot es penjava del sostre perquè si entrava un gos o un gat es posava les bótes. També es guardaven ací els penjolls de raïm, que així es conservaven fins a Nadal, els codonys que sobraven de fer la carn de codony, el *mostillo[^1]* fet amb el most de raïm i també el *brescam* dels ruscos, l’arrop que es feia amb mel i carabassa, i molts postres més.
 
 ## 5.2 El forn
 
@@ -62,7 +62,7 @@ La boca del forn era xicoteta, el just perquè es pogués posar la llenya primer
 
 El sòl era de lloses planes. En la volta eren més xicotetes per a poder donar-li la forma corba que es necessita.
 
-<a id="p47"></a>Just damunt de la boca del forn sortia per la part de fora la xemeneia que pujava fins al sostre.
+<a id="p47" class="pag" data-p="47"></a>Just damunt de la boca del forn sortia per la part de fora la xemeneia que pujava fins al sostre.
 
 Per a calfar el forn es necessitava molta llenya que fes brasa perquè esta, quan ja estava calent per a coure el pa, s’aparta a un costat i així seguia emetent calor mentre durava la cocció.
 
@@ -84,7 +84,7 @@ Per a preparar la massa es necessitava aigua calenta amb la sal corresponent i f
 
 En la pastera estava la farina i en el centre el llevat. A poc a poc s’afegia l’aigua i s’anava treballant la massa amb molt d’esforç, donant-li voltes de dalt cap avall i colpejant-la amb força. Tot açò havia de fer-se durant una hora com a mínim.
 
-<a id="p48"></a>
+<a id="p48" class="pag" data-p="48"></a>
 
 ![La pastera](../assets/images/23-la-pastera.jpg)
 
@@ -102,7 +102,7 @@ Quan els pans ja estaven cuits es guardaven dins de la pastera alineats de forma
 
 Si hi havia prop alguna festa o celebració s’aprofitava el dia de la *fornà* per a fer pastes i coques.
 
-<a id="p49"></a>
+<a id="p49" class="pag" data-p="49"></a>
 
 ## 5.4 El formatge
 
@@ -124,7 +124,7 @@ Segons deien els majors cal tindre gràcia, la calor que donen les mans és molt
 
 S’anomena sèrum a tot el líquid que s’escorria de la formatgera i que quedava en el recipient després de traure tota la llet quallada.
 
-En aquest moment si que es posava a bullir el sèrum a poc a poc perquè no es pegués i després es colava amb un llenç, es lligaven les <a id="p50"></a>quatre puntes i es penjava perquè escorregués el líquid que quedava i això és el riquíssim brull. Aquest no té res a veure amb el que actualment es comercialitza.
+En aquest moment si que es posava a bullir el sèrum a poc a poc perquè no es pegués i després es colava amb un llenç, es lligaven les <a id="p50" class="pag" data-p="50"></a>quatre puntes i es penjava perquè escorregués el líquid que quedava i això és el riquíssim brull. Aquest no té res a veure amb el que actualment es comercialitza.
 
 ![Formatge, flitera i brull](../assets/images/24-formatge-flitera-i-brull.jpg)
 
@@ -138,7 +138,7 @@ Quan alguna peça semblava que s’enfonsés i es clavillava era perquè quan es
 
 De l’administració de la casa s’encarregava la masovera.
 
-<a id="p51"></a>Les filles des de xicotetes aprenien tots els treballs que es feien en la casa, ja que al viure aïllats s’acostumaven a solucionar tots els possibles problemes quotidians.
+<a id="p51" class="pag" data-p="51"></a>Les filles des de xicotetes aprenien tots els treballs que es feien en la casa, ja que al viure aïllats s’acostumaven a solucionar tots els possibles problemes quotidians.
 
 En la tardor s’arreplegaven els bolets. En cada tros de la masia la terra és distinta. Els *pebrassos* i els *cubealbres* es troben en els boscos d’alzines, les *gírgoles* en els bancals entre els cards, els *rubiols* creixen en les praderies i el *rovelló* en el pinar.
 
@@ -160,7 +160,7 @@ De les sobres dels greixos es fa sabó per a llavar.
 
 Antigament de forma periòdica es feia la *bugà[^2]*, de manera que es posava la roba bruta plegada dins d’un cossi i quan estava ple es cobria amb un llenç apropiat anomenat cendrer, el qual es tapava amb cendra procedent del forn ben tamisada perquè no tingués res de carbó ni sutja. Després des d’un calder s’anava tirant aigua molt calenta per
 
-<a id="p52"></a>damunt de la cendra, de manera que l’aigua que es filtrava arrossegava tota la brutícia de la roba i sortia pel desguàs del *cossi*. Açò es seguia fent durant una estona fins que l’aigua que sortia es veia neta i llavors només quedava aclarir la roba.
+<a id="p52" class="pag" data-p="52"></a>damunt de la cendra, de manera que l’aigua que es filtrava arrossegava tota la brutícia de la roba i sortia pel desguàs del *cossi*. Açò es seguia fent durant una estona fins que l’aigua que sortia es veia neta i llavors només quedava aclarir la roba.
 
 Quan acaba l’hivern calia blanquejar amb calç les parets de la vivenda. Gran part de les labors de neteja servien també com a desinfectant, perquè a l’haver tot tipus d’animals era convenient.
 
@@ -182,7 +182,7 @@ Els animals domèstics que estaven pels corrals com a conills, gallines i coloms
 
 L’import de la venda dels ous era per a les xiques, que amb aquestos diners es compraven les seves coses.
 
-Com les gallines estaven soltes i anaven pel camp sempre hi havia alguna que no acudia al ponedor que estava en els corrals i calia <a id="p53"></a>vigilar on posava els ous, de vegades en el llenyer o en qualsevol buit en les parets, si no es feia així alguna vegada apareixia la gallina lloca rodejada de pollets camí del corral (era una estampa entranyable). Tot açò ocorria perquè a l’haver-hi tants animals domèstics solts pel *mas* i pel camp, no es tenia en compte si faltava algun i la naturalesa complia la seva missió.
+Com les gallines estaven soltes i anaven pel camp sempre hi havia alguna que no acudia al ponedor que estava en els corrals i calia <a id="p53" class="pag" data-p="53"></a>vigilar on posava els ous, de vegades en el llenyer o en qualsevol buit en les parets, si no es feia així alguna vegada apareixia la gallina lloca rodejada de pollets camí del corral (era una estampa entranyable). Tot açò ocorria perquè a l’haver-hi tants animals domèstics solts pel *mas* i pel camp, no es tenia en compte si faltava algun i la naturalesa complia la seva missió.
 
 ## 5.6 La matança
 
@@ -198,7 +198,7 @@ Al matí del dia assenyalat per a la matança els homes de la casa i els convida
 
 Mentrestant les dones preparaven tots els utensilis necessaris. També coïen arròs i la ceba per separat. La ceba després de cuita es deixava escórrer dins d’un sac per a seguir amb les botifarres a la vesprada. Un paper important dins de la matança el feia l’ama del mas o la filla major. La seva tasca era regirar la sang fins que estigués freda perquè no quallés, perquè sense ella no es podien fer les botifarres que es consumien al llarg de l’any seques per a l’olla i també fregides en l’adob.
 
-Amb destresa apresa amb els anys de pràctica, els homes esquarteraven primer el porc i després el bou. Quan s’acabava de trossejar la carn el treball dels homes havia acabat, i després del dinar, que consistia en arròs amb pollastre i conill fet en cassola de fang, <a id="p54"></a>començava el ritual d’endevinar el pes del bou trossejat a quarts fent una aposta que guanyava el que més s’aproximava al pes que donava la romana.
+Amb destresa apresa amb els anys de pràctica, els homes esquarteraven primer el porc i després el bou. Quan s’acabava de trossejar la carn el treball dels homes havia acabat, i després del dinar, que consistia en arròs amb pollastre i conill fet en cassola de fang, <a id="p54" class="pag" data-p="54"></a>començava el ritual d’endevinar el pes del bou trossejat a quarts fent una aposta que guanyava el que més s’aproximava al pes que donava la romana.
 
 Al matí les dones havien netejat els budells que es necessitaven per a l’embotit, i havien trossejat el sagí que s’usa per a les botifarres barrejant-lo amb l’arròs, la ceba picada cuita el dia anterior per a que escorregués tota l’aigua, la sang, sal, pebre negre mòlt i canella en pols.
 
@@ -216,7 +216,7 @@ Després començava el *bureo[^3]*, açò és, festa i ball que amenitzaven amb 
 
 Aquest ritual es feia en totes les masies i com s’ajudaven els uns als altres al desembre i al gener és quan els joves més es veien i es coneixien davall la mirada atenta de les famílies.
 
-<a id="p55"></a>
+<a id="p55" class="pag" data-p="55"></a>
 
 ## 5.7 Remeis casolans
 
@@ -241,7 +241,7 @@ Alguns d’aquestos remeis eren:
 
 **Preparació:** Fer una infusió i prendre-la en dejú durant nou dies seguits.
 
-<a id="p56"></a>**3. Per a ferides infectades**
+<a id="p56" class="pag" data-p="56"></a>**3. Per a ferides infectades**
 
 **Ingredients:**
 
@@ -270,7 +270,7 @@ Alguns d’aquestos remeis eren:
 
 **Preparació:** Barrejar tots els ingredients i fer una infusió que s’ha de prendre regularment.
 
-<a id="p57"></a>**6. Per a la pressió arterial descompensada**
+<a id="p57" class="pag" data-p="57"></a>**6. Per a la pressió arterial descompensada**
 
 **Ingredients:**
 
@@ -312,7 +312,7 @@ Alguns d’aquestos remeis eren:
 
 **Preparació:** Posar el pericó en oli d’oliva i deixar reposar. Després fer fregues en la zona afectada.
 
-<a id="p58"></a>**11. Per al dolor de ventre**
+<a id="p58" class="pag" data-p="58"></a>**11. Per al dolor de ventre**
 
 **Ingredients:**
 
@@ -331,7 +331,7 @@ Era molt important que la portera que separava els camps de les masies veïnes e
 
 La portera té una forma molt peculiar, construïda amb branques grosses de ginebre i de savina, mesura al voltant de 1,70 m i és rectangular, amb tres o quatre travessers horitzontals units als dos troncs laterals de forma vertical. En la seva construcció no s’utilitzaven claus ni un altre tipus de metall perquè no s’oxidaren. Calia encaixar les peces de forma artesanal. Com a frontisses servien dos xicotets troncs en forma de ve i en el buit que queda després de subjectar-los entre les pedres de la paret és per on queda unida la porta d’una banda. Es pot obrir per les dos parts. Com a forrellat s’usava una simple estaca que es llevava o es posava en un buit de l’altra part de la paret.
 
-<a id="p59"></a>
+<a id="p59" class="pag" data-p="59"></a>
 
 ![Portera](../assets/images/25-portera.jpg)
 
@@ -345,7 +345,7 @@ També calia netejar periòdicament les fonts i les basses on bevien els animals
 
 La gent del camp era molt observadora. Segons la forma dels núvols sabien si anava a ploure, nevar, si faria calor o si havia de canviar el temps. En el firmament coneixien les constel·lacions, de dia i de nit se sabien guiar mirant al cel.
 
-<a id="p60"></a>Eren astrònoms, fusters, obrers, etc. Era necessari tindre noció de tots els oficis perquè tot feia falta alguna vegada i havien de ser autosuficients.
+<a id="p60" class="pag" data-p="60"></a>Eren astrònoms, fusters, obrers, etc. Era necessari tindre noció de tots els oficis perquè tot feia falta alguna vegada i havien de ser autosuficients.
 
 ## 5.9 La trufa
 
@@ -359,7 +359,7 @@ Amb uns ganivets especials el buscador fa un forat de no més de 15 cm. de diàm
 
 La trufa és utilitzada com a guarniment en gran varietat de menjars, en xocolates, en amanides, raspada sobre carn, etc. Un d’estos fongs de la grandària d’una nou pot durar fins a un any com a condiment.
 
-<a id="p61"></a>
+<a id="p61" class="pag" data-p="61"></a>
 
 ![La trufa](../assets/images/26-la-trufa.jpg)
 
@@ -377,7 +377,7 @@ La producció de mel ha segut una activitat corrent en esta comarca, igual que e
 
 Tradicionalment la mel és un substitut del sucre i com a aliment és ric en calories i vitamines.
 
-<a id="p62"></a>És un complement més en la masia, a part d’una afició que es transmet de pares a fills.
+<a id="p62" class="pag" data-p="62"></a>És un complement més en la masia, a part d’una afició que es transmet de pares a fills.
 
 La peça elemental sobre la qual es treballa és el *basso de suro* o rusc.
 
@@ -399,7 +399,7 @@ La labor de fer calç no ha segut mai un ofici específic pel fet que a xicoteta
 
 La utilització de la calç en la construcció està documentada en la baixa edat mitjana.
 
-Per a fer la calç s’havia de preparar gran quantitat de llenya i de pedres. La pedra que es triava era sobretot la calcària blanca, encara que també s’usaven altres com la calcària roja, però esta és de pitjor qualitat. La pedra aconseguida es picava amb una maça procurant que quedés en trossos molt xicotets. La llenya normalment era <a id="p63"></a>d’argilagues, coscolls i tot tipus d’arbustos que s’arreplegaven al netejar el pinar i els camins.
+Per a fer la calç s’havia de preparar gran quantitat de llenya i de pedres. La pedra que es triava era sobretot la calcària blanca, encara que també s’usaven altres com la calcària roja, però esta és de pitjor qualitat. La pedra aconseguida es picava amb una maça procurant que quedés en trossos molt xicotets. La llenya normalment era <a id="p63" class="pag" data-p="63"></a>d’argilagues, coscolls i tot tipus d’arbustos que s’arreplegaven al netejar el pinar i els camins.
 
 El lloc adequat per a construir el forn era el límit d’un terraplè o marge, l’altura del qual depenia de la grandària que se li volia donar al forn. Aquest una vegada construït consistia en una peça buida de forma cilíndrica o cònica soterrada a l’interior del terraplè, excepte la part frontal que és on estava la boca del forn. La part superior sobreeixia un poc per damunt del nivell del marge. Les parets del forn eren de maçoneria. En la part inferior i per davall del nivell de la base del marge s’excavava un forat anomenat olla del forn, que consistia en una espècie de caldera de base redona en la qual es posaven les pedres de calç viva. Estes s’anaven posant pels costats i pujaven fins que estava coberta tota l’olla. Per a comunicar el forn amb l’exterior es construïa la boca, o sigui una espècie de finestra just on acaba l’olla, les dimensions de la qual eren les necessàries perquè una persona pogués alimentar de llenya el centre de l’olla. Damunt dels fulls de pedra viva es posaven els trossos de pedra de calç morta fins a arribar a la part més alta del marge, omplint així tot el forat. Convenia a més tapar tots els badalls i forats amb cudols i pilotes de fang.
 
@@ -411,7 +411,7 @@ La forma de saber si la calç ja estava feta era observant el fum que eixia del 
 
 El següent pas era tapar la boca del forn perquè si entrava aire la pedra es desfeia, i deixar refredar el forn durant quatre o cinc dies.
 
-A continuació es desfeia el forn començant per la pedra morta, la qual <a id="p64"></a>es tirava en una bossa seca on més tard es posava aigua suficient perquè la pedra es desfés i es convertís en una espècie de caldo que era la calç que s’utilitzava per a la construcció.
+A continuació es desfeia el forn començant per la pedra morta, la qual <a id="p64" class="pag" data-p="64"></a>es tirava en una bossa seca on més tard es posava aigua suficient perquè la pedra es desfés i es convertís en una espècie de caldo que era la calç que s’utilitzava per a la construcció.
 
 Finalment es llevava la pedra viva, la qual cosa havia de fer-se en un sol dia procurant que el producte no s’airegés massa, i es guardava en pitxers o en un lloc fosc penjada i recoberta de calç morta. Esta calç és la que s’usava per a blanquejar la casa.
 
@@ -425,7 +425,7 @@ L’època de tallar la llenya era a l’hivern. Sobre els tipus de llenya més 
 
 Una vegada triada la llenya es procedia a construir la barraca. En el centre d’una esplanada es començaven a posar troncs grossos en posició vertical, un poc inclinats cap al centre, l’altura del qual variava entre 50 cm. i un metre. En el centre es deixava un espai circular buit perquè hi haguera una xemeneia. En la base dels troncs es posaven pedres planes perquè els aïllaren de la terra, aprofitant així millor la seva combustió. Com més grossos eren els troncs més tardaven en cremar-se però el carbó era de major qualitat.
 
-Depenent de la quantitat de llenya es construïen dos o més nivells interns de troncs, sempre en posició vertical. L’altura de cada nivell <a id="p65"></a>havia d’estar molt igualada i el conjunt havia de ser el més compacte possible. Si tot açò no es feia bé la carbonera corria el risc de caure.
+Depenent de la quantitat de llenya es construïen dos o més nivells interns de troncs, sempre en posició vertical. L’altura de cada nivell <a id="p65" class="pag" data-p="65"></a>havia d’estar molt igualada i el conjunt havia de ser el més compacte possible. Si tot açò no es feia bé la carbonera corria el risc de caure.
 
 Al final per damunt i pels costats es posava una altra capa prou grossa de branques més primes.
 

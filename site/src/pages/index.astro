@@ -1,0 +1,40 @@
+---
+import { Image } from 'astro:assets';
+import Base from '../layouts/Base.astro';
+import { capitols, href, llibre, numeroCapitol, render, slugOf, titolCurt } from '../lib/llibre';
+import portada from '../../../assets/images/21-mas-de-julian.jpg';
+
+const caps = await capitols();
+const taula = await Promise.all(
+  caps.map(async (c) => {
+    const { headings } = await render(c);
+    return { c, apartats: headings.filter((h) => h.depth === 2 && h.slug !== 'footnote-label') };
+  }),
+);
+---
+<Base>
+  <section class="portada">
+    <Image src={portada} alt="El Mas de Julian, amb un ramat d'ovelles davant" width={640} loading="eager" />
+    <h1>{llibre.titol}</h1>
+    <p class="sub">{llibre.subtitol}</p>
+    <p class="autora">{llibre.autora}</p>
+  </section>
+
+  <h2 style="margin-top:0">Índex</h2>
+  <ul class="taula">
+    {taula.map(({ c, apartats }) => (
+      <li>
+        <a class="cap" href={href(`${slugOf(c)}/`)}>
+          <span class="n">{numeroCapitol(c.data.title) ?? '·'}</span>
+          <span>{titolCurt(c.data.title)}</span>
+          <span class="pag">{c.data.pages[0] === c.data.pages[1] ? `p. ${c.data.pages[0]}` : `p. ${c.data.pages[0]}–${c.data.pages[1]}`}</span>
+        </a>
+        {apartats.length > 0 && (
+          <ol>
+            {apartats.map((h) => <li><a href={href(`${slugOf(c)}/#${h.slug}`)}>{h.text}</a></li>)}
+          </ol>
+        )}
+      </li>
+    ))}
+  </ul>
+</Base>

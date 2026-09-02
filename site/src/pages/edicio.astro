@@ -1,0 +1,35 @@
+---
+import Base from '../layouts/Base.astro';
+import { figures, href, llibre } from '../lib/llibre';
+const perdudes = (await figures()).filter((f) => !f.file);
+---
+<Base title="Sobre esta edició">
+  <article class="text">
+    <h1>Sobre esta edició</h1>
+    <p><em>{llibre.titol}. {llibre.subtitol}</em>, de {llibre.autora}, es va publicar en una única edició, xicoteta, de la qual no queda cap exemplar localitzable. Els originals de text i d'imatges de l'editorial també s'han perdut. L'única font que ha sobreviscut és el PDF que l'autora va generar el 17 de maig de 2016, just abans d'enviar el llibre a impremta.</p>
+    <p>Esta edició digital recupera el llibre a partir d'eixe PDF, amb una regla senzilla: <strong>no s'hi canvia res</strong>. El text es reprodueix tal com és, amb les seues formes valencianes, els seus castellanismes comentats en nota i les seues errates. Les úniques intervencions són tècniques i s'expliquen ací.</p>
+    <p>{llibre.context}</p>
+
+    <h2>Què s'ha pogut recuperar</h2>
+    <ul>
+      <li><strong>Tot el text.</strong> El PDF conservava el text com a text (no era un escaneig), de manera que s'ha extret sense errors de reconeixement i s'ha comprovat paraula per paraula contra l'original.</li>
+      <li><strong>26 de les 30 fotografies</strong>, a la resolució amb què l'autora les va incloure (la majoria, unes 2.350 × 1.570 píxels). Es conserven sense recomprimir; en la <a href={href('il-lustracions/')}>galeria</a> es poden obrir a mida original.</li>
+      <li>Les <strong>notes al peu</strong>, les cursives dels termes locals i les citacions.</li>
+      <li>La <strong>paginació original</strong>: els números xicotets al marge del text indiquen on començava cada pàgina del PDF, per a poder-lo citar.</li>
+    </ul>
+
+    <h2>Què s'ha perdut o és imperfecte</h2>
+    <ul>
+      <li>Quatre il·lustracions ja no eren dins del PDF: només hi quedava el peu de foto i un enllaç trencat. Són {perdudes.map((f, i) => <><em>{f.caption}</em>{i < perdudes.length - 1 ? ', ' : ''}</>)}, totes fotografies d'eines de segar i batre. Al seu lloc hi ha un requadre buit.</li>
+      <li>El <em>Mapa dels Ports</em> és l'única imatge de baixa resolució (394 × 330 píxels).</li>
+      <li>L'índex del PDF remetia a una paginació diferent de la del propi PDF (probablement la de la maqueta definitiva a 17 × 23 cm). Esta edició usa la paginació del PDF; l'<a href={href('index-d-illustracions/')}>índex d'il·lustracions</a> es reprodueix amb els números originals.</li>
+      <li>Els números dels apartats (1.1, 3.8…) s'havien perdut en generar el PDF (hi quedava un glif buit); s'han reassignat en ordre i comprovat contra l'índex de marcadors que el PDF sí conservava.</li>
+      <li>Les notes al peu, que l'original numerava per pàgina, van numerades per capítol.</li>
+      <li>La portada diu <em>Masos de Morella</em> i la capçalera de cada pàgina, <em>Masies de Morella</em>. S'ha respectat la portada.</li>
+    </ul>
+
+    <h2>Com s'ha fet</h2>
+    <p>La recuperació és reproduïble: el text i les imatges s'han extret del PDF amb programari lliure (Poppler) i s'han convertit a fitxers de text pla (Markdown) i JPEG, que són els nous originals del llibre. Este lloc web és només una manera de llegir-los. Tot el procés, les decisions preses i els problemes trobats estan documentats al repositori del projecte.</p>
+    <p><a href={href('original/Masos_de_Morella_val1_17x23.pdf')}>Descarrega el PDF original</a> (15 MB).</p>
+  </article>
+</Base>
