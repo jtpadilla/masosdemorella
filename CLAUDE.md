@@ -63,6 +63,7 @@ content/                MASTERS RECUPERADOS: un .md por capítulo, frontmatter c
 assets/images/          JPEG originales renombrados NN-figura.jpg (NN = orden en el índice de ilustraciones; faltan 10,12,14,15)
 site/                   proyecto Astro 7 (lee content/ y assets/); .github/workflows/deploy.yml lo publica
 NOTES.md                decisiones editoriales, lagunas, discrepancias detectadas
+TODO.md                 tareas pendientes numeradas (T-nn)
 ```
 
 ## Estado y flujo de trabajo
@@ -95,8 +96,7 @@ NOTES.md                decisiones editoriales, lagunas, discrepancias detectada
 7. Revisión visual página a página contra `extract/render/` (**hecha**, 2026-09-02; hallazgos en NOTES.md).
    `extract/segment.py N [N…]` imprime el Markdown de una página impresa para cotejarlo con `render/p-0NN.png` (NN = N+5).
 
-**Pendiente**: decidir qué hacer con las 4 figuras perdidas y el mapa
-de baja resolución (pedir a la familia); enlace al repositorio en la página "Sobre esta edició" cuando exista.
+**Pendiente**: ver `TODO.md` (tareas numeradas `T-nn`; citarlas en commits y notas al resolverlas).
 
 Capturas de comprobación: `google-chrome --headless=new --screenshot=x.png --window-size=1280,3000 URL` contra `npx astro preview`.
 
