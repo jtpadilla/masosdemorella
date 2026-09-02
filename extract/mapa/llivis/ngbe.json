@@ -1,0 +1,578 @@
+[
+{
+"name": "Masía de Pitarch",
+"type": null,
+"localType": "",
+"lat": 40.513306,
+"lon": -0.178406,
+"inside": false
+},
+{
+"name": "Masía Pocaigua",
+"type": null,
+"localType": "",
+"lat": 40.520081,
+"lon": -0.178711,
+"inside": false
+},
+{
+"name": "Mas del Royo",
+"type": null,
+"localType": "",
+"lat": 40.509888,
+"lon": -0.171997,
+"inside": false
+},
+{
+"name": "Venta Olivares",
+"type": null,
+"localType": "",
+"lat": 40.521301,
+"lon": -0.158386,
+"inside": true
+},
+{
+"name": "Venta de la Raya",
+"type": null,
+"localType": "",
+"lat": 40.510315,
+"lon": -0.143677,
+"inside": false
+},
+{
+"name": "Masía Solaneta",
+"type": null,
+"localType": "",
+"lat": 40.518677,
+"lon": -0.145996,
+"inside": true
+},
+{
+"name": "Camino de Forcall",
+"type": null,
+"localType": "",
+"lat": 40.526306,
+"lon": -0.17749,
+"inside": false
+},
+{
+"name": "Camino de Castellfort a Morella",
+"type": null,
+"localType": "",
+"lat": 40.5047,
+"lon": -0.178711,
+"inside": false
+},
+{
+"name": "Azagador de los Carrascales",
+"type": null,
+"localType": "",
+"lat": 40.508911,
+"lon": -0.131897,
+"inside": true
+},
+{
+"name": "Els Espinals",
+"type": null,
+"localType": "",
+"lat": 40.517273,
+"lon": -0.17041,
+"inside": false
+},
+{
+"name": "Mas del Royo",
+"type": null,
+"localType": "",
+"lat": 40.505676,
+"lon": -0.177979,
+"inside": false
+},
+{
+"name": "Racó dels Hostals",
+"type": null,
+"localType": "",
+"lat": 40.506897,
+"lon": -0.129578,
+"inside": false
+},
+{
+"name": "El Campello",
+"type": null,
+"localType": "",
+"lat": 40.516479,
+"lon": -0.111878,
+"inside": false
+},
+{
+"name": "La Solaneta",
+"type": null,
+"localType": "",
+"lat": 40.519287,
+"lon": -0.133911,
+"inside": true
+},
+{
+"name": "Cova dels Espanetes",
+"type": null,
+"localType": "",
+"lat": 40.520508,
+"lon": -0.162781,
+"inside": false
+},
+{
+"name": "Font de la Grellota",
+"type": null,
+"localType": "",
+"lat": 40.52832,
+"lon": -0.164002,
+"inside": false
+},
+{
+"name": "Barranco de la Solana",
+"type": null,
+"localType": "",
+"lat": 40.522888,
+"lon": -0.125183,
+"inside": true
+},
+{
+"name": "Barranco de la Cruz",
+"type": null,
+"localType": "",
+"lat": 40.525696,
+"lon": -0.130676,
+"inside": true
+},
+{
+"name": "Mas del Campello",
+"type": null,
+"localType": "",
+"lat": 40.514709,
+"lon": -0.098511,
+"inside": false
+},
+{
+"name": "Mas de Tosca",
+"type": null,
+"localType": "",
+"lat": 40.50531,
+"lon": -0.104492,
+"inside": false
+},
+{
+"name": "Font del Grevol",
+"type": null,
+"localType": "",
+"lat": 40.528687,
+"lon": -0.106384,
+"inside": true
+},
+{
+"name": "Barranco de Guimerans",
+"type": null,
+"localType": "",
+"lat": 40.532715,
+"lon": -0.110107,
+"inside": true
+},
+{
+"name": "Mas de Mansiacre",
+"type": null,
+"localType": "",
+"lat": 40.53772,
+"lon": -0.100403,
+"inside": false
+},
+{
+"name": "Masía Xiriveta",
+"type": null,
+"localType": "",
+"lat": 40.536682,
+"lon": -0.15509,
+"inside": true
+},
+{
+"name": "Mas Gran",
+"type": null,
+"localType": "",
+"lat": 40.547913,
+"lon": -0.11731,
+"inside": false
+},
+{
+"name": "Masía dels Llivis",
+"type": null,
+"localType": "",
+"lat": 40.563293,
+"lon": -0.113709,
+"inside": true
+},
+{
+"name": "Mas Nou",
+"type": null,
+"localType": "",
+"lat": 40.558716,
+"lon": -0.120422,
+"inside": true
+},
+{
+"name": "Masía del Planet",
+"type": null,
+"localType": "",
+"lat": 40.554321,
+"lon": -0.122192,
+"inside": true
+},
+{
+"name": "Masía Garró",
+"type": null,
+"localType": "",
+"lat": 40.55072,
+"lon": -0.128479,
+"inside": true
+},
+{
+"name": "Masía Torre-Segura",
+"type": null,
+"localType": "",
+"lat": 40.545288,
+"lon": -0.132202,
+"inside": true
+},
+{
+"name": "Mas de Cros",
+"type": null,
+"localType": "",
+"lat": 40.563904,
+"lon": -0.134399,
+"inside": true
+},
+{
+"name": "Masía Querol",
+"type": null,
+"localType": "",
+"lat": 40.560913,
+"lon": -0.139893,
+"inside": true
+},
+{
+"name": "Masía Monserrat",
+"type": null,
+"localType": "",
+"lat": 40.556885,
+"lon": -0.143005,
+"inside": true
+},
+{
+"name": "Masía Marinet",
+"type": null,
+"localType": "",
+"lat": 40.559509,
+"lon": -0.156494,
+"inside": true
+},
+{
+"name": "Mas de Adell",
+"type": null,
+"localType": "",
+"lat": 40.567688,
+"lon": -0.1521,
+"inside": true
+},
+{
+"name": "Mas de Julián",
+"type": null,
+"localType": "",
+"lat": 40.568909,
+"lon": -0.157593,
+"inside": true
+},
+{
+"name": "Masía Torre-Blanca",
+"type": null,
+"localType": "",
+"lat": 40.549683,
+"lon": -0.141785,
+"inside": true
+},
+{
+"name": "Masía Cardona",
+"type": null,
+"localType": "",
+"lat": 40.554687,
+"lon": -0.151978,
+"inside": true
+},
+{
+"name": "Azagador dels Llivis",
+"type": null,
+"localType": "",
+"lat": 40.565308,
+"lon": -0.113892,
+"inside": true
+},
+{
+"name": "Els Carrascals",
+"type": null,
+"localType": "",
+"lat": 40.530273,
+"lon": -0.135498,
+"inside": true
+},
+{
+"name": "Candeales",
+"type": null,
+"localType": "",
+"lat": 40.575684,
+"lon": -0.136291,
+"inside": false
+},
+{
+"name": "Guardiola",
+"type": null,
+"localType": "",
+"lat": 40.556885,
+"lon": -0.1521,
+"inside": true
+},
+{
+"name": "La Xiroveta",
+"type": null,
+"localType": "",
+"lat": 40.542725,
+"lon": -0.147705,
+"inside": true
+},
+{
+"name": "Monserrat",
+"type": null,
+"localType": "",
+"lat": 40.557678,
+"lon": -0.12561,
+"inside": true
+},
+{
+"name": "Barranco del Garró",
+"type": null,
+"localType": "",
+"lat": 40.542297,
+"lon": -0.125305,
+"inside": true
+},
+{
+"name": "Font Xiriveta",
+"type": null,
+"localType": "",
+"lat": 40.536682,
+"lon": -0.161621,
+"inside": true
+},
+{
+"name": "Barranco del Mas de Gregota",
+"type": null,
+"localType": "",
+"lat": 40.531494,
+"lon": -0.141907,
+"inside": true
+},
+{
+"name": "Barranco del Fondo",
+"type": null,
+"localType": "",
+"lat": 40.543884,
+"lon": -0.116516,
+"inside": false
+},
+{
+"name": "Barranco de la Umbría",
+"type": null,
+"localType": "",
+"lat": 40.543518,
+"lon": -0.12439,
+"inside": true
+},
+{
+"name": "Barranco de Torre-Segura",
+"type": null,
+"localType": "",
+"lat": 40.535706,
+"lon": -0.158875,
+"inside": true
+},
+{
+"name": "Montserrat",
+"type": null,
+"localType": "",
+"lat": 40.545656,
+"lon": -0.144867,
+"inside": true
+},
+{
+"name": "Mas de Dionis",
+"type": null,
+"localType": "",
+"lat": 40.559326,
+"lon": -0.100586,
+"inside": false
+},
+{
+"name": "Balsa dels Llivis",
+"type": null,
+"localType": "",
+"lat": 40.567078,
+"lon": -0.103882,
+"inside": false
+},
+{
+"name": "Ermita de Llivis",
+"type": null,
+"localType": "",
+"lat": 40.563721,
+"lon": -0.114502,
+"inside": true
+},
+{
+"name": "Camino de la Vega dels Llivis",
+"type": null,
+"localType": "",
+"lat": 40.563721,
+"lon": -0.104004,
+"inside": false
+},
+{
+"name": "Torre Escuela",
+"type": null,
+"localType": "",
+"lat": 40.571106,
+"lon": -0.104919,
+"inside": false
+},
+{
+"name": "El Planet",
+"type": null,
+"localType": "",
+"lat": 40.553284,
+"lon": -0.105713,
+"inside": false
+},
+{
+"name": "els Llivis",
+"type": null,
+"localType": "",
+"lat": 40.563477,
+"lon": -0.112488,
+"inside": true
+},
+{
+"name": "Coll i Moll",
+"type": null,
+"localType": "",
+"lat": 40.563477,
+"lon": -0.112488,
+"inside": true
+},
+{
+"name": "Mas de Dolz",
+"type": null,
+"localType": "",
+"lat": 40.539124,
+"lon": -0.173828,
+"inside": false
+},
+{
+"name": "Mas del Roc",
+"type": null,
+"localType": "",
+"lat": 40.559082,
+"lon": -0.183106,
+"inside": false
+},
+{
+"name": "Masía Marín",
+"type": null,
+"localType": "",
+"lat": 40.569702,
+"lon": -0.175781,
+"inside": true
+},
+{
+"name": "Mas de Coscoll",
+"type": null,
+"localType": "",
+"lat": 40.554688,
+"lon": -0.18811,
+"inside": false
+},
+{
+"name": "La Guardiola",
+"type": null,
+"localType": "",
+"lat": 40.547302,
+"lon": -0.181885,
+"inside": false
+},
+{
+"name": "Mas de Dolz",
+"type": null,
+"localType": "",
+"lat": 40.532288,
+"lon": -0.178711,
+"inside": false
+},
+{
+"name": "Serra Calduch",
+"type": null,
+"localType": "",
+"lat": 40.571289,
+"lon": -0.173218,
+"inside": false
+},
+{
+"name": "Serra de Marinet",
+"type": null,
+"localType": "",
+"lat": 40.559509,
+"lon": -0.173706,
+"inside": true
+},
+{
+"name": "Barranco Billota",
+"type": null,
+"localType": "",
+"lat": 40.571289,
+"lon": -0.17688,
+"inside": true
+},
+{
+"name": "Font de l'Umbría",
+"type": null,
+"localType": "",
+"lat": 40.534119,
+"lon": -0.180786,
+"inside": false
+},
+{
+"name": "Barranc dels Horts",
+"type": null,
+"localType": "",
+"lat": 40.571289,
+"lon": -0.1875,
+"inside": false
+},
+{
+"name": "Rambla de la Caná",
+"type": null,
+"localType": "",
+"lat": 40.562073,
+"lon": -0.187622,
+"inside": true
+},
+{
+"name": "Rambla de Sellumbres",
+"type": null,
+"localType": "",
+"lat": 40.55011,
+"lon": -0.1875,
+"inside": false
+}
+]

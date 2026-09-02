@@ -44,6 +44,14 @@ Prioridad: **A** = bloquea la publicación · **B** = mejora clara · **C** = op
   que se conservan"). Si se decide corregir alguna, hacerlo en `extract/to_markdown.py` con una tabla de sustituciones
   documentada, nunca a mano en `content/`, y anotarlo en `NOTES.md` y en `edicio.astro`.
 
+- [ ] **T-15 (B) Mapa de la Dena dels Llivis (ilustración de esta edición).**
+  Datos ya descargados y recortados en `extract/mapa/llivis/` (ver `NOTES.md` → "Datos para un mapa de la Dena dels
+  Llivis"): 21 masos, fuentes, eras, balsas, barrancos, caminos, assagadors y vías pecuarias oficiales, Catastro y OSM.
+  Hacer `extract/mapa/mapa_llivis.py` sobre `mapalib.py` (masías con punto y nombre, barrancos y río Torre Segura,
+  caminos finos, coladas punteadas, ermita, cotas principales, Serra Calduch), salida `assets/images/ed-mapa-dena-llivis.svg`,
+  alta en `figuresEdicio` y en `INSERTS` (tras "…d'Olivares." en 1.1, o tras la lista de coladas). Licencias: CC-BY (ICV,
+  IGN) y ODbL (OSM): citar en el pie.
+
 ### Sitio
 
 - [ ] **T-08 (C) Migrar la búsqueda a la "Component UI" de Pagefind.**

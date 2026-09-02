@@ -101,3 +101,30 @@ Los dos mapas comparten `extract/mapa/mapalib.py`.
 Colocación: se inserta en el capítulo 1 tras la lista de las doce denes (tabla `INSERTS` de `to_markdown.py`; el sitio
 la marca "Il·lustració d'esta edició" en el pie por el prefijo `ed-` del fichero) y además en la galería (apartado
 propio) y en "Sobre esta edició". Es la única adición al texto del original; `check.py` la excluye del cotejo.
+
+## Datos para un mapa de la Dena dels Llivis (2026-09-02)
+Inventario de fuentes, todas descargadas y recortadas a la dena en `extract/mapa/llivis/` (2,7 MB):
+- **Nomenclàtor Toponímic Valencià** (ICV/AVL, CC-BY) — `ntv-puntos/lineas/poligonos.geojson`, vía WFS
+  `https://terramapas.icv.gva.es/0103_NTV` (capas `ms:NTV.Puntos|Lineas|Poligonos`, campos `elemento`,
+  `texto_normalizado`). Es la fuente principal: **los 21 masos del libro** (Solarreta aparece como "la Solaneta";
+  Julian como "Mas de Julià"; Olivares como "Hostal d'Olivares"), 8 fuentes y ullals, 6 eras, 4 balsas, 3 pozos,
+  3 corrales, 2 sénies, 19 "mitgeres" (paredes medianeras), árboles singulares, 20 collados/lomas, 32 barrancos con
+  nombre, 27 caminos/sendas/entradores, **6 assagadors** (Serra dels Llivis, Candeales, Llivis, Canada, Carrascals,
+  Hostal de la Roja), sierras (Calduc, Marinet), ermitas de Sant Pere Màrtir y Sant Isidre, la escuela, y 110 polígonos
+  de partidas (bancales, bosques, solanas, umbrías, devesas, foies).
+- **Vies pecuàries oficiales** (Conselleria de Medi Ambient vía ICV, CC-BY) — `vies-pecuaries-capa9.geojson`
+  (trazados, con nombre, situación legal, longitud y anchura) y `capa8` (elementos pecuarios: abrevaderos, descansaderos),
+  desde el ArcGIS REST `https://carto.icv.gva.es/arcgis/rest/services/tm_medio_ambiente/forestal/MapServer` (capas 9 y 8).
+  Cubre las coladas del libro (Campello, Candeales, Cana d'Ares, Serra dels Llivis, Sendera dels Llivis).
+- **Nomenclátor Geográfico Básico de España** (IGN, CC-BY 4.0) — `ngbe.json`, 72 topónimos (40 dentro), vía WFS INSPIRE
+  `https://www.ign.es/wfs-inspire/ngbe` (bbox en orden lon,lat). Formas castellanizadas (Masía Torre-Segura, Barranco
+  Billota…); útil como contraste, no como fuente principal.
+- **Catastro** (INSPIRE WFS de edificios, `http://ovc.catastro.meh.es/INSPIRE/wfsBU.aspx`) — `catastro-edificis.gml`,
+  46 edificios con huella y uso (12 residenciales, 29 agrarios): permite dibujar las masías como planta real.
+- **OpenStreetMap** (ODbL) — `osm.json`, 129 elementos: 25 pistas, GR-7, la carretera Ares–Morella, 14 tramos de
+  barranco, límite de la dena, ermita, escuela, Toll de la Giroveta; solo 7 masos. Aporta sobre todo la red de caminos
+  con geometría continua.
+- No usados: MDT/curvas de nivel del ICV (BCV05) y ortofoto PNOA, si se quisiera relieve o sombreado.
+Cotejo con el libro: las 4 fuentes citadas (Ullals de Torre Segura, Cardona, Llivis, Marín) están en el NTV; Grèvol y
+Garró solo en el NGBE ("Font del Grevol") o sin localizar. Los 4 barrancos (Bellota, Garró, Racó, Creus) están.
+Turó de la Clotxa, Collet de Llambroix y Collet de la Corralisa: la Clotxa sí; los otros dos, pendientes de localizar.
