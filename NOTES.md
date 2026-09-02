@@ -138,3 +138,13 @@ Segura y la Rambla de la Cana d'Ares; las colades oficiales con los nombres del 
 Llivis"); Serra Calduch y Serra de Marinet; ermitas de Sant Pere Màrtir y Sant Isidre; caminos y pistas de OSM; CV-12.
 Leyenda, escala (1 km) y norte. Los rótulos usan glifos definidos una vez y reutilizados con <use> (text2path.mjs) para
 que los SVG pesen poco.
+
+## Croquis del Mas de Julian amb las fotos (2026-09-02, T-16)
+`extract/mapa/mapa_julian.py` → `assets/images/ed-mas-de-julian.svg`, insertado en 5.1 tras la foto 21 "Mas de Julian".
+Catastro no tiene el edificio, así que la casa, el anexo, el huerto cercado, la era circular y las paredes principales se
+han trazado a mano sobre la ortofoto PNOA (IGN) centrada en el punto "Mas de Julià" del NTV (coordenadas en el script,
+sistema de la ventana ampliada); el camino es de OSM (`llivis/cami-julia.json`). Miniaturas de las fotos 13, 16, 19, 20,
+21, 22 y 27 en `llivis/thumbs/` (360 px, embebidas en el SVG). Direcciones de las fotos deducidas de ellas mismas: la Mola
+de la Garumba (OSM: 40.6162, -0.1600) está justo al norte del mas, Cinctorres al oeste-suroeste; la bassa no se distingue en
+la ortofoto y va marcada como posición aproximada; el pastador es interior. Los números de las fotos son los del índice
+de ilustraciones.

@@ -85,6 +85,9 @@ Prioridad: **A** = bloquea la publicación · **B** = mejora clara · **C** = op
 
 ## Resueltas
 
+- [x] **T-16** Croquis del Mas de Julian con las siete fotografías del mas y el punto/dirección de cada toma,
+  insertado en 5.1 (`extract/mapa/mapa_julian.py`, 2026-09-02).
+
 - [x] **T-14** Mapa de las denes incorporado: en el capítulo 1 tras la lista de las doce denes, como figura editorial
   marcada "Il·lustració d'esta edició" (tabla `INSERTS` de `to_markdown.py`), y además en la galería y en "Sobre esta
   edició" (2026-09-02).

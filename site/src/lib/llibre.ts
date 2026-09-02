@@ -63,6 +63,11 @@ export const figuresEdicio = [
     caption: 'La Dena dels Llivis: els vint-i-un masos, les fonts, els barrancs, els camins i les colades',
     note: 'Elaborat per a esta edició amb el Nomenclàtor Toponímic Valencià i les vies pecuàries oficials (Generalitat Valenciana, CC-BY) i OpenStreetMap (ODbL); noms segons l’apartat 1.1, on s’insereix.',
   },
+  {
+    file: 'ed-mas-de-julian.svg',
+    caption: 'El Mas de Julian: croquis de l’entorn i lloc des d’on es van fer les fotografies del llibre',
+    note: 'Traçat per a esta edició sobre l’ortofotografia PNOA (IGN, CC-BY 4.0), amb el camí d’OpenStreetMap; les posicions de càmera són aproximades. S’insereix a l’apartat 5.1, després de la fotografia del mas.',
+  },
 ];
 
 export { render };

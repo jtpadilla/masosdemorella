@@ -14,6 +14,8 @@ Totes les masies són molt semblants. Estan construïdes amb pedra i tenen els m
 
 ![Mas de Julian](../assets/images/21-mas-de-julian.jpg)
 
+![El Mas de Julian: croquis de l’entorn i lloc des d’on es van fer les fotografies del llibre](../assets/images/ed-mas-de-julian.svg)
+
 Encara que la vivenda i els corrals estiguessin adossats per algun costat, les portes d’entrada de cadascun d’ells sempre estaven en costats oposats.
 
 El que entenem com a façana sempre estava orientada cap al sud i l’oest perquè així rebia tot el sol i menys aire. Açò és important en el clima fred tant per a la casa com per a la part descoberta dels corrals. <a id="p44" class="pag" data-p="44"></a>També estava al costat del mas el graner, on també es guardaven les ferramentes i els útils de cultiu.

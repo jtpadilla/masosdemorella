@@ -90,6 +90,8 @@ INSERTS = {   # clave = inicio del bloque tras el que se inserta
                               f"({IMG}/ed-mapa-de-les-denes.svg)",
     "Mas de Marín, d’Adell, de Cros": "![La Dena dels Llivis: els vint-i-un masos, les fonts, els barrancs, els camins "
                                        f"i les colades]({IMG}/ed-mapa-dena-llivis.svg)",
+    "![Mas de Julian](": "![El Mas de Julian: croquis de l’entorn i lloc des d’on es van fer les fotografies del llibre]"
+                         f"({IMG}/ed-mas-de-julian.svg)",
 }
 
 
