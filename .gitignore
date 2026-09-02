@@ -1,0 +1,10 @@
+# IDE
+.idea/
+# Derivados generados
+site/dist/
+site/node_modules/
+site/.astro/
+# Renders de referencia (se regeneran con extract/extract.sh; son pesados)
+extract/render/
+# Imágenes brutas: duplican assets/images, se regeneran con extract.sh
+extract/images/

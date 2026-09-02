@@ -1,0 +1,18 @@
+Author:          Francisca Julián Querol
+Creator:         Writer
+Producer:        LibreOffice 4.2
+CreationDate:    Tue May 17 14:48:11 2016 CEST
+Custom Metadata: no
+Metadata Stream: no
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           105
+Encrypted:       no
+Page size:       595 x 842 pts (A4)
+Page rot:        0
+File size:       15079469 bytes
+Optimized:       no
+PDF version:     1.4

@@ -1,0 +1,29 @@
+page   num  type   width height color comp bpc  enc interp  object ID x-ppi y-ppi size ratio
+--------------------------------------------------------------------------------------------
+   1     0 image    1282  1210  rgb     3   8  jpeg   no         4  0   226   160  339K 7.5%
+   8     1 image     394   330  rgb     3   8  jpeg   no        40  0   111   111 14.4K 3.8%
+   9     2 image    2353  1569  rgb     3   8  jpeg   no        46  0   597   600  834K 7.7%
+  11     3 image    2353  1569  rgb     3   8  jpeg   no        57  0   597   600  591K 5.5%
+  17     4 image    2175  1376  rgb     3   8  jpeg   no        88  0   552   568  640K 7.3%
+  19     5 image    2353  1569  rgb     3   8  jpeg   no        99  0   597   600  470K 4.3%
+  21     6 image    1494  2241  rgb     3   8  jpeg   no       110  0   600   600 1169K  12%
+  22     7 image    1613  1671  rgb     3   8  jpeg   no       116  0   599   599  525K 6.7%
+  24     8 image    1494  2241  rgb     3   8  jpeg   no       127  0   600   600  947K 9.7%
+  27     9 image    1525  2124  rgb     3   8  jpeg   no       143  0   600   600  413K 4.4%
+  30    10 image    1201  1875  rgb     3   8  jpeg   no       159  0   509   508  227K 3.4%
+  32    11 image    2353  1569  rgb     3   8  jpeg   no       170  0   597   600  620K 5.7%
+  34    12 image    2353  1569  rgb     3   8  jpeg   no       181  0   597   600  713K 6.6%
+  38    13 image    2353  1569  rgb     3   8  jpeg   no       202  0   597   600  617K 5.7%
+  40    14 image    1300  1963  rgb     3   8  jpeg   no       213  0   599   599 1037K  14%
+  42    15 image    2353  1569  rgb     3   8  jpeg   no       224  0   597   600  744K 6.9%
+  45    16 image    2353  1569  rgb     3   8  jpeg   no       240  0   597   600  731K 6.8%
+  48    17 image    1282  1210  rgb     3   8  jpeg   no         4  0   325   326  339K 7.5%
+  51    18 image    2356  1500  rgb     3   8  jpeg   no       271  0   599   600  639K 6.2%
+  53    19 image    2363  1546  rgb     3   8  jpeg   no       282  0   600   598  581K 5.4%
+  55    20 image    2353  1569  rgb     3   8  jpeg   no       293  0   597   600  495K 4.6%
+  64    21 image    2353  1569  rgb     3   8  jpeg   no       339  0   597   600  771K 7.1%
+  66    22 image    1785  1171  rgb     3   8  jpeg   no       350  0   459   459  173K 2.8%
+  71    23 image    2362  1675  gray    1   8  jpeg   no       376  0   600   600  456K  12%
+  76    24 image     929  1309  gray    1   8  jpeg   no       402  0   363   363  128K  11%
+  83    25 image     915  1415  gray    1   8  jpeg   no       438  0   359   359  131K  10%
+  84    26 image    1193  1795  rgb     3   8  jpeg   no       444  0   460   458  241K 3.8%
