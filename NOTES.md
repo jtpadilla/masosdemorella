@@ -188,3 +188,11 @@ Además del PDF de 2016 con el que se hizo la reconstrucción, la familia ha apo
   Bibliografia 149, Índex d'il·lustracions 151. Es decir: **el libro que se imprimió es la edición UJI de 2006, y el PDF
   de 2016 ("Masos de Morella") es una reelaboración posterior de la autora**, con título y texto distintos.
 - `TT1139M_.TTF`: la fuente Calligraph421 BT usada en la cita del privilegio del Ligalló.
+
+## Página "L'autora" (2026-09-02)
+Biografía y retratos tomados de los proyectos hermanos de la familia, `jtpadilla/ramblacelumbres` (página "Els autors":
+Francisca «Paquita» y Tadeo Julián Querol, hermanos nacidos en Cinctorres; cita de la presentación del blog, marzo 2014)
+y `jtpadilla/santjoans`. Datos del libro: pròleg (padre Tadeo Julian, del Mas de Julian; UJI, Meseguer) y 8.2 (ferrer de
+Cinctorres, Encarna de Francho). El colofón de 2006 acredita "Fotografies noves: Tadeo Julian Querol; antigues: arxiu
+familiar": se acredita así en pie, licencia y galería. Retratos en `site/src/assets/autors/` (de ramblacelumbres,
+src/assets/uploads/2014/03/2.jpg y 12.jpg). Editor y contacto: Juan Tadeo Padilla Julián, hijo de la autora.

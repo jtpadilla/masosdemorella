@@ -16,5 +16,6 @@ família (`source/`): text (`content/`, Markdown) i fotografies (`assets/images/
 
 ## Llicències
 
-- Text i fotografies del llibre: © Francisca Julian i Querol, **CC BY-NC-ND 4.0** (vegeu `LICENSE-CONTINGUT.md`).
+- Text: © Francisca Julián Querol; fotografies: © Tadeo Julián Querol i arxiu familiar. **CC BY-NC-ND 4.0** (vegeu `LICENSE-CONTINGUT.md`).
+- Edició digital: Juan Tadeo Padilla Julián. Projectes germans: [ramblacelumbres.org](https://ramblacelumbres.org/) i [santjoans.es](https://santjoans.es/).
 - Programari: **MIT** (vegeu `LICENSE`).
