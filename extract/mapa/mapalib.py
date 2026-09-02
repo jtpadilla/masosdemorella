@@ -1,5 +1,8 @@
-"""Utilidades comunes de los mapas SVG del libro (mapa_ports.py, mapa_denes.py):
-geometría OSM → anillos, proyección, simplificación, rótulos en EB Garamond como trazados (text2path.mjs)."""
+"""Utilidades comunes de los mapas SVG del libro (mapa_ports.py, mapa_denes.py, mapa_llivis.py, mapa_julian.py):
+geometría OSM → anillos, proyección, simplificación, rótulos en EB Garamond como trazados (text2path.mjs).
+
+Requisitos: node y `opentype.js`, que es dependencia de desarrollo de site/ (`cd site && npm install`).
+Regenerar los cuatro mapas: `extract/mapa/genera.sh` (o `npm run mapes` desde site/)."""
 import json, math, subprocess
 from pathlib import Path
 
@@ -78,7 +81,10 @@ class Projection:
 _GLYPH_DEFS = ""
 
 
-def text_paths(items, node_modules):
+NODE_MODULES = str(ROOT / "site/node_modules")
+
+
+def text_paths(items, node_modules=NODE_MODULES):
     """items: [{id, text, size, weight, tracking}] → {id: {uses, width}} vía text2path.mjs (opentype.js).
     Los glifos quedan definidos una sola vez: incluir glyph_defs() en el SVG."""
     global _GLYPH_DEFS

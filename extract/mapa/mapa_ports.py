@@ -4,14 +4,14 @@ municipales reales (OpenStreetMap, extract/mapa/ports.osm.json) y el estilo del 
 rótulos en EB Garamond convertidos a trazados con text2path.mjs para que se vean igual en cualquier visor).
 
 Reproduce los 13 municipios que dibujaba el mapa original (omite Vilafranca, como aquel) y sus mismos rótulos.
-Uso: python3 extract/mapa/mapa_ports.py <dir node_modules con opentype.js>
+Uso: python3 extract/mapa/mapa_ports.py [dir node_modules con opentype.js; por defecto site/node_modules]
 """
 import json, sys
 from mapalib import ROOT, glyph_defs, Projection, label, labels_open, regions, rings_of, svg_open, text_paths
 
 DATA = json.load(open(ROOT / "extract/mapa/ports.osm.json", encoding="utf-8"))
 OUT = ROOT / "assets/images/01-mapa-dels-ports.svg"
-NODE_MODULES = sys.argv[1] if len(sys.argv) > 1 else "node_modules"
+NODE_MODULES = sys.argv[1] if len(sys.argv) > 1 else str(ROOT / "site/node_modules")
 
 # Municipios del mapa original → nombre OSM, rótulo (como en el original) y núcleo urbano (lat, lon).
 MUNIS = [

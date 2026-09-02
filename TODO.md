@@ -22,15 +22,9 @@ tres ilustraciones añadidas por esta edición y licencias definidas. Ninguna ta
   el lugar exacto de cada toma; el edificio anexo del SE (¿pallissa, corral?), rotulado neutro como "edifici annex".
   En el mapa de la dena (`mapa_llivis.py`): la Font del Garró no aparece en ninguna fuente de datos; los collados de
   Llambroix y la Corralisa tampoco; "Mas de Solarreta" se ha situado en "la Solaneta" del Nomenclàtor. Todo se corrige
-  en las tablas de los scripts y se regenera con `python3 extract/mapa/<script>.py <node_modules con opentype.js>`.
+  en las tablas de los scripts y se regenera con `extract/mapa/genera.sh`.
 
 ### Sitio y herramientas
-
-- [ ] **T-18 (B) Hacer reproducible la generación de mapas sin pasos manuales.**
-  Los generadores de `extract/mapa/` necesitan `opentype.js`, que hoy se instala a mano en un directorio temporal y se
-  pasa como argumento. Añadirlo como dependencia de desarrollo de `site/` (`npm i -D opentype.js@1`) y que
-  `text2path.mjs` lo resuelva desde `site/node_modules` por defecto; documentarlo en `CLAUDE.md` y en el docstring de
-  `mapalib.py`. Opcional: un `make mapes` o script npm que regenere los cuatro SVG.
 
 - [ ] **T-08 (C) Migrar la búsqueda a la "Component UI" de Pagefind.**
   Pagefind ≥ 1.5 avisa en cada build de que la Default UI (`pagefind-ui.js`) está soportada pero superada.
@@ -61,6 +55,9 @@ tres ilustraciones añadidas por esta edición y licencias definidas. Ninguna ta
   están en sus versiones actuales (checkout v7, setup-node v7, upload-pages-artifact v5, deploy-pages v5).
 
 ## Resueltas
+
+- [x] **T-18** Generación de mapas reproducible: `opentype.js` es dependencia de desarrollo de `site/`, los scripts la
+  resuelven solos, y `extract/mapa/genera.sh` (= `npm run mapes`) regenera los cuatro SVG; salida byte a byte idéntica (2026-09-02).
 
 - [x] **T-05** Las cuatro fotografías perdidas (Dalla, Carrejador, Trill, Garbells) aportadas por la familia e
   incorporadas como figuras 10, 12, 14 y 15; dalla y carrejador enderezadas (2026-09-02).

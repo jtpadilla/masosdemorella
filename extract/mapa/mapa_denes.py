@@ -2,7 +2,7 @@
 """Genera assets/images/ed-mapa-de-les-denes.svg: les dotze denes del terme de Morella (cap. 1 del llibre), amb
 els límits d'OpenStreetMap (extract/mapa/denes.osm.json; són entitats singulars amb codi INE) i l'estil del llibre.
 Il·lustració nova d'esta edició (no existia en l'original). La Dena dels Llivis, tema del llibre, va destacada.
-Uso: python3 extract/mapa/mapa_denes.py <dir node_modules con opentype.js>
+Uso: python3 extract/mapa/mapa_denes.py [dir node_modules con opentype.js; por defecto site/node_modules]
 """
 import json, sys
 from mapalib import (ROOT, glyph_defs, INK, PAPER, Projection, centroid, label, labels_open, regions, rings_of, svg_open,
@@ -10,7 +10,7 @@ from mapalib import (ROOT, glyph_defs, INK, PAPER, Projection, centroid, label, 
 
 DATA = json.load(open(ROOT / "extract/mapa/denes.osm.json", encoding="utf-8"))
 OUT = ROOT / "assets/images/ed-mapa-de-les-denes.svg"
-NODE_MODULES = sys.argv[1] if len(sys.argv) > 1 else "node_modules"
+NODE_MODULES = sys.argv[1] if len(sys.argv) > 1 else str(ROOT / "site/node_modules")
 
 # Orden y nombres del libro (cap. 1) → nombre OSM. Rótulo en una o dos líneas.
 DENES = [

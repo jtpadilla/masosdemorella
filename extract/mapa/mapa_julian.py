@@ -6,13 +6,13 @@ prendre. Il·lustració nova d'esta edició.
 Base: ortofotografia PNOA (IGN, CC-BY 4.0) del punt "Mas de Julià" del Nomenclàtor (40.56883, -0.15797), sobre la qual
 s'han traçat a mà la casa, l'edifici annex, l'hort tancat, l'era i les parets principals (Catastro no té l'edifici);
 camí d'OpenStreetMap. Les posicions de càmera són aproximades (deduïdes de les pròpies fotografies); la de la bassa,
-només aproximada. Uso: python3 extract/mapa/mapa_julian.py <dir node_modules con opentype.js>
+només aproximada. Uso: python3 extract/mapa/mapa_julian.py [dir node_modules con opentype.js; por defecto site/node_modules]
 """
 import base64, json, math, sys
 from mapalib import ROOT, FILL, INK, INK_SOFT, PAPER, glyph_defs, label, labels_open, svg_open, text_paths
 
 OUT = ROOT / "assets/images/ed-mas-de-julian.svg"
-NODE_MODULES = sys.argv[1] if len(sys.argv) > 1 else "node_modules"
+NODE_MODULES = sys.argv[1] if len(sys.argv) > 1 else str(ROOT / "site/node_modules")
 THUMBDIR = ROOT / "extract/mapa/llivis/thumbs"   # miniatures (360 px) de les fotos, generades amb ImageMagick
 W, H = 1000, 880
 ACCENT = "#8a3b1c"

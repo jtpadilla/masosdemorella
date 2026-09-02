@@ -2,7 +2,7 @@
 """Genera assets/images/ed-mapa-dena-llivis.svg: mapa de la Dena dels Llivis (apartat 1.1 del llibre), il·lustració
 nova d'esta edició. Dades (extract/mapa/llivis/): Nomenclàtor Toponímic Valencià (masos, fonts, barrancs, serres),
 vies pecuàries oficials (colades), OpenStreetMap (límit de la dena, camins, carretera CV-12).
-Uso: python3 extract/mapa/mapa_llivis.py <dir node_modules con opentype.js>
+Uso: python3 extract/mapa/mapa_llivis.py [dir node_modules con opentype.js; por defecto site/node_modules]
 """
 import json, math, sys
 from mapalib import (ROOT, glyph_defs, FILL, FILL_HI, INK, INK_SOFT, PAPER, Projection, label, labels_open, rings_of, svg_open,
@@ -10,7 +10,7 @@ from mapalib import (ROOT, glyph_defs, FILL, FILL_HI, INK, INK_SOFT, PAPER, Proj
 
 D = ROOT / "extract/mapa/llivis"
 OUT = ROOT / "assets/images/ed-mapa-dena-llivis.svg"
-NODE_MODULES = sys.argv[1] if len(sys.argv) > 1 else "node_modules"
+NODE_MODULES = sys.argv[1] if len(sys.argv) > 1 else str(ROOT / "site/node_modules")
 W, H, MARGIN = 1000, 980, 70
 
 # Els 21 masos tal com els enumera el llibre (1.1) → nom en el Nomenclàtor. Rètol = forma curta del llibre.
