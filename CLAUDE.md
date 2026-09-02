@@ -93,8 +93,8 @@ TODO.md                 tareas pendientes numeradas (T-nn)
    - Páginas: `/` portada+índice, `/[slug]/` capítulo con anterior/siguiente, `/il-lustracions/`, `/cerca/`, `/edicio/`.
    - Estilo en `src/styles/global.css`: EB Garamond (fontsource, autoalojada), claro/oscuro con botón, números de
      página al margen (`a.pag::after`), impresión. UI del sitio en valenciano, como el libro.
-5. `.github/workflows/deploy.yml` publica en GitHub Pages en cada push a `main` (**hecho**; falta activar Pages en el
-   repositorio: Settings → Pages → Source: GitHub Actions).
+5. `.github/workflows/deploy.yml` publica en GitHub Pages en cada push a `main` (**hecho**). Repositorio público
+   `jtpadilla/masosdemorella`; sitio en https://jtpadilla.github.io/masosdemorella/ (Pages con origen GitHub Actions).
 
 7. Revisión visual página a página contra `extract/render/` (**hecha**, 2026-09-02; hallazgos en NOTES.md).
    `extract/segment.py N [N…]` imprime el Markdown de una página impresa para cotejarlo con `render/p-0NN.png` (NN = N+5).

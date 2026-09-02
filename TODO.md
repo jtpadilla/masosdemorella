@@ -9,17 +9,6 @@ Prioridad: **A** = bloquea la publicación · **B** = mejora clara · **C** = op
 
 ### Publicación
 
-- [ ] **T-01 (A) Crear el repositorio en GitHub y hacer el primer push.**
-  El repositorio local está en `main`. Nombre sugerido: `masosdemorella`. La configuración de Astro deduce la URL
-  del sitio de `GITHUB_REPOSITORY`, así que no hay que tocar nada si es `<usuario>/masosdemorella`
-  (→ `https://<usuario>.github.io/masosdemorella/`). Si fuera `<usuario>.github.io`, se publica en la raíz.
-  Ficheros: `site/astro.config.mjs` (`site`, `base`).
-
-- [ ] **T-02 (A) Activar GitHub Pages con origen "GitHub Actions".**
-  En el repositorio: Settings → Pages → Build and deployment → Source: *GitHub Actions*. El workflow
-  `.github/workflows/deploy.yml` se dispara en cada push a `main`; comprobar en la pestaña Actions que el primer
-  build termina en verde (instala con `npm ci`, construye y ejecuta Pagefind). Depende de T-01.
-
 - [ ] **T-03 (B) Enlazar el repositorio desde el sitio.**
   Añadir la URL del repositorio en `site/src/pages/edicio.astro` (párrafo "Com s'ha fet": "documentats al
   repositori del projecte") y en el pie de `site/src/layouts/Base.astro`. Depende de T-01.
@@ -84,6 +73,9 @@ Prioridad: **A** = bloquea la publicación · **B** = mejora clara · **C** = op
   de vez en cuando; `npm run build` y `python3 extract/check.py` son la prueba de regresión.
 
 ## Resueltas
+
+- [x] **T-01 / T-02** Repositorio `jtpadilla/masosdemorella` (público) y GitHub Pages activado con origen
+  "GitHub Actions"; sitio publicado en https://jtpadilla.github.io/masosdemorella/ (2026-09-02).
 
 - [x] **T-16** Croquis del Mas de Julian con las siete fotografías del mas y el punto/dirección de cada toma,
   insertado en 5.1 (`extract/mapa/mapa_julian.py`, 2026-09-02).
