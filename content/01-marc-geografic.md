@@ -70,6 +70,8 @@ Esta *dena* es divideix en vint-i-una masies els noms de les quals son:
 
 Mas de Marín, d’Adell, de Cros, dels Llivis, de la Torre Querol, de Modest, de Cardona, de Marinet, de la Torre Segura, del Planet, de Solarreta, de Julian, de l’Oronal, del Racó, de Mas Nou, de la Torre Montserrat, de la Torre Blanca, de Guardiola, de Giroveta, del Garró i d’Olivares.
 
+![La Dena dels Llivis: els vint-i-un masos, les fonts, els barrancs, els camins i les colades](../assets/images/ed-mapa-dena-llivis.svg)
+
 ![Mas dels Llivis](../assets/images/02-mas-dels-llivis.jpg)
 
 La Dena dels Llivis està situada al sud-oest dins del terme municipal de Morella, encaixada entre el riu Torre Segura i la Serra Calduch <a id="p5" class="pag" data-p="5"></a>d’una banda i pel mateix riu i el turó de la Llátova i la rambla de la Cana d’Ares per una altra.

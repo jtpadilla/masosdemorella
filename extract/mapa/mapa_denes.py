@@ -5,7 +5,7 @@ Il·lustració nova d'esta edició (no existia en l'original). La Dena dels Lliv
 Uso: python3 extract/mapa/mapa_denes.py <dir node_modules con opentype.js>
 """
 import json, sys
-from mapalib import (ROOT, INK, PAPER, Projection, centroid, label, labels_open, regions, rings_of, svg_open,
+from mapalib import (ROOT, glyph_defs, INK, PAPER, Projection, centroid, label, labels_open, regions, rings_of, svg_open,
                      text_paths)
 
 DATA = json.load(open(ROOT / "extract/mapa/denes.osm.json", encoding="utf-8"))
@@ -46,6 +46,7 @@ glyphs = text_paths(req, NODE_MODULES)
 
 svg = svg_open(W, H, "Les denes de Morella",
                "Mapa de les dotze denes del terme municipal de Morella, amb la Dena dels Llivis destacada")
+svg.append(glyph_defs())
 svg += regions(proj, polys, highlight={"Dena dels Llivis"})
 svg.append(labels_open())
 for k, n, lines in DENES:

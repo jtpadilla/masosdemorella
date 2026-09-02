@@ -75,16 +75,27 @@ class Projection:
         return "".join("M" + "L".join(f"{x:.1f} {y:.1f}" for x, y in self.ring(r, tol)) + "Z" for r in rings)
 
 
+_GLYPH_DEFS = ""
+
+
 def text_paths(items, node_modules):
-    """items: [{id, text, size, weight, tracking}] → {id: {d, width}} vía text2path.mjs (opentype.js)."""
+    """items: [{id, text, size, weight, tracking}] → {id: {uses, width}} vía text2path.mjs (opentype.js).
+    Los glifos quedan definidos una sola vez: incluir glyph_defs() en el SVG."""
+    global _GLYPH_DEFS
     res = subprocess.run(["node", str(ROOT / "extract/mapa/text2path.mjs"), node_modules],
                          input=json.dumps(items), capture_output=True, text=True, check=True)
-    return json.loads(res.stdout)
+    data = json.loads(res.stdout)
+    _GLYPH_DEFS += data["defs"]
+    return data["items"]
+
+
+def glyph_defs():
+    return f"<defs>{_GLYPH_DEFS}</defs>"
 
 
 def label(glyph, x, y, anchor="middle"):
     tx = x - (glyph["width"] if anchor == "end" else glyph["width"] / 2 if anchor == "middle" else 0)
-    return f'<path transform="translate({tx:.1f} {y:.1f})" d="{glyph["d"]}"/>'
+    return f'<g transform="translate({tx:.1f} {y:.1f})">{glyph["uses"]}</g>'
 
 
 def svg_open(W, H, title, desc):

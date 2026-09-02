@@ -128,3 +128,13 @@ Inventario de fuentes, todas descargadas y recortadas a la dena en `extract/mapa
 Cotejo con el libro: las 4 fuentes citadas (Ullals de Torre Segura, Cardona, Llivis, Marín) están en el NTV; Grèvol y
 Garró solo en el NGBE ("Font del Grevol") o sin localizar. Los 4 barrancos (Bellota, Garró, Racó, Creus) están.
 Turó de la Clotxa, Collet de Llambroix y Collet de la Corralisa: la Clotxa sí; los otros dos, pendientes de localizar.
+
+## Mapa de la Dena dels Llivis (2026-09-02, T-15)
+`extract/mapa/mapa_llivis.py` → `assets/images/ed-mapa-dena-llivis.svg`, insertado en 1.1 tras la lista de los 21 masos
+(`INSERTS`). Contenido: los 21 masos con los nombres del libro (Solarreta = "la Solaneta" del NTV; Llivis por el NGBE),
+Mas de Julian destacado; las fuentes del libro localizadas (Ullals de Torre Segura, Cardona, Llivis, Marín; Grèvol por el
+NGBE; Garró no localizada); los barrancos del libro rotulados con su nombre (Bellota, Garró, Racó, Creus) más el riu Torre
+Segura y la Rambla de la Cana d'Ares; las colades oficiales con los nombres del libro (Sendera dels Llivis = "Vereda de los
+Llivis"); Serra Calduch y Serra de Marinet; ermitas de Sant Pere Màrtir y Sant Isidre; caminos y pistas de OSM; CV-12.
+Leyenda, escala (1 km) y norte. Los rótulos usan glifos definidos una vez y reutilizados con <use> (text2path.mjs) para
+que los SVG pesen poco.

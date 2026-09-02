@@ -7,7 +7,7 @@ Reproduce los 13 municipios que dibujaba el mapa original (omite Vilafranca, com
 Uso: python3 extract/mapa/mapa_ports.py <dir node_modules con opentype.js>
 """
 import json, sys
-from mapalib import ROOT, Projection, label, labels_open, regions, rings_of, svg_open, text_paths
+from mapalib import ROOT, glyph_defs, Projection, label, labels_open, regions, rings_of, svg_open, text_paths
 
 DATA = json.load(open(ROOT / "extract/mapa/ports.osm.json", encoding="utf-8"))
 OUT = ROOT / "assets/images/01-mapa-dels-ports.svg"
@@ -57,6 +57,7 @@ req = [{"id": f"{n}|{i}", "text": line, "size": 19 if n == "Morella" else 12.5,
 glyphs = text_paths(req, NODE_MODULES)
 
 svg = svg_open(W, H, "Mapa dels Ports", "Mapa dels Ports: els municipis de la comarca al voltant de Morella")
+svg.append(glyph_defs())
 svg += regions(proj, polys, highlight={"Morella"})
 svg.append(labels_open())
 for name, lines, (lat, lon) in MUNIS:

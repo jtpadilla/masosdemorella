@@ -85,9 +85,11 @@ INDEX_SLUG = "11-index-d-illustracions"
 
 # Ilustraciones de esta edición (no existen en el original): se insertan tras el bloque indicado, como imagen
 # Markdown con fichero ed-*.svg; el sitio las marca como editoriales (rehype-book) por el prefijo del fichero.
-INSERTS = {
+INSERTS = {   # clave = inicio del bloque tras el que se inserta
     "12. Dena del Muixacre.": "![Les dotze denes del terme de Morella, amb la Dena dels Llivis destacada]"
                               f"({IMG}/ed-mapa-de-les-denes.svg)",
+    "Mas de Marín, d’Adell, de Cros": "![La Dena dels Llivis: els vint-i-un masos, les fonts, els barrancs, els camins "
+                                       f"i les colades]({IMG}/ed-mapa-dena-llivis.svg)",
 }
 
 
@@ -440,8 +442,9 @@ def assemble(blocks):
         if out:
             out.append("")
         out.append(blk)
-        if blk in INSERTS:
-            out += ["", INSERTS[blk]]
+        for key, fig in INSERTS.items():
+            if blk.startswith(key):
+                out += ["", fig]
     return "\n".join(out).lstrip("\n")
 
 

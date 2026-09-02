@@ -1,6 +1,8 @@
-// Convierte rótulos a trazados SVG con EB Garamond (fontsource, woff) mediante opentype.js.
+// Rótulos → glifos SVG con EB Garamond (fontsource, woff) mediante opentype.js. Cada glifo (peso, tamaño, carácter)
+// se define una sola vez (<path id>) y los rótulos lo reutilizan con <use>, para que el SVG pese poco.
 // Uso: node text2path.mjs <dir node_modules con opentype.js> < entrada.json > salida.json
-//   entrada: [{id, text, size, weight, tracking}]   salida: {id: {d, width}}
+//   entrada: [{id, text, size, weight, tracking}]
+//   salida:  {items: {id: {width, uses: "<use .../>..."}}, defs: "<path id=... d=.../>..."}
 import { createRequire } from 'node:module';
 import { readFileSync } from 'node:fs';
 const require = createRequire(process.argv[2].replace(/\/?$/, '/'));
@@ -15,18 +17,22 @@ function font(weight) {
   return fonts[weight];
 }
 const items = JSON.parse(readFileSync(0, 'utf8'));
+const defs = {};
 const out = {};
 for (const it of items) {
   const f = font(it.weight ?? 500);
   const scale = it.size / f.unitsPerEm;
   const tracking = it.tracking ?? 0;
-  let x = 0, d = '';
+  let x = 0, uses = '';
   const glyphs = f.stringToGlyphs(it.text);
   glyphs.forEach((g, i) => {
-    d += g.getPath(x, 0, it.size).toPathData(2);
+    const gid = `g${it.weight ?? 500}-${String(it.size).replace('.', '_')}-${g.index}`;
+    if (!(gid in defs)) defs[gid] = g.getPath(0, 0, it.size).toPathData(1);
+    if (defs[gid]) uses += `<use href="#${gid}" x="${x.toFixed(1)}"/>`;
     x += g.advanceWidth * scale + tracking;
     if (i < glyphs.length - 1) x += f.getKerningValue(g, glyphs[i + 1]) * scale;
   });
-  out[it.id] = { d, width: x - tracking };
+  out[it.id] = { uses, width: x - tracking };
 }
-process.stdout.write(JSON.stringify(out));
+const defsSvg = Object.entries(defs).filter(([, d]) => d).map(([id, d]) => `<path id="${id}" d="${d}"/>`).join('');
+process.stdout.write(JSON.stringify({ items: out, defs: defsSvg }));

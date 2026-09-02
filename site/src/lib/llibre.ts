@@ -58,6 +58,11 @@ export const figuresEdicio = [
     caption: 'Les dotze denes del terme de Morella, amb la Dena dels Llivis destacada',
     note: 'Elaborat per a esta edició amb els límits de les denes d’OpenStreetMap (© col·laboradors d’OSM, ODbL), amb la numeració i els noms del capítol 1, on s’insereix.',
   },
+  {
+    file: 'ed-mapa-dena-llivis.svg',
+    caption: 'La Dena dels Llivis: els vint-i-un masos, les fonts, els barrancs, els camins i les colades',
+    note: 'Elaborat per a esta edició amb el Nomenclàtor Toponímic Valencià i les vies pecuàries oficials (Generalitat Valenciana, CC-BY) i OpenStreetMap (ODbL); noms segons l’apartat 1.1, on s’insereix.',
+  },
 ];
 
 export { render };

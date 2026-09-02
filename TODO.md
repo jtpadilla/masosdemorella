@@ -44,7 +44,9 @@ Prioridad: **A** = bloquea la publicación · **B** = mejora clara · **C** = op
   que se conservan"). Si se decide corregir alguna, hacerlo en `extract/to_markdown.py` con una tabla de sustituciones
   documentada, nunca a mano en `content/`, y anotarlo en `NOTES.md` y en `edicio.astro`.
 
-- [ ] **T-15 (B) Mapa de la Dena dels Llivis (ilustración de esta edición).**
+- [x] **T-15 Mapa de la Dena dels Llivis (ilustración de esta edición).** Hecho: `extract/mapa/mapa_llivis.py` →
+  `assets/images/ed-mapa-dena-llivis.svg`, insertado en 1.1 tras la lista de masos, en la galería y en "Sobre esta edició" (2026-09-02).
+  Detalle original de la tarea:
   Datos ya descargados y recortados en `extract/mapa/llivis/` (ver `NOTES.md` → "Datos para un mapa de la Dena dels
   Llivis"): 21 masos, fuentes, eras, balsas, barrancos, caminos, assagadors y vías pecuarias oficiales, Catastro y OSM.
   Hacer `extract/mapa/mapa_llivis.py` sobre `mapalib.py` (masías con punto y nombre, barrancos y río Torre Segura,
