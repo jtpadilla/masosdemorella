@@ -153,6 +153,5 @@ de ilustraciones.
 La familia ha aportado los originales de "Dalla", "Carrejador", "Trill" y "Garbells" (JPEG de 2048 px de lado mayor,
 sin EXIF). Se incorporan sin recomprimir como `assets/images/10-dalla.jpg`, `12-carrejador.jpg`, `14-trill.jpg` y
 `15-garbells.jpg`; `FIGURES` en `to_markdown.py` deja de tener entradas `None` y los placeholders desaparecen del texto,
-de la galería y de "Sobre esta edició". La sección "Lagunas" de arriba queda como registro histórico. La orientación de
-las fotos de la dalla y el carrejador es la del fichero recibido (no llevan EXIF): si estuvieran giradas, corregirlas
-con `convert -rotate` y regenerar.
+de la galería y de "Sobre esta edició". La sección "Lagunas" de arriba queda como registro histórico. Los ficheros de la dalla y el carrejador llegaron girados 90° (sin EXIF); se han enderezado con `convert -rotate 90`
+(sentido horario) y guardado con calidad 95; los originales recibidos siguen en `temp/` (fuera de git).
