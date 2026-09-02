@@ -1,5 +1,6 @@
 # IDE y sistema
 .idea/
+*.iml
 .vscode/
 .DS_Store
 Thumbs.db
