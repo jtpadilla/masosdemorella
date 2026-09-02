@@ -51,4 +51,13 @@ export async function figures(): Promise<Figura[]> {
   return out;
 }
 
+/** Il·lustracions afegides per esta edició (no existien en l'original). Fitxers assets/images/ed-*.svg. */
+export const figuresEdicio = [
+  {
+    file: 'ed-mapa-de-les-denes.svg',
+    caption: 'Les dotze denes del terme de Morella, amb la Dena dels Llivis destacada',
+    note: 'Elaborat per a esta edició amb els límits de les denes d’OpenStreetMap (© col·laboradors d’OSM, ODbL), amb la numeració i els noms del capítol 1.',
+  },
+];
+
 export { render };

@@ -44,13 +44,6 @@ Prioridad: **A** = bloquea la publicación · **B** = mejora clara · **C** = op
   que se conservan"). Si se decide corregir alguna, hacerlo en `extract/to_markdown.py` con una tabla de sustituciones
   documentada, nunca a mano en `content/`, y anotarlo en `NOTES.md` y en `edicio.astro`.
 
-- [ ] **T-14 (B) Decidir dónde va el mapa de las denes (`assets/images/ed-mapa-de-les-denes.svg`).**
-  Es una ilustración nueva de esta edición (el original no la tenía), así que insertarla en el texto rompe la regla
-  de no añadir nada. Opciones: (a) figura editorial tras la lista de las doce denes del cap. 1, con pie que lo declare
-  ("mapa elaborat per a esta edició") y estilo propio (`figure.editorial`), añadida desde `to_markdown.py`;
-  (b) solo en la página "Sobre esta edició" y en la galería como apartado "Il·lustracions d'esta edició";
-  (c) página nueva "Mapes". Ficheros: `extract/to_markdown.py`, `site/src/pages/edicio.astro`, `il-lustracions.astro`.
-
 ### Sitio
 
 - [ ] **T-08 (C) Migrar la búsqueda a la "Component UI" de Pagefind.**
@@ -81,6 +74,9 @@ Prioridad: **A** = bloquea la publicación · **B** = mejora clara · **C** = op
   de vez en cuando; `npm run build` y `python3 extract/check.py` son la prueba de regresión.
 
 ## Resueltas
+
+- [x] **T-14** Mapa de las denes incorporado según la opción (b): apartado "Il·lustracions d'esta edició" al final de la
+  galería y en "Sobre esta edició"; el texto del libro no cambia (2026-09-02).
 
 - [x] **T-06** Mapa dels Ports redibujado en SVG a partir de límites municipales reales (OSM), mismo contenido y
   rótulos que el original, estilo del libro. Generador: `extract/mapa/mapa_ports.py`. Ver `NOTES.md` (2026-09-02).

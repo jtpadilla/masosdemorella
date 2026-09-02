@@ -1,6 +1,10 @@
 ---
+import { Image } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
 import Base from '../layouts/Base.astro';
-import { figures, href, llibre } from '../lib/llibre';
+import { figures, figuresEdicio, href, llibre } from '../lib/llibre';
+const imatges = import.meta.glob<ImageMetadata>('../../../assets/images/ed-*.svg', { eager: true, import: 'default' });
+const perFitxer = Object.fromEntries(Object.entries(imatges).map(([k, v]) => [k.split('/').pop()!, v]));
 const perdudes = (await figures()).filter((f) => !f.file);
 ---
 <Base title="Sobre esta edició">
@@ -27,6 +31,15 @@ const perdudes = (await figures()).filter((f) => !f.file);
       <li>Les notes al peu, que l'original numerava per pàgina, van numerades per capítol.</li>
       <li>La portada diu <em>Masos de Morella</em> i la capçalera de cada pàgina, <em>Masies de Morella</em>. S'ha respectat la portada.</li>
     </ul>
+
+    <h2>Il·lustracions afegides</h2>
+    <p>El text del llibre no s'ha tocat, però esta edició hi afig, fora del text i sempre identificades com a pròpies, algunes imatges que ajuden a situar-se. Es poden veure també al final de la <a href={href('il-lustracions/#edicio')}>galeria</a>.</p>
+    {figuresEdicio.map((f) => (
+      <figure class="figura">
+        <a href={perFitxer[f.file].src} title="Obri la imatge a mida completa"><Image src={perFitxer[f.file]} alt={f.caption} width={900} /></a>
+        <figcaption>{f.caption}. {f.note}</figcaption>
+      </figure>
+    ))}
 
     <h2>Com s'ha fet</h2>
     <p>La recuperació és reproduïble: el text i les imatges s'han extret del PDF amb programari lliure (Poppler) i s'han convertit a fitxers de text pla (Markdown) i JPEG, que són els nous originals del llibre. Este lloc web és només una manera de llegir-los. Tot el procés, les decisions preses i els problemes trobats estan documentats al repositori del projecte.</p>
