@@ -99,7 +99,7 @@ def label(glyph, x, y, anchor="middle"):
 
 
 def svg_open(W, H, title, desc):
-    return [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-label="{desc}">',
+    return [f'<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-label="{desc}">',
             f'<title>{title}</title>', f'<rect width="{W}" height="{H}" fill="{PAPER}"/>']
 
 

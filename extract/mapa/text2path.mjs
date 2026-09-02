@@ -28,7 +28,7 @@ for (const it of items) {
   glyphs.forEach((g, i) => {
     const gid = `g${it.weight ?? 500}-${String(it.size).replace('.', '_')}-${g.index}`;
     if (!(gid in defs)) defs[gid] = g.getPath(0, 0, it.size).toPathData(1);
-    if (defs[gid]) uses += `<use href="#${gid}" x="${x.toFixed(1)}"/>`;
+    if (defs[gid]) uses += `<use xlink:href="#${gid}" href="#${gid}" x="${x.toFixed(1)}"/>`;
     x += g.advanceWidth * scale + tracking;
     if (i < glyphs.length - 1) x += f.getKerningValue(g, glyphs[i + 1]) * scale;
   });
