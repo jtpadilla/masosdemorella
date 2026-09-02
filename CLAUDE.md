@@ -67,6 +67,7 @@ extract/mapa/           generadores de mapas SVG (mapalib.py, mapa_ports.py, map
 site/                   proyecto Astro 7 (lee content/ y assets/); .github/workflows/deploy.yml lo publica
 NOTES.md                decisiones editoriales, lagunas, discrepancias detectadas
 TODO.md                 tareas pendientes numeradas (T-nn)
+LICENSE / LICENSE-CONTINGUT.md  MIT para el código; CC BY-NC-ND 4.0 para texto y fotos (© Francisca Julian i Querol)
 ```
 
 ## Estado y flujo de trabajo

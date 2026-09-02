@@ -9,11 +9,6 @@ Prioridad: **A** = bloquea la publicación · **B** = mejora clara · **C** = op
 
 ### Publicación
 
-- [ ] **T-04 (B) Decidir la licencia y la mención de derechos.**
-  El texto y las fotos son de Francisca Julián i Querol (2016). Hace falta decidir, con la familia, bajo qué
-  condiciones se publica (p. ej. CC BY-NC-ND para texto e imágenes; el código del sitio puede ir con MIT) y
-  reflejarlo en `LICENSE`, en el pie del sitio (`Base.astro`) y en la página "Sobre esta edició" (`edicio.astro`).
-
 ### Material que solo puede aportar la familia
 
 - [ ] **T-05 (B) Recuperar las cuatro fotografías perdidas: Dalla, Carrejador, Trill, Garbells.**
@@ -69,6 +64,9 @@ Prioridad: **A** = bloquea la publicación · **B** = mejora clara · **C** = op
   de vez en cuando; `npm run build` y `python3 extract/check.py` son la prueba de regresión.
 
 ## Resueltas
+
+- [x] **T-04** Licencias: texto y fotos CC BY-NC-ND 4.0 (`LICENSE-CONTINGUT.md`), código MIT (`LICENSE`);
+  mención en el pie del sitio y en "Sobre esta edició"; README (2026-09-02).
 
 - [x] **T-03** Enlace al repositorio en el pie y en "Sobre esta edició" (2026-09-02).
 

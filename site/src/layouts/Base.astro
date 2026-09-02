@@ -54,7 +54,7 @@ const current = Astro.url.pathname;
       <slot />
     </main>
     <footer class="peu">
-      <p>{llibre.titol}. {llibre.subtitol} — {llibre.autora}, 2016.</p>
+      <p>{llibre.titol}. {llibre.subtitol} — © {llibre.autora}, 2016. Text i fotografies amb llicència <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ca" rel="license">CC BY-NC-ND 4.0</a>.</p>
       <p>Edició digital de recuperació a partir de l'únic PDF conservat. <a href={href('edicio/')}>Com s'ha fet</a> · <a href={href('original/Masos_de_Morella_val1_17x23.pdf')}>PDF original</a> · <a href="https://github.com/jtpadilla/masosdemorella">Repositori</a></p>
     </footer>
     <script>
