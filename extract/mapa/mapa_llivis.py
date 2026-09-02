@@ -33,7 +33,7 @@ EXTRA_POINTS = {"Llivis": (-0.113709, 40.563293)}          # Masía dels Llivis 
 # Desplaçament del rètol respecte al punt (dx, dy, ancoratge); per defecte a la dreta
 OFFSET = {"Llivis": (2, 17, "middle"), "Torre Segura": (-8, 4, "end"), "Torre Blanca": (-8, 4, "end"),
           "Garró": (8, -3, "start"), "Mas Nou": (8, 0, "start"), "Planet": (8, 6, "start"),
-          "Cardona": (-8, 4, "end"), "Olivares": (8, -2, "start"), "Marín": (8, 8, "start"), "Racó": (-8, 4, "end")}
+          "Cardona": (-8, 4, "end"), "Olivares": (8, -2, "start"), "Marín": (8, 8, "start"), "Racó": (2, -8, "middle")}
 FONT_OFFSET = {"Font de Marín": (-6, 4, "end"), "Font dels Llivis": (6, 9, "start")}
 # Posició (fracció de la longitud del tram interior) dels rètols de línia
 FRAC = {"Vereda de los Llivis": 0.55, "Colada de la Rambla de Lacanar / Colada de la Cana de Ares": 0.75,
