@@ -26,7 +26,7 @@ Els límits del terme municipal són al nord amb el terme de Xiva, Herbés i Tor
 
 <a id="p3" class="pag" data-p="3"></a>
 
-![Mapa dels Ports](../assets/images/01-mapa-dels-ports.jpg)
+![Mapa dels Ports](../assets/images/01-mapa-dels-ports.svg)
 
 Durant el segle XIX i principis del XX eren més de 300 les masies habitades en el seu terme i d’ací la importància que tenia el comerç dels cereals i de la llana per al desenvolupament de la ciutat.
 

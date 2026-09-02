@@ -39,10 +39,6 @@ Prioridad: **A** = bloquea la publicación · **B** = mejora clara · **C** = op
   4. retocar el texto de `site/src/pages/edicio.astro` (apartado "Què s'ha perdut") y `NOTES.md`.
   La galería y los placeholders se actualizan solos (los genera `figures()` en `site/src/lib/llibre.ts`).
 
-- [ ] **T-06 (C) Sustituir el "Mapa dels Ports" (fig. 1), de 394×330 px.**
-  Es la única imagen de baja calidad. Opciones: localizar el original, o dibujar un mapa nuevo (indicándolo en el pie
-  y en `edicio.astro`). Fichero: `assets/images/01-mapa-dels-ports.jpg`; si cambia el nombre, actualizar `FIGURES`.
-
 - [ ] **T-07 (C) Lectura del texto por la familia / un hablante nativo y decisión sobre las erratas.**
   El criterio actual es reproducir el original tal cual (erratas incluidas; lista en `NOTES.md` → "Errores del original
   que se conservan"). Si se decide corregir alguna, hacerlo en `extract/to_markdown.py` con una tabla de sustituciones
@@ -78,6 +74,9 @@ Prioridad: **A** = bloquea la publicación · **B** = mejora clara · **C** = op
   de vez en cuando; `npm run build` y `python3 extract/check.py` son la prueba de regresión.
 
 ## Resueltas
+
+- [x] **T-06** Mapa dels Ports redibujado en SVG a partir de límites municipales reales (OSM), mismo contenido y
+  rótulos que el original, estilo del libro. Generador: `extract/mapa/mapa_ports.py`. Ver `NOTES.md` (2026-09-02).
 
 - [x] **T-00** Extracción del PDF, reconstrucción a Markdown, verificación palabra a palabra, sitio Astro, revisión
   visual página a página — commits `4f51945`, `21db73f`, `caccb90`, `e121a90` (2026-09-02).

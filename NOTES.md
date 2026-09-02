@@ -78,3 +78,13 @@ segmento entre anclas). Defectos encontrados y corregidos en `to_markdown.py`:
 Errores del original que se conservan tal cual: "Km." por "km" (pág. 5: "650 Km."), "1194-95" por "1994-95" (pág. 82),
 "cas urbà" (pág. 69), "l’’ermita" en el índice de ilustraciones, "(20 m2)" en línea (pág. 13), ausencia de punto en
 "de la pluja Aquestes" (pág. 39), "posarlo"/"acostumarlos" van con guion en el PDF (posar-lo) aunque pdftotext lo pierda.
+
+## Mapa dels Ports redibujado (2026-09-02, T-06)
+El mapa original (fig. 1) era una imagen de 394×330 px. Se ha sustituido en el texto y en la galería por
+`assets/images/01-mapa-dels-ports.svg`, generado por `extract/mapa/mapa_ports.py` a partir de los límites
+municipales de OpenStreetMap (`extract/mapa/ports.osm.json`, descargados de Overpass; © colaboradores de OSM, ODbL).
+Reproduce el contenido del original: los mismos 13 municipios y rótulos (Zorita, Palanques, Herbers, Villores,
+El Forcall, La Todolella, Olocau del Rey, La Mata, Morella, Vallibona, Cinctorres, Portell de Morella, Castellfort).
+El original omitía Vilafranca, que también pertenece a la comarca; se respeta esa elección. Estilo: tinta sobre
+papel, Morella destacada, rótulos en EB Garamond convertidos a trazados (`extract/mapa/text2path.mjs`, opentype.js).
+El JPEG original se conserva sin tocar en `assets/images/01-mapa-dels-ports.jpg`.

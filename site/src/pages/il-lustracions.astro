@@ -4,7 +4,7 @@ import type { ImageMetadata } from 'astro';
 import Base from '../layouts/Base.astro';
 import { figures, href, slugOf, titolCurt } from '../lib/llibre';
 
-const imatges = import.meta.glob<ImageMetadata>('../../../assets/images/*.jpg', { eager: true, import: 'default' });
+const imatges = import.meta.glob<ImageMetadata>('../../../assets/images/*.{jpg,svg}', { eager: true, import: 'default' });
 const perFitxer = Object.fromEntries(Object.entries(imatges).map(([k, v]) => [k.split('/').pop()!, v]));
 const figs = await figures();
 const perdudes = figs.filter((f) => !f.file).length;

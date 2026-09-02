@@ -35,7 +35,7 @@ SHORT = 15                             # px: una línea que acaba a más de esto
 
 # Pies de figura → fichero en assets/images (None = ilustración perdida en el original)
 FIGURES = [
-    ("Mapa dels Ports", "01-mapa-dels-ports.jpg"),
+    ("Mapa dels Ports", "01-mapa-dels-ports.svg"),
     ("Mas dels Llivis", "02-mas-dels-llivis.jpg"),
     ("Colada de la Serra dels Llivis", "03-colada-de-la-serra-dels-llivis.jpg"),
     ("Ermita de San", "04-ermita-de-sant-pere-martir.jpg"),

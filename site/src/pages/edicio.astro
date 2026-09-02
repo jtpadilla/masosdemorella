@@ -21,7 +21,7 @@ const perdudes = (await figures()).filter((f) => !f.file);
     <h2>Què s'ha perdut o és imperfecte</h2>
     <ul>
       <li>Quatre il·lustracions ja no eren dins del PDF: només hi quedava el peu de foto i un enllaç trencat. Són {perdudes.map((f, i) => <><em>{f.caption}</em>{i < perdudes.length - 1 ? ', ' : ''}</>)}, totes fotografies d'eines de segar i batre. Al seu lloc hi ha un requadre buit.</li>
-      <li>El <em>Mapa dels Ports</em> és l'única imatge de baixa resolució (394 × 330 píxels).</li>
+      <li>El <em>Mapa dels Ports</em> era l'única imatge de baixa resolució (394 × 330 píxels) i s'ha tornat a dibuixar: mateixos tretze municipis i mateixos rètols que el mapa de l'autora, però amb els límits municipals reals (dades d'OpenStreetMap) i l'estil tipogràfic d'esta edició. El mapa original es conserva al repositori.</li>
       <li>L'índex del PDF remetia a una paginació diferent de la del propi PDF (probablement la de la maqueta definitiva a 17 × 23 cm). Esta edició usa la paginació del PDF; l'<a href={href('index-d-illustracions/')}>índex d'il·lustracions</a> es reprodueix amb els números originals.</li>
       <li>Els números dels apartats (1.1, 3.8…) s'havien perdut en generar el PDF (hi quedava un glif buit); s'han reassignat en ordre i comprovat contra l'índex de marcadors que el PDF sí conservava.</li>
       <li>Les notes al peu, que l'original numerava per pàgina, van numerades per capítol.</li>
