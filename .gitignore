@@ -12,6 +12,4 @@ extract/images/
 
 # El proyecto Astro tiene su propio .gitignore en site/ (dist, node_modules, .astro, logs)
 
-# Material recibido de la familia, ya incorporado a assets/images
-temp/
 extract/mapa/preview/
