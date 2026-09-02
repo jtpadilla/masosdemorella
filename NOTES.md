@@ -88,3 +88,13 @@ El Forcall, La Todolella, Olocau del Rey, La Mata, Morella, Vallibona, Cinctorre
 El original omitía Vilafranca, que también pertenece a la comarca; se respeta esa elección. Estilo: tinta sobre
 papel, Morella destacada, rótulos en EB Garamond convertidos a trazados (`extract/mapa/text2path.mjs`, opentype.js).
 El JPEG original se conserva sin tocar en `assets/images/01-mapa-dels-ports.jpg`.
+
+## Mapa de les denes (2026-09-02) — ilustración nueva, aún sin colocar
+OSM contiene las doce denes de Morella como relaciones `boundary=historic` (con código INE: siguen siendo entidades
+singulares de población). Coinciden una a una con la lista del capítulo 1. Geometría en `extract/mapa/denes.osm.json`
+(incluye 25 masos con nombre de la zona de los Llivis, por si se hace un mapa de detalle de la dena).
+`extract/mapa/mapa_denes.py` genera `assets/images/ed-mapa-de-les-denes.svg` (prefijo `ed-` = ilustración de esta
+edición, no del original) con la numeración y los nombres del libro y la Dena dels Llivis destacada.
+Equivalencias de nombre: "Dena de la Pobla d'Alcolea" (libro) = "Dena de la Pobleta" (OSM); "Dena del Herbeset" =
+"Dena d'Herbeset". El núcleo urbano de Morella no pertenece a ninguna dena (hueco en el centro del mapa).
+Los dos mapas comparten `extract/mapa/mapalib.py`.
