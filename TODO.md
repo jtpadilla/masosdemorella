@@ -11,8 +11,6 @@ Estado (2026-09-02): el libro completo está publicado en https://jtpadilla.gith
 
 ## Pendientes
 
-### Ediciones y originales
-
 ### Depende de la familia
 
 - [ ] **T-07 (B) Lectura del texto por la familia / un hablante nativo y decisión sobre las erratas.**
