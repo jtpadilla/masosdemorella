@@ -170,7 +170,8 @@ Además del PDF de 2016 con el que se hizo la reconstrucción, la familia ha apo
   convencionales"), masías, pistas, caminos, vías pecuarias, río, barrancos, ermita, tejería, molino, fuentes, bosque y
   escala. No está entre las 30 ilustraciones del libro; procedencia por confirmar (¿Gamundí, *Morella, guía del antiguo
   término*, 1991?). Coincide con el mapa de esta edición en la posición de "Solaneta", "Cantalà" (entre Cardona y
-  Modesto), etc. No se publica hasta aclarar su origen; sirve de referencia para T-17.
+  Modesto), etc. No se publica: lo sustituye el mapa de la dena generado por esta edición (T-21 cerrada el
+  2026-09-03); sigue sirviendo de referencia para T-17.
 - `Masos_de_Morella_val1_17x23.doc`: el máster de texto de 2016 (Word). Su texto coincide con el Markdown reconstruido
   (las únicas diferencias son artefactos del índice: HYPERLINK, TOC…).
 - `Masies_de_Morella_val1_17x23.pdf` (17/05/2016 14:10, 107 págs., 31 MB): versión 38 minutos anterior a la nuestra,
@@ -205,3 +206,15 @@ que la editorial titula "Masos" aunque las pruebas de imprenta escaneadas digan 
 Library, Todostuslibros, Iberlibro, Uniliber, Casa del Libro ni Dialnet (búsquedas del 2 de septiembre de 2026); Amazon,
 WorldCat y la BNE no respondieron a la consulta automática. Datos en `content/llibre.yaml` (`edicio_impresa`), mostrados
 en "Sobre esta edició" y como JSON-LD (schema.org/Book) en todas las páginas.
+
+## Decisiones sobre las ediciones y los originales (2026-09-03)
+- "Sobre esta edició" decía que la autora preparó el PDF de 2016 "per a una reimpressió que no va arribar a fer-se", y
+  CLAUDE.md lo llamaba "PDF nunca impreso". La familia lo considera inexacto y se ha retirado: del PDF de 2016 solo se
+  afirma que es la última revisión del texto en que trabajó la autora, sin decir para qué se preparó.
+- **T-22 descartada**: no se recupera el texto de la edición impresa de 2006 (OCR del escaneo). La edición impresa
+  queda documentada aquí (sección anterior sobre `source/`) y en "Sobre esta edició", con su ficha bibliográfica.
+- **T-20 cerrada**: el sitio ofrece para descarga solo el PDF de 2016 (15 MB). El escaneo de la edición impresa (50 MB)
+  y el PDF de 2016 a resolución completa (31 MB) no se enlazan, aunque el script `build` de `site/` copia todos los
+  PDF de `source/` a `dist/original/`. La dedicatoria del `Llegeix-me.txt` no se incorpora.
+- **T-21 cerrada**: el mapa manuscrito `source/Fotos/Mapa_Dena.jpg`, de procedencia sin confirmar, no se publica;
+  su función la cumple `assets/images/ed-mapa-dena-llivis.svg`.
