@@ -89,13 +89,15 @@ LICENSE / LICENSE-CONTINGUT.md  MIT para el código; CC BY-NC-ND 4.0 para texto 
 4. `site/` — sitio Astro 7 (**hecho**, 2026-09-02). `npm run build` = astro build + copia de los PDF de `source/` a `dist/original/` +
    índice Pagefind. `npm run dev` para desarrollo (la búsqueda solo funciona en el build). Piezas:
    - `astro.config.mjs`: procesador Markdown `unified()` de `@astrojs/markdown-remark` (Astro 7 usa otro por defecto),
-     smartypants desactivado (no tocar la tipografía del original), `site`/`base` derivados de `GITHUB_REPOSITORY`.
+     smartypants desactivado (no tocar la tipografía del original), `site`/`base` derivados de `GITHUB_REPOSITORY`;
+     integración `@astrojs/sitemap`.
    - `src/content.config.ts`: colección `llibre` (glob sobre `../content/*.md`) y `meta` (file sobre `../content/llibre.yaml`,
      que por eso tiene la clave superior `llibre:`). Vite tiene `fs.allow: ['..']` porque content/ y assets/ están fuera.
    - `src/lib/rehype-book.mjs`: `<p><img></p>` → `<figure class="figura">` + figcaption, ancho máx. 1200 px.
      Las anclas de página llegan ya formadas desde el Markdown (HTML en bruto, rehype no las ve).
    - `src/lib/llibre.ts`: helpers (`href()` respeta `base`, `slugOf`, `figures()` extrae las figuras del propio Markdown).
-   - Páginas: `/` portada+índice, `/[slug]/` capítulo con anterior/siguiente, `/il-lustracions/`, `/cerca/`, `/edicio/`, `/autora/`.
+   - Páginas: `/` portada+índice, `/[slug]/` capítulo con anterior/siguiente, `/il-lustracions/`, `/cerca/`, `/edicio/`, `/autora/`,
+     `robots.txt` (endpoint). `Base.astro` emite canonical, Open Graph (portada 1200×630) y JSON-LD schema.org/Book.
    - Estilo en `src/styles/global.css`: EB Garamond (fontsource, autoalojada), claro/oscuro con botón, números de
      página al margen (`a.pag::after`), impresión. UI del sitio en valenciano, como el libro.
 5. `.github/workflows/deploy.yml` publica en GitHub Pages en cada push a `main` (**hecho**). Repositorio público

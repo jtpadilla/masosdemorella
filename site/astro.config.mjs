@@ -1,6 +1,7 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import { unified } from '@astrojs/markdown-remark';
+import sitemap from '@astrojs/sitemap';
 import rehypeBook from './src/lib/rehype-book.mjs';
 
 // En GitHub Actions, GITHUB_REPOSITORY = "propietari/repositori". El lloc es publica a
@@ -13,6 +14,7 @@ export default defineConfig({
   site: process.env.SITE_URL ?? (owner ? `https://${owner}.github.io` : 'http://localhost:4321'),
   base: process.env.BASE_PATH ?? (owner && !userSite ? `/${repo}` : '/'),
   trailingSlash: 'always',
+  integrations: [sitemap()], // genera sitemap-index.xml a partir de `site` + `base` (T-10)
   image: { layout: 'constrained', responsiveStyles: true },
   markdown: {
     processor: unified({

@@ -4,7 +4,9 @@ import '@fontsource/eb-garamond/400-italic.css';
 import '@fontsource/eb-garamond/500.css';
 import '@fontsource/eb-garamond/600.css';
 import '../styles/global.css';
+import { getImage } from 'astro:assets';
 import { href, llibre } from '../lib/llibre';
+import portada from '../../../assets/images/21-mas-de-julian.jpg';
 
 interface Props {
   title?: string;
@@ -21,6 +23,12 @@ const nav = [
   { path: 'edicio/', label: 'Sobre esta edició' },
 ];
 const current = Astro.url.pathname;
+// Metadades socials (Open Graph / Twitter) i URL canònica; la imatge és la portada retallada a 1200×630 (T-10)
+const abs = (p: string) => (Astro.site ? new URL(p, Astro.site).href : p);
+const canonical = abs(current);
+const og = await getImage({ src: portada, width: 1200, height: 630, fit: 'cover', format: 'jpg' });
+const ogImage = abs(og.src);
+const ogAlt = "El Mas de Julian, amb un ramat d'ovelles davant";
 ---
 <!doctype html>
 <html lang={lang}>
@@ -32,6 +40,19 @@ const current = Astro.url.pathname;
     <meta name="author" content={llibre.autora} />
     <meta name="color-scheme" content="light dark" />
     <link rel="icon" href={href('favicon.svg')} type="image/svg+xml" />
+    <link rel="canonical" href={canonical} />
+    <link rel="sitemap" href={href('sitemap-index.xml')} />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={`${llibre.titol}. ${llibre.subtitol}`} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content={ogAlt} />
+    <meta property="og:locale" content="ca_ES" />
+    <meta name="twitter:card" content="summary_large_image" />
     <script type="application/ld+json" set:html={JSON.stringify({
       '@context': 'https://schema.org', '@type': 'Book', name: `${llibre.titol}. ${llibre.subtitol}`, inLanguage: 'ca',
       author: { '@type': 'Person', name: 'Francisca Julián Querol' },
@@ -39,6 +60,7 @@ const current = Astro.url.pathname;
       isbn: llibre.edicio_impresa.isbn13, numberOfPages: llibre.edicio_impresa.pagines, datePublished: String(llibre.edicio_impresa.any),
       publisher: { '@type': 'Organization', name: llibre.edicio_impresa.editorial },
       license: 'https://creativecommons.org/licenses/by-nc-nd/4.0/', url: Astro.site ? new URL(import.meta.env.BASE_URL, Astro.site).href : undefined,
+      image: ogImage,
     })} />
     <script is:inline>
       // Tema guardat per l'usuari, abans de pintar (evita el parpelleig)

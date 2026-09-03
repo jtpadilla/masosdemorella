@@ -28,10 +28,6 @@ documentada, sin recuperar su texto (T-22 descartada). No queda ninguna tarea de
 
 ### Sitio y herramientas
 
-- [ ] **T-10 (C) Metadatos sociales y sitemap.**
-  `og:title`, `og:description`, `og:image` (portada) en `site/src/layouts/Base.astro`; `@astrojs/sitemap` en
-  `astro.config.mjs`. La URL del sitio ya es definitiva (https://jtpadilla.github.io/masosdemorella/).
-
 - [ ] **T-11 (C) Generar EPUB y PDF a partir del Markdown.**
   Los masters en `content/` permiten regenerar el libro: p. ej. `pandoc content/*.md -o llibre.epub` filtrando las
   anclas de página y las figuras editoriales (o incluyéndolas, ya con licencia definida: CC BY-NC-ND 4.0). Publicarlos
@@ -48,6 +44,10 @@ documentada, sin recuperar su texto (T-22 descartada). No queda ninguna tarea de
   están en sus versiones actuales (checkout v7, setup-node v7, upload-pages-artifact v5, deploy-pages v5).
 
 ## Resueltas
+
+- [x] **T-10** Open Graph / Twitter card en `Base.astro` (título, descripción, URL canónica, portada recortada a 1200×630
+  con `getImage`), `image` en el JSON-LD, `@astrojs/sitemap` en `astro.config.mjs` (`sitemap-index.xml`) y
+  `robots.txt` generado con la URL del sitemap (`src/pages/robots.txt.ts`) (2026-09-03).
 
 - [x] **T-09** El índice de ilustraciones lleva `data-pagefind-weight="0.3"` (`[slug].astro`): para "trill", "mas" o
   "era" pasa de las primeras posiciones a la última; sigue apareciendo cuando es pertinente ("foto") (2026-09-03).
