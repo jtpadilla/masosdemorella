@@ -7,20 +7,11 @@ Prioridad: **A** = bloquea la publicación · **B** = mejora clara · **C** = op
 
 Estado (2026-09-02): el libro completo está publicado en https://jtpadilla.github.io/masosdemorella/ con sus 30 fotografías
 (ya a partir de los originales), tres ilustraciones añadidas por esta edición y licencias definidas. El sitio reproduce la revisión de 2016 de la autora
-(decisión T-19 (a)); la edición impresa de 2006 queda documentada y como posible trabajo futuro (T-22).
+(decisión T-19 (a)); la edición impresa de 2006 queda documentada (T-22 descartada).
 
 ## Pendientes
 
 ### Ediciones y originales
-
-- [ ] **T-22 (C) Recuperar el texto de la edición impresa de 2006 (opcional, trabajo aparte).**
-  OCR del escaneo `source/Masos de Morella_Copia impressio.pdf` (150 págs. a 300 ppp, sin capa de texto; no hay
-  tesseract en la máquina), cotejo con el PDF de 2006 y decisión sobre cómo ofrecerlo (segunda versión del texto o
-  notas de variantes). La Presentació de Lluís Meseguer requeriría su permiso.
-
-- [ ] **T-20 (B) Publicar los nuevos originales en el sitio.**
-  El escaneo de la edición impresa (50 MB) y el PDF de 2016 a resolución completa (31 MB) en `dist/original/`, con
-  su descripción en "Sobre esta edició"; la dedicatoria del `Llegeix-me.txt` si la familia la confirma.
 
 - [ ] **T-21 (C) Aclarar la procedencia de `source/Fotos/Mapa_Dena.jpg`** (mapa manuscrito de la dena, no incluido
   en el libro) y, si es de la autora o de dominio público, publicarlo como ilustración original; en todo caso usarlo
@@ -71,6 +62,12 @@ Estado (2026-09-02): el libro completo está publicado en https://jtpadilla.gith
   están en sus versiones actuales (checkout v7, setup-node v7, upload-pages-artifact v5, deploy-pages v5).
 
 ## Resueltas
+
+- [x] **T-22** Descartada: no se recupera el texto de la edición impresa de 2006; queda documentada en NOTES.md y en
+  "Sobre esta edició" (2026-09-03).
+
+- [x] **T-20** Cerrada: el sitio ofrece el PDF de 2016 (15 MB); el escaneo de 2006 y el PDF a resolución completa no se
+  publican enlazados (2026-09-03).
 
 - [x] **T-19** Opción (a): el sitio reproduce la revisión de 2016; "Sobre esta edició" explica las dos versiones
   (impresa UJI 2006 / revisión 2016) y de dónde sale cada cosa; README y CLAUDE.md alineados (2026-09-02).
