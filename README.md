@@ -9,7 +9,7 @@ família (`source/`): text (`content/`, Markdown) i fotografies (`assets/images/
 
 - `source/` — els originals: PDF de 2016, document de Word, fotografies, PDF de 2006 i escaneig de l'edició impresa.
 - `content/` — el text del llibre, un fitxer per capítol (masters recuperats).
-- `assets/images/` — les 30 fotografies del llibre (26 del PDF, 4 aportades per la família) el mapa dels Ports redibuixat (`01-mapa-dels-ports.svg`) i les il·lustracions afegides per esta edició (`ed-*.svg`).
+- `assets/images/` — les 30 fotografies del llibre (26 del PDF, 4 aportades per la família), el mapa dels Ports redibuixat (`01-mapa-dels-ports.svg`) i les il·lustracions afegides per esta edició (`ed-*.svg`).
 - `extract/` — extracció reproduïble del PDF, conversió a Markdown i verificació; generadors de mapes.
 - `site/` — el lloc web (Astro); es publica a GitHub Pages en cada push a `main`.
 - `NOTES.md` — decisions editorials i tot el que s'ha trobat en l'original. `TODO.md` — tasques pendents.
