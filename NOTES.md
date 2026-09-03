@@ -238,3 +238,17 @@ Presentación en el sitio: a la anchura de la columna (36rem) los rótulos no se
 figuras `ed-*` salen de la columna hasta su anchura real (`.figura.editorial` en `global.css`; `rehype-book.mjs` toma
 la anchura del `viewBox`) y todo SVG del texto va enlazado a `/imatges/<fichero>` (endpoint `src/pages/imatges/[file].ts`,
 sin hash) para abrirlo a tamaño completo, como ya hacían la galería y "Sobre esta edició".
+
+## Relleu i rius del terme (2026-09-03, T-28) — ilustración nueva de esta edición
+`extract/mapa/mapa_relleu.py` genera `assets/images/ed-relleu-i-rius.svg` a partir de `ports.osm.json`, `denes.osm.json`
+y `relleu.osm.json` (nuevo: cinco municipios vecinos —Ares, Catí, Castell de Cabres, Xert, Torre d'Arques—, cimas,
+puertos, lugares y ríos de OSM, Overpass del 3 de septiembre de 2026, © colaboradores de OSM, ODbL). Contenido: el
+término destacado con los vecinos alrededor (rotulados con la grafía del libro cuando los cita), la Dena dels Llivis a
+trazos, los ríos Bergants, Cérvol, Caldes y Torre Segura, el port de Torremiró, Xiva y Herbeset, Morella, y las siete
+montañas del capítulo 1 con las altitudes del libro. Identificación con OSM: Carrascals = Mola del Carrascal (1268 m en
+OSM, 1263 en el libro), Regafolet = Regatxol (1259 m, exacto; el libro escribe "Regafolet"), Muixacre = el Muixacre (1275),
+Fusters = el Moletó (1295, junto al paraje "Moles de Fusters"), Nevera = Tossal de la Nevera (1286, exacto). **"Pinar"
+(1081) y "Morella la Vella" (1068) no tienen cima con ese nombre en OSM**: se dibujan con triángulo hueco en posición
+aproximada (el paraje "el Pinar de Xiva" y el mas de Morella la Vella) y la leyenda lo dice. También van el Turmell y la
+Mola Garumba (citados en 1 y 2, sin altitud en el libro). Ortells, que el libro cita como límite oeste, no aparece como
+lugar en OSM y se omite. Se inserta tras el Mapa dels Ports (tabla `INSERTS`).

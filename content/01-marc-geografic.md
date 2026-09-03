@@ -28,6 +28,8 @@ Els límits del terme municipal són al nord amb el terme de Xiva, Herbés i Tor
 
 ![Mapa dels Ports](../assets/images/01-mapa-dels-ports.svg)
 
+![Relleu i rius del terme de Morella: les muntanyes, els rius i el port de Torremiró que cita el capítol, i els municipis veïns](../assets/images/ed-relleu-i-rius.svg)
+
 Durant el segle XIX i principis del XX eren més de 300 les masies habitades en el seu terme i d’ací la importància que tenia el comerç dels cereals i de la llana per al desenvolupament de la ciutat.
 
 El terme municipal de Morella es divideix en diferents partides anomenades denes. Estes denes són dotze i els seus noms són:

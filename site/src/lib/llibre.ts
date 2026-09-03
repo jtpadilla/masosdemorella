@@ -54,6 +54,11 @@ export async function figures(): Promise<Figura[]> {
 /** Il·lustracions afegides per esta edició (no existien en l'original). Fitxers assets/images/ed-*.svg. */
 export const figuresEdicio = [
   {
+    file: 'ed-relleu-i-rius.svg',
+    caption: 'Relleu i rius del terme de Morella: les muntanyes, els rius i el port de Torremiró que cita el capítol, i els municipis veïns',
+    note: 'Elaborat per a esta edició amb límits, cims i rius d’OpenStreetMap (© col·laboradors d’OSM, ODbL). Les altituds són les del llibre; «Pinar» i «Morella la Vella» no tenen cim amb eixe nom en les fonts i van en posició aproximada. S’insereix al capítol 1, després del Mapa dels Ports.',
+  },
+  {
     file: 'ed-mapa-de-les-denes.svg',
     caption: 'Les dotze denes del terme de Morella, amb la Dena dels Llivis destacada',
     note: 'Elaborat per a esta edició amb els límits de les denes d’OpenStreetMap (© col·laboradors d’OSM, ODbL), amb la numeració i els noms del capítol 1, on s’insereix.',

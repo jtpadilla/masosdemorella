@@ -53,11 +53,6 @@ Orden recomendado: T-24, T-25 (T-23 hecha).
   Carretera hacia Morella (2,5 km), desvío en Caldes, mas de La Màquina, cruce del río junto al Molí Vicent (dena de la
   Vespa), subida por la umbría de la Torre Massa hasta la Serra Calduch. Trazado a confirmar con la familia (junto a T-17).
 
-- [ ] **T-28 (C) Relieve e hidrografía del término de Morella** (cap. 1).
-  Siete cumbres con altitud (Carrascals 1263, Pinar 1081, Regafolet 1259, Morella la Vella 1068, Muixacre 1274, Fusters 1294,
-  Nevera 1286), ríos Bergants y Cérvol, puerto de Torremiró y municipios limítrofes por puntos cardinales. Mismas fuentes
-  que `mapa_ports.py`.
-
 - [ ] **T-29 (C) Nombres del ganado por edad** (4.1).
   Línea: cabrit/corder → xoto/xota → primal/primala (1 año) → andosc/andosca → terserenc/terserenca (4.º año) → "ha tancat"
   (5.º) → "entra a vell"; boc y borrego aparte.
@@ -91,6 +86,10 @@ caben en la cronología.
   comprobación se han hecho solo con Chrome headless (`google-chrome --headless=new --screenshot`).
 
 ## Resueltas
+
+- [x] **T-28** Mapa del relieve y los ríos del término: `extract/mapa/mapa_relleu.py` → `assets/images/ed-relleu-i-rius.svg`,
+  tras el Mapa dels Ports en el capítulo 1. Cinco de las siete cumbres identificadas en OSM (dos en posición aproximada,
+  ver NOTES), ríos Bergants, Cérvol, Caldes y Torre Segura, Torremiró, Xiva, Herbeset y la dena (2026-09-03).
 
 - [x] **T-23** Rueda del año al mas: `extract/mapa/roda_any.py` → `assets/images/ed-roda-de-l-any.svg`, insertada al final
   del capítulo 6 (tras "una altra vegada a començar"), en la galería y en "Sobre esta edició". Cada entrada de la tabla

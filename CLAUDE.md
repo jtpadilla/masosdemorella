@@ -66,8 +66,8 @@ extract/                salida de extract/extract.sh: text/pNNN.txt, text/book.x
 content/                MASTERS RECUPERADOS: un .md por capítulo, frontmatter con título/número
 assets/images/          las 30 fotos del índice de ilustraciones, NN-figura.jpg (NN = orden en el índice), a partir de los originales de source/Fotos/;
                         SVG generados: 01-mapa-dels-ports.svg (sustituye al JPEG de baja calidad), ed-*.svg (ilustraciones de esta edición)
-extract/mapa/           generadores SVG (mapalib.py, mapa_ports/denes/llivis/julian.py, roda_any.py, text2path.mjs) y datos filtrados;
-                        `extract/mapa/genera.sh [--png]` (o `npm run mapes` en site/) regenera los cinco; opentype.js viene con `npm install` en site/
+extract/mapa/           generadores SVG (mapalib.py, mapa_ports/denes/llivis/julian/relleu.py, roda_any.py, text2path.mjs) y datos filtrados;
+                        `extract/mapa/genera.sh [--png]` (o `npm run mapes` en site/) regenera los seis; opentype.js viene con `npm install` en site/
 site/                   proyecto Astro 7 (lee content/ y assets/); .github/workflows/deploy.yml lo publica
 NOTES.md                decisiones editoriales, lagunas, discrepancias detectadas
 TODO.md                 tareas pendientes numeradas (T-nn)
