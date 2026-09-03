@@ -125,7 +125,8 @@ main.ample { width: min(100% - 2.5rem, 60rem); }
 .galeria .perduda-mini { aspect-ratio: 3 / 2; border: 1px dashed var(--tinta-3); border-radius: 3px; display: grid; place-items: center; color: var(--tinta-3); font-family: var(--sans); font-size: 0.8rem; background: var(--fons-2); }
 
 /* ---- Cerca ------------------------------------------------------------- */
-#cerca { --pagefind-ui-font: var(--sans); --pagefind-ui-primary: var(--accent); --pagefind-ui-text: var(--tinta); --pagefind-ui-background: var(--fons); --pagefind-ui-border: var(--linia); --pagefind-ui-tag: var(--fons-2); --pagefind-ui-scale: 0.9; }
+#cerca { --pf-font: var(--sans); --pf-text: var(--tinta); --pf-text-secondary: var(--tinta-2); --pf-text-muted: var(--tinta-3); --pf-background: var(--fons); --pf-border: var(--linia); --pf-border-focus: var(--tinta-3); --pf-hover: var(--fons-2); --pf-skeleton: var(--fons-2); --pf-skeleton-shine: var(--linia); --pf-mark: var(--accent-2); --pf-outline-focus: var(--accent); --pf-input-height: 2.75rem; --pf-input-font-size: 0.95rem; --pf-summary-font-size: 0.75rem; --pf-result-title-font-size: 0.85rem; --pf-result-excerpt-font-size: 0.8rem; --pf-border-radius: 6px; --pf-results-gap: 1rem; --pf-shadow-sm: none; --pf-shadow-md: none; }
+#cerca pagefind-summary { display: block; margin: 0.75rem 0 1rem; }
 .fitxa { font-style: normal; } .fitxa em { font-style: italic; } .fitxa .font { font-family: var(--sans); font-size: 0.75rem; color: var(--tinta-3); } .url { font-family: var(--sans); font-size: 0.85em; }
 .avis { font-family: var(--sans); font-size: 0.85rem; color: var(--tinta-2); border: 1px solid var(--linia); padding: 0.75rem 1rem; border-radius: 4px; background: var(--fons-2); }
 

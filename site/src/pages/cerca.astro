@@ -5,18 +5,35 @@ const base = href('pagefind/');
 ---
 <Base title="Cerca">
   <h1>Cerca en el llibre</h1>
-  <link rel="stylesheet" href={`${base}pagefind-ui.css`} />
-  <div id="cerca"></div>
+  <link rel="stylesheet" href={`${base}pagefind-component-ui.css`} />
+  <div id="cerca">
+    <pagefind-config bundle-path={base}></pagefind-config>
+    <pagefind-input placeholder="Cerca una paraula o expressió…" autofocus></pagefind-input>
+    <pagefind-summary></pagefind-summary>
+    <pagefind-results></pagefind-results>
+  </div>
   <p class="avis" id="avis-cerca" hidden>L'índex de cerca es genera en construir el lloc (<code>npm run build</code>); no està disponible en el servidor de desenvolupament.</p>
   <script is:inline define:vars={{ base }}>
+    // Component UI de Pagefind (substitueix la Default UI, pagefind-ui.js). Es carrega des de dist/pagefind/, que només
+    // existeix en el build; si falla, es mostra l'avís.
     const s = document.createElement('script');
-    s.src = `${base}pagefind-ui.js`;
-    s.onload = () => new PagefindUI({ element: '#cerca', showSubResults: true, showImages: false, translations: {
-      placeholder: 'Cerca una paraula o expressió…', clear_search: 'Neteja', load_more: 'Més resultats',
-      search_label: 'Cerca en el llibre', zero_results: 'Cap resultat per a [SEARCH_TERM]',
-      many_results: '[COUNT] resultats per a [SEARCH_TERM]', one_result: '[COUNT] resultat per a [SEARCH_TERM]',
-      searching: 'Cercant [SEARCH_TERM]…', filters_label: 'Filtres', alt_search: 'Cap resultat per a [SEARCH_TERM]. Mostrant resultats per a [DIFFERENT_TERM]',
-    } });
+    s.type = 'module';
+    s.src = `${base}pagefind-component-ui.js`;
+    s.onload = () => {
+      const inst = window.PagefindComponents.getInstanceManager().getInstance('default');
+      inst.setTranslations({
+        clear_search: 'Neteja', load_more: 'Més resultats', search_label: 'Cerca en el llibre',
+        zero_results: 'Cap resultat per a [SEARCH_TERM]', one_result: '[COUNT] resultat per a [SEARCH_TERM]',
+        many_results: '[COUNT] resultats per a [SEARCH_TERM]', searching: 'Cercant [SEARCH_TERM]…',
+        alt_search: 'Cap resultat per a [SEARCH_TERM]. Es mostren els resultats per a [DIFFERENT_TERM]',
+        search_suggestion: 'Cap resultat per a [SEARCH_TERM]. Prova una d\'estes cerques:',
+        results_label: 'Resultats de la cerca', input_hint: 'Els resultats apareixen mentre escrius',
+        error_search: 'Error en la cerca', loading: 'Carregant',
+      });
+      // Permet enllaçar una cerca: /cerca/?q=paraula
+      const q = new URLSearchParams(location.search).get('q');
+      if (q) inst.triggerSearch(q);
+    };
     s.onerror = () => { document.getElementById('avis-cerca').hidden = false; };
     document.head.append(s);
   </script>

@@ -28,10 +28,6 @@ documentada, sin recuperar su texto (T-22 descartada). No queda ninguna tarea de
 
 ### Sitio y herramientas
 
-- [ ] **T-08 (C) Migrar la búsqueda a la "Component UI" de Pagefind.**
-  Pagefind ≥ 1.5 avisa en cada build de que la Default UI (`pagefind-ui.js`) está soportada pero superada.
-  Fichero: `site/src/pages/cerca.astro`; documentación: https://pagefind.app/docs/search-ui/.
-
 - [ ] **T-09 (C) Bajar el peso del índice de ilustraciones en la búsqueda.**
   La página `/index-d-illustracions/` sale la primera para muchas palabras porque es una lista de nombres.
   Añadir `data-pagefind-weight="0.3"` (o excluirla con `data-pagefind-ignore`) en `site/src/pages/[slug].astro`
@@ -57,6 +53,10 @@ documentada, sin recuperar su texto (T-22 descartada). No queda ninguna tarea de
   están en sus versiones actuales (checkout v7, setup-node v7, upload-pages-artifact v5, deploy-pages v5).
 
 ## Resueltas
+
+- [x] **T-08** Búsqueda migrada a la Component UI de Pagefind (`pagefind-component-ui.js`, elementos `<pagefind-input>`,
+  `<pagefind-summary>`, `<pagefind-results>`); traducciones en valenciano vía `setTranslations`, tema claro/oscuro con las
+  variables `--pf-*` ligadas a las del sitio, y `/cerca/?q=paraula` lanza la búsqueda (2026-09-03).
 
 - [x] **T-21** Cerrada: el mapa manuscrito `source/Fotos/Mapa_Dena.jpg` no se publica; lo sustituye el mapa de la dena
   generado por esta edición (`assets/images/ed-mapa-dena-llivis.svg`, `extract/mapa/mapa_llivis.py`) (2026-09-03).
