@@ -13,10 +13,6 @@ Estado (2026-09-02): el libro completo está publicado en https://jtpadilla.gith
 
 ### Ediciones y originales
 
-- [ ] **T-21 (C) Aclarar la procedencia de `source/Fotos/Mapa_Dena.jpg`** (mapa manuscrito de la dena, no incluido
-  en el libro) y, si es de la autora o de dominio público, publicarlo como ilustración original; en todo caso usarlo
-  para resolver T-17.
-
 ### Depende de la familia
 
 - [ ] **T-07 (B) Lectura del texto por la familia / un hablante nativo y decisión sobre las erratas.**
@@ -62,6 +58,9 @@ Estado (2026-09-02): el libro completo está publicado en https://jtpadilla.gith
   están en sus versiones actuales (checkout v7, setup-node v7, upload-pages-artifact v5, deploy-pages v5).
 
 ## Resueltas
+
+- [x] **T-21** Cerrada: el mapa manuscrito `source/Fotos/Mapa_Dena.jpg` no se publica; lo sustituye el mapa de la dena
+  generado por esta edición (`assets/images/ed-mapa-dena-llivis.svg`, `extract/mapa/mapa_llivis.py`) (2026-09-03).
 
 - [x] **T-22** Descartada: no se recupera el texto de la edición impresa de 2006; queda documentada en NOTES.md y en
   "Sobre esta edició" (2026-09-03).
