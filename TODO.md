@@ -5,9 +5,10 @@ Lista de tareas pendientes. Cada una tiene un identificador (`T-nn`) para citarl
 
 Prioridad: **A** = bloquea la publicación · **B** = mejora clara · **C** = opcional.
 
-Estado (2026-09-02): el libro completo está publicado en https://jtpadilla.github.io/masosdemorella/ con sus 30 fotografías
-(ya a partir de los originales), tres ilustraciones añadidas por esta edición y licencias definidas. El sitio reproduce la revisión de 2016 de la autora
-(decisión T-19 (a)); la edición impresa de 2006 queda documentada (T-22 descartada).
+Estado (2026-09-03): el libro completo está publicado en https://jtpadilla.github.io/masosdemorella/ con sus 30 fotografías
+(ya a partir de los originales), el mapa dels Ports redibujado, tres ilustraciones añadidas por esta edición y licencias
+definidas. El sitio reproduce la revisión de 2016 de la autora (decisión T-19 (a)); la edición impresa de 2006 queda
+documentada, sin recuperar su texto (T-22 descartada). No queda ninguna tarea de prioridad A ni B que no dependa de la familia.
 
 ## Pendientes
 
