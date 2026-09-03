@@ -71,7 +71,7 @@ extract/mapa/           generadores SVG (mapalib.py, mapa_ports/denes/llivis/jul
 site/                   proyecto Astro 7 (lee content/ y assets/); .github/workflows/deploy.yml lo publica
 NOTES.md                decisiones editoriales, lagunas, discrepancias detectadas
 TODO.md                 tareas pendientes numeradas (T-nn)
-LICENSE / LICENSE-CONTINGUT.md  MIT para el código; CC BY-NC-ND 4.0 para texto (© Francisca Julián Querol) y fotos (© Tadeo Julián Querol y archivo familiar)
+LICENSE / LICENSE-CONTINGUT.md  MIT para el código; CC BY-NC-ND 4.0 para texto y fotos (© Francisca Julián Querol y archivo familiar)
 ```
 
 ## Estado y flujo de trabajo

@@ -42,7 +42,6 @@ const meta = yaml.load(readFileSync(resolve(ROOT, 'content/llibre.yaml'), 'utf8'
 const ANY = new Date().getFullYear();
 const AVUI = new Date().toISOString().slice(0, 10);
 const AUTORA = 'Francisca Julián Querol';
-const FOTOGRAF = 'Tadeo Julián Querol';
 const EDITOR = 'Juan Tadeo Padilla Julián';
 
 rmSync(TMP, { recursive: true, force: true });
@@ -130,7 +129,7 @@ const creditsHtml = () => `
   <p><strong>${meta.titol}. ${meta.subtitol}</strong>, de ${meta.autora}.</p>
   <p>Edició digital de recuperació, ${ANY}. Reprodueix la revisió de 2016 de l’autora, l’última versió del llibre en què va treballar; el text es dóna tal com ella el va deixar. ${meta.context.trim()}</p>
   <p>Edició impresa: <em>${e.titol}</em>. ${e.lloc}: ${e.editorial}, ${e.any}. ISBN ${e.isbn13}. Esgotada.</p>
-  <p>Text © ${AUTORA}. Fotografies © ${FOTOGRAF} (les noves) i arxiu familiar (les antigues). Llicència Creative Commons Reconeixement-NoComercial-SenseObraDerivada 4.0 Internacional (CC BY-NC-ND 4.0).</p>
+  <p>Text i fotografies © ${AUTORA} i arxiu familiar. Llicència Creative Commons Reconeixement-NoComercial-SenseObraDerivada 4.0 Internacional (CC BY-NC-ND 4.0).</p>
   <p>Edició digital: ${EDITOR}. Lloc web, amb cerca i galeria: <a href="${URL_LLOC}">${URL_LLOC}</a>. Els mapes i diagrames marcats «Il·lustració d’esta edició» no eren en l’original i s’han fet per a esta edició amb dades d’OpenStreetMap i altres fonts obertes.</p>
   <p class="nota">Les marques de pàgina (<span class="pag-demo">23</span>) indiquen on començava cada pàgina del PDF de 2016, per a poder-lo citar. Fitxer generat el ${AVUI}.</p>
 </section>`;
@@ -212,12 +211,11 @@ async function epub() {
 <dc:identifier id="uid">${URL_LLOC}</dc:identifier>
 <dc:title id="t">${esc(meta.titol)}. ${esc(meta.subtitol)}</dc:title>
 <dc:creator id="cre">${esc(AUTORA)}</dc:creator><meta refines="#cre" property="role" scheme="marc:relators">aut</meta>
-<dc:contributor id="ill">${esc(FOTOGRAF)}</dc:contributor><meta refines="#ill" property="role" scheme="marc:relators">pht</meta>
 <dc:contributor id="edt">${esc(EDITOR)}</dc:contributor><meta refines="#edt" property="role" scheme="marc:relators">edt</meta>
 <dc:language>ca</dc:language>
 <dc:date>${AVUI}</dc:date>
 <dc:publisher>Edició digital (${URL_LLOC})</dc:publisher>
-<dc:rights>Text © ${esc(AUTORA)}; fotografies © ${esc(FOTOGRAF)} i arxiu familiar. CC BY-NC-ND 4.0.</dc:rights>
+<dc:rights>Text i fotografies © ${esc(AUTORA)} i arxiu familiar. CC BY-NC-ND 4.0.</dc:rights>
 <dc:description>${esc(meta.edicio_impresa.sinopsi ?? `${meta.titol}. ${meta.subtitol}`)}</dc:description>
 <dc:source>${esc(`${e.titol}. ${e.lloc}: ${e.editorial}, ${e.any}. ISBN ${e.isbn13}`)}</dc:source>
 <meta property="dcterms:modified">${new Date().toISOString().replace(/\.\d+Z$/, 'Z')}</meta>

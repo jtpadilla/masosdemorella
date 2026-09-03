@@ -3,38 +3,32 @@ import { Image } from 'astro:assets';
 import Base from '../layouts/Base.astro';
 import { href } from '../lib/llibre';
 import francisca from '../assets/autors/francisca-julian-querol.jpg';
-import tadeo from '../assets/autors/tadeo-julian-querol.jpg';
 ---
-<Base title="L'autora" description="Francisca Julián Querol («Paquita»), autora de Masos de Morella, i Tadeo Julián Querol, autor de les fotografies.">
+<Base title="L'autora" description="Francisca Julián Querol («Paquita»), autora del text i de les fotografies de Masos de Morella.">
   <article class="text">
     <h1>L'autora</h1>
 
     <div class="retrats">
       <figure>
         <Image src={francisca} alt="Francisca Julián Querol" width={360} height={360} loading="eager" />
-        <figcaption><strong>Francisca Julián Querol</strong><br />«Paquita» · el text</figcaption>
-      </figure>
-      <figure>
-        <Image src={tadeo} alt="Tadeo Julián Querol" width={360} height={360} loading="eager" />
-        <figcaption><strong>Tadeo Julián Querol</strong><br />el seu germà · les fotografies</figcaption>
+        <figcaption><strong>Francisca Julián Querol</strong><br />«Paquita» · el text i les fotografies</figcaption>
       </figure>
     </div>
 
     <p><strong>Francisca Julián Querol</strong>, Paquita, va nàixer a Cinctorres. Son pare, Tadeo Julian, era del Mas de Julian, en la Dena dels Llivis del terme de Morella, i ferrer de Cinctorres; sa mare, Encarna, «de Francho». Els estius de la sega i els hiverns de la matança al mas de la família són l'origen d'este llibre, com ella mateixa conta en el <a href={href('proleg/')}>pròleg</a> i en l'apartat d'<a href={href('literatura-oral/#82-història-familiar')}>història familiar</a>.</p>
     <p>Ja jubilada, va cursar la Universitat per a Majors de la Universitat Jaume I, i <em>Masies de Morella</em> va ser el seu projecte de final del primer cicle, tutelat pel professor Lluís B. Meseguer. La Universitat el va publicar el 2006; el 2016 ella el va revisar amb el títol <em>Masos de Morella</em>, que és la versió que es llig ací (vegeu <a href={href('edicio/')}>Sobre esta edició</a>).</p>
-    <p>Les fotografies del llibre són del seu germà <strong>Tadeo Julián Querol</strong> —les noves, fetes per al llibre— i de l'arxiu familiar, les antigues (el retrat de família de 1925, la romeria, el Sexenni).</p>
+    <p>Les fotografies del llibre són seues i del seu arxiu familiar: les que va fer per al llibre al Mas de Julian i per la dena, i les antigues (el retrat de família de 1925, la romeria, el Sexenni).</p>
 
     <h2>Després del llibre</h2>
-    <p>Entre 2014 i 2016, els dos germans van recórrer una vegada i una altra la rambla de Celumbres, entre Cinctorres, Castellfort i Portell: ella identificava i descrivia el que trobaven, ell ho fotografiava. D'aquell treball va eixir un blog, <em>Ecosistema de la Rambla Celumbres</em>, que la família ha convertit en la guia <a href="https://ramblacelumbres.org/">ramblacelumbres.org</a>. Ella s'hi presentava així:</p>
+    <p>Entre 2014 i 2016 va recórrer una vegada i una altra la rambla de Celumbres, entre Cinctorres, Castellfort i Portell, identificant i descrivint el que hi trobava. D'aquell treball va eixir un blog, <em>Ecosistema de la Rambla Celumbres</em>, que la família ha convertit en la guia <a href="https://ramblacelumbres.org/">ramblacelumbres.org</a>. Ella explicava així el seu motiu:</p>
     <blockquote>
-      <p>Em dic Paquita i el meu germà, Tadeo. Estem jubilats. A tots dos ens agrada la natura, i sempre que podem recorrem les muntanyes dels Ports fent fotos: algunes m’ixen bé, altres regular; portar al costat un mestre de la fotografia com el meu germà és complicat. A mi m’agrada més escriure, així que tot queda a casa.</p>
       <p>El motiu d’aquest blog és compartir la seua biodiversitat, les nostres fotografies i la bellesa d’aquest lloc, desconegut per a molts i entranyable per a nosaltres, perquè el coneixem bé per les correries que hi hem fet des de la infantesa.</p>
       <footer>— Francisca Julián Querol, presentació del blog, març de 2014</footer>
     </blockquote>
-    <p>Tots dos van participar també en <a href="https://santjoans.es/">santjoans.es</a>, el visor del paviment ceràmic zoomòrfic del Palau Santjoans de Cinctorres: ella amb l'estudi del paviment i ell amb la fotografia de les peces.</p>
+    <p>Va participar també en <a href="https://santjoans.es/">santjoans.es</a>, el visor del paviment ceràmic zoomòrfic del Palau Santjoans de Cinctorres, amb l'estudi del paviment.</p>
 
     <h2>Esta edició</h2>
-    <p>Este lloc, com els dos anteriors, és una iniciativa familiar sense ànim de lucre, sense publicitat ni galetes, per a que el treball de Paquita i Tadeo continue a la vista de qui vulga mirar-lo. L'ha preparat <strong>Juan Tadeo Padilla Julián</strong>, fill de l'autora, que és també el contacte per a qualsevol correcció, a través del <a href="https://github.com/jtpadilla/masosdemorella">repositori del projecte</a>.</p>
+    <p>Este lloc, com els dos anteriors, és una iniciativa familiar sense ànim de lucre, sense publicitat ni galetes, per a que el treball de Paquita continue a la vista de qui vulga mirar-lo. L'ha preparat <strong>Juan Tadeo Padilla Julián</strong>, fill de l'autora, que és també el contacte per a qualsevol correcció, a través del <a href="https://github.com/jtpadilla/masosdemorella">repositori del projecte</a>.</p>
   </article>
 </Base>
 <style>

@@ -22,6 +22,6 @@ de la Universitat Jaume I, 2006. 152 p., 15 × 20 cm. ISBN 978-84-8021-570-1. Es
 
 ## Llicències
 
-- Text: © Francisca Julián Querol; fotografies: © Tadeo Julián Querol i arxiu familiar. **CC BY-NC-ND 4.0** (vegeu `LICENSE-CONTINGUT.md`).
+- Text i fotografies: © Francisca Julián Querol i arxiu familiar. **CC BY-NC-ND 4.0** (vegeu `LICENSE-CONTINGUT.md`).
 - Edició digital: Juan Tadeo Padilla Julián. Projectes germans: [ramblacelumbres.org](https://ramblacelumbres.org/) i [santjoans.es](https://santjoans.es/).
 - Programari: **MIT** (vegeu `LICENSE`).

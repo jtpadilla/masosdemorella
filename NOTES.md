@@ -194,13 +194,17 @@ Además del PDF de 2016 con el que se hizo la reconstrucción, la familia ha apo
   de 2016 ("Masos de Morella") es una reelaboración posterior de la autora**, con título y texto distintos.
 - `TT1139M_.TTF`: la fuente Calligraph421 BT usada en la cita del privilegio del Ligalló.
 
-## Página "L'autora" (2026-09-02)
-Biografía y retratos tomados de los proyectos hermanos de la familia, `jtpadilla/ramblacelumbres` (página "Els autors":
-Francisca «Paquita» y Tadeo Julián Querol, hermanos nacidos en Cinctorres; cita de la presentación del blog, marzo 2014)
-y `jtpadilla/santjoans`. Datos del libro: pròleg (padre Tadeo Julian, del Mas de Julian; UJI, Meseguer) y 8.2 (ferrer de
-Cinctorres, Encarna de Francho). El colofón de 2006 acredita "Fotografies noves: Tadeo Julian Querol; antigues: arxiu
-familiar": se acredita así en pie, licencia y galería. Retratos en `site/src/assets/autors/` (de ramblacelumbres,
-src/assets/uploads/2014/03/2.jpg y 12.jpg). Editor y contacto: Juan Tadeo Padilla Julián, hijo de la autora.
+## Página "L'autora" (2026-09-02; revisada el 2026-09-03)
+Biografía y retrato tomados de los proyectos hermanos de la familia, `jtpadilla/ramblacelumbres` (página "Els autors";
+cita de la presentación del blog, marzo 2014) y `jtpadilla/santjoans`. Datos del libro: pròleg (padre Tadeo Julian, del
+Mas de Julian; UJI, Meseguer) y 8.2 (ferrer de Cinctorres, Encarna de Francho). Retrato en `site/src/assets/autors/`
+(de ramblacelumbres, src/assets/uploads/2014/03/2.jpg). Editor y contacto: Juan Tadeo Padilla Julián, hijo de la autora.
+**Atribución de las fotografías (decisión de la familia, 2026-09-03):** aunque el `Llegeix-me.txt` y el colofón de 2006
+acreditan "Fotografies noves: Tadeo Julian Querol; antigues: arxiu familiar", la familia indica que las fotografías del
+libro son de la autora y de su archivo familiar. Se atribuyen a Francisca Julián Querol y arxiu familiar, y se ha
+retirado toda mención a Tadeo Julián Querol (hermano de la autora) del sitio, la licencia, el README, el EPUB/PDF y
+esta página, incluido su retrato. Las menciones a "Tadeo Julian" que quedan son las del libro (el padre de la autora y
+la foto 29, "Tadeo Julian (1928)").
 
 ## Referencia bibliográfica de la edición impresa (2026-09-02)
 Única ficha localizada en línea: la tienda de Publicacions de la UJI (tenda.uji.es, id_art=720), con estado "ESGOTAT":

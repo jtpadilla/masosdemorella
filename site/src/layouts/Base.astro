@@ -56,7 +56,6 @@ const ogAlt = "El Mas de Julian, amb un ramat d'ovelles davant";
     <script type="application/ld+json" set:html={JSON.stringify({
       '@context': 'https://schema.org', '@type': 'Book', name: `${llibre.titol}. ${llibre.subtitol}`, inLanguage: 'ca',
       author: { '@type': 'Person', name: 'Francisca Julián Querol' },
-      illustrator: { '@type': 'Person', name: 'Tadeo Julián Querol' },
       isbn: llibre.edicio_impresa.isbn13, numberOfPages: llibre.edicio_impresa.pagines, datePublished: String(llibre.edicio_impresa.any),
       publisher: { '@type': 'Organization', name: llibre.edicio_impresa.editorial },
       license: 'https://creativecommons.org/licenses/by-nc-nd/4.0/', url: Astro.site ? new URL(import.meta.env.BASE_URL, Astro.site).href : undefined,
@@ -85,7 +84,7 @@ const ogAlt = "El Mas de Julian, amb un ramat d'ovelles davant";
       <slot />
     </main>
     <footer class="peu">
-      <p>{llibre.titol}. {llibre.subtitol} — text © <a href={href('autora/')}>Francisca Julián Querol</a>; fotografies © Tadeo Julián Querol i arxiu familiar. Llicència <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ca" rel="license">CC BY-NC-ND 4.0</a>.</p>
+      <p>{llibre.titol}. {llibre.subtitol} — text i fotografies © <a href={href('autora/')}>Francisca Julián Querol</a> i arxiu familiar. Llicència <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ca" rel="license">CC BY-NC-ND 4.0</a>.</p>
       <p>Edició digital de recuperació a partir de l'únic PDF conservat. <a href={href('edicio/')}>Com s'ha fet</a> · <a href={href('original/Masos_de_Morella_val1_17x23.pdf')}>PDF original</a> · <a href="https://github.com/jtpadilla/masosdemorella">Repositori</a></p>
     </footer>
     <script>
