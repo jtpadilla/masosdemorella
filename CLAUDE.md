@@ -6,7 +6,9 @@ Recuperar y publicar online el libro de Francisca Julián i Querol, impreso como
 la Dena dels Llivis"** (Publicacions de la Universitat Jaume I, 2006; edición única y pequeña, sin ejemplares localizables)
 y revisado por la autora en 2016 como **"Masos de Morella"** (PDF). **El sitio reproduce la revisión de 2016**
 (`source/Masos_de_Morella_val1_17x23.pdf`, validada contra el `.doc` de la autora); decisión T-19 (a), ver NOTES.md.
-La edición impresa solo existe como escaneo sin capa de texto (`source/Masos de Morella_Copia impressio.pdf`).
+La edición impresa solo existe como escaneo sin capa de texto (`source/Masos de Morella_Copia impressio.pdf`); su
+texto no se recupera (T-22 descartada). `source/` guarda además el máster Word de 2016, el PDF de 2006 tal como se envió
+a la editorial (antes de su revisión) y las fotografías originales de la familia (`source/Fotos/`); inventario en NOTES.md.
 
 Objetivo doble:
 1. **Reconstruir los masters** (texto + imágenes) en formatos abiertos y longevos (Markdown + JPEG originales),
@@ -27,8 +29,8 @@ lo contrario explícitamente y se documente en `NOTES.md`).
   (offset = 5). Páginas 1-2 y 5 sin número (portada, blanco, portadilla).
 - **El índice general y el índice de ilustraciones NO cuadran con esta paginación** (el índice dice que
   "Conclusions" está en la 101 e "Índex d'il·lustracions" en la 105; en el PDF están en la 96 y 99). Los índices
-  reflejan una maquetación final distinta (probablemente la impresa a 17×23, ~105 págs.). Se usa la paginación
-  del PDF como referencia y se documenta la discrepancia.
+  reflejan otra maquetación, que tampoco es la impresa de 2006 (~150 págs., "Conclusions" en la 148). Se usa la
+  paginación del PDF como referencia y se documenta la discrepancia.
 - Título inconsistente en el propio original: portada **"MASOS de Morella"**, cabecera de página
   **"Masies de Morella"**. Se respeta tal cual.
 - **Imágenes**: 27 imágenes raster JPEG, 26 únicas (la de portada, "Mas de Julian", se repite en pág. física 48).
@@ -59,17 +61,17 @@ Por qué:
 ## Estructura del repositorio
 
 ```
-source/                 PDF original (intocable, artefacto de archivo)
+source/                 originales (intocables): PDF de 2016, .doc, PDF de 2006, escaneo de la edición impresa, Fotos/, fuente TTF
 extract/                salida de extract/extract.sh: text/pNNN.txt, text/book.xml (fuentes), images/, render/ (ignorado en git)
 content/                MASTERS RECUPERADOS: un .md por capítulo, frontmatter con título/número
-assets/images/          JPEG originales renombrados NN-figura.jpg (NN = orden en el índice de ilustraciones; 10,12,14,15 aportadas por la familia);
+assets/images/          las 30 fotos del índice de ilustraciones, NN-figura.jpg (NN = orden en el índice), a partir de los originales de source/Fotos/;
                         SVG generados: 01-mapa-dels-ports.svg (sustituye al JPEG de baja calidad), ed-*.svg (ilustraciones de esta edición)
 extract/mapa/           generadores de mapas SVG (mapalib.py, mapa_ports/denes/llivis/julian.py, text2path.mjs) y datos filtrados;
                         `extract/mapa/genera.sh [--png]` (o `npm run mapes` en site/) regenera los cuatro; opentype.js viene con `npm install` en site/
 site/                   proyecto Astro 7 (lee content/ y assets/); .github/workflows/deploy.yml lo publica
 NOTES.md                decisiones editoriales, lagunas, discrepancias detectadas
 TODO.md                 tareas pendientes numeradas (T-nn)
-LICENSE / LICENSE-CONTINGUT.md  MIT para el código; CC BY-NC-ND 4.0 para texto y fotos (© Francisca Julian i Querol)
+LICENSE / LICENSE-CONTINGUT.md  MIT para el código; CC BY-NC-ND 4.0 para texto (© Francisca Julián Querol) y fotos (© Tadeo Julián Querol y archivo familiar)
 ```
 
 ## Estado y flujo de trabajo
@@ -84,7 +86,7 @@ LICENSE / LICENSE-CONTINGUT.md  MIT para el código; CC BY-NC-ND 4.0 para texto 
 3. `extract/check.py` — verificación palabra a palabra PDF ↔ Markdown (recuento y orden). Debe seguir limpio tras
    cualquier cambio en el script.
 
-4. `site/` — sitio Astro 7 (**hecho**, 2026-09-02). `npm run build` = astro build + copia del PDF a `dist/original/` +
+4. `site/` — sitio Astro 7 (**hecho**, 2026-09-02). `npm run build` = astro build + copia de los PDF de `source/` a `dist/original/` +
    índice Pagefind. `npm run dev` para desarrollo (la búsqueda solo funciona en el build). Piezas:
    - `astro.config.mjs`: procesador Markdown `unified()` de `@astrojs/markdown-remark` (Astro 7 usa otro por defecto),
      smartypants desactivado (no tocar la tipografía del original), `site`/`base` derivados de `GITHUB_REPOSITORY`.
@@ -93,13 +95,13 @@ LICENSE / LICENSE-CONTINGUT.md  MIT para el código; CC BY-NC-ND 4.0 para texto 
    - `src/lib/rehype-book.mjs`: `<p><img></p>` → `<figure class="figura">` + figcaption, ancho máx. 1200 px.
      Las anclas de página llegan ya formadas desde el Markdown (HTML en bruto, rehype no las ve).
    - `src/lib/llibre.ts`: helpers (`href()` respeta `base`, `slugOf`, `figures()` extrae las figuras del propio Markdown).
-   - Páginas: `/` portada+índice, `/[slug]/` capítulo con anterior/siguiente, `/il-lustracions/`, `/cerca/`, `/edicio/`.
+   - Páginas: `/` portada+índice, `/[slug]/` capítulo con anterior/siguiente, `/il-lustracions/`, `/cerca/`, `/edicio/`, `/autora/`.
    - Estilo en `src/styles/global.css`: EB Garamond (fontsource, autoalojada), claro/oscuro con botón, números de
      página al margen (`a.pag::after`), impresión. UI del sitio en valenciano, como el libro.
 5. `.github/workflows/deploy.yml` publica en GitHub Pages en cada push a `main` (**hecho**). Repositorio público
    `jtpadilla/masosdemorella`; sitio en https://jtpadilla.github.io/masosdemorella/ (Pages con origen GitHub Actions).
 
-7. Revisión visual página a página contra `extract/render/` (**hecha**, 2026-09-02; hallazgos en NOTES.md).
+6. Revisión visual página a página contra `extract/render/` (**hecha**, 2026-09-02; hallazgos en NOTES.md).
    `extract/segment.py N [N…]` imprime el Markdown de una página impresa para cotejarlo con `render/p-0NN.png` (NN = N+5).
 
 **Pendiente**: ver `TODO.md` (tareas numeradas `T-nn`; citarlas en commits y notas al resolverlas).
