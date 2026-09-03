@@ -26,6 +26,65 @@ documentada, sin recuperar su texto (T-22 descartada). No queda ninguna tarea de
   Llambroix y la Corralisa tampoco; "Mas de Solarreta" se ha situado en "la Solaneta" del Nomenclàtor. Todo se corrige
   en las tablas de los scripts y se regenera con `extract/mapa/genera.sh`.
 
+### Recursos gráficos complementarios (propuesta del 2026-09-03)
+
+Ilustraciones nuevas derivadas solo del texto del libro, sin tocarlo; entran como las tres existentes (figura
+`ed-*.svg` marcada "Il·lustració d'esta edició", tabla `INSERTS` de `to_markdown.py`, generador en `extract/mapa/`).
+Orden recomendado: T-23, T-24, T-25.
+
+- [ ] **T-23 (B) Rueda del año en el mas** (final del cap. 6 o inicio del 7).
+  Diagrama circular con las fechas dispersas por el libro: siembra de cereal (oct-nov), matanza y bureos (dic-ene),
+  Sant Antoni (17 ene), creïlles d'hort (marzo), pago del arriendo y cambio de masía (3 abril), romerías (25 y 29 abril),
+  esquileo y miel (mayo-junio), siega y venta de corderos (junio-julio), Fira (2.º domingo de septiembre), trufa (nov-marzo),
+  bolets (otoño), carboneras (invierno). Todo sale de 3.6, 3.8, 4.6, 4.11, 5.6, 5.9, 5.10, 6.4 y 7.
+
+- [ ] **T-24 (B) Árbol genealógico de la familia Julian** (8.2).
+  Tres generaciones: Ramon Julian + Felipa Segura (Mas de Clara); hijos Antoni (hereu), Ramon (†Cuba), Josep (avi) + Manuela
+  (mas de Sabater), Maria (casa de Morella), Benardo (maset de Conill); hijos de Josep: Francisco, Ramon, Tadeo + Encarna
+  de Francho, Fidel, Juliana, Rosario (La Màquina), Josefina; la autora y sus dos hermanos; enlaces con Guardiola y Adell.
+  Validar con la familia antes de publicar.
+
+- [ ] **T-25 (B) Cronología de la dena y de Morella** (cap. 2 o transversal).
+  Línea de tiempo con dos carriles (historia general / Dena dels Llivis) a partir de los ~30 hitos fechados del libro:
+  218 a.C., 18 a.C., 476, 1084, 1232-33, 1256, 1270, 1345, 1360, <1370, 1412-14, 1460, Germanies, 1594, 1640, 1670, 1673,
+  1691, 1705, 1741, 1786, 1809, 1833, 1882, 1895 (174 hab.), 1938, 1944, 1947-48, 1956-1974, 1980, 1986 (26 hab.).
+
+- [ ] **T-26 (C) Mapa de ermitas, peirons y rogativas por denas** (7.1-7.2).
+  Sobre `ed-mapa-de-les-denes.svg`: Sant Marc (Castellons, 25 abr), Sant Pere dels Llivis (29 abr), la Llàcua (1 may),
+  Santa Creu del riu de les Corses (3 may), Sant Isidre d'Herbeset y peiró de Sant Isidre (15 may), Sant Antoni de la Vespa
+  (13 jun), Sant Pere del Moll (24 jun), Sant Cristòfol (10 jul), Vallivana; rogativas desaparecidas como flechas a Bordó,
+  Castellfort y la Mare de Déu de la Font. Topónimos en el Nomenclàtor y OSM.
+
+- [ ] **T-27 (C) Ruta a pie de Cinctorres al Mas de Julian** (8.2).
+  Carretera hacia Morella (2,5 km), desvío en Caldes, mas de La Màquina, cruce del río junto al Molí Vicent (dena de la
+  Vespa), subida por la umbría de la Torre Massa hasta la Serra Calduch. Trazado a confirmar con la familia (junto a T-17).
+
+- [ ] **T-28 (C) Relieve e hidrografía del término de Morella** (cap. 1).
+  Siete cumbres con altitud (Carrascals 1263, Pinar 1081, Regafolet 1259, Morella la Vella 1068, Muixacre 1274, Fusters 1294,
+  Nevera 1286), ríos Bergants y Cérvol, puerto de Torremiró y municipios limítrofes por puntos cardinales. Mismas fuentes
+  que `mapa_ports.py`.
+
+- [ ] **T-29 (C) Nombres del ganado por edad** (4.1).
+  Línea: cabrit/corder → xoto/xota → primal/primala (1 año) → andosc/andosca → terserenc/terserenca (4.º año) → "ha tancat"
+  (5.º) → "entra a vell"; boc y borrego aparte.
+
+- [ ] **T-30 (C) Del campo al granero: diagrama de flujo del cereal** (3.6-3.9).
+  Siembra → siega (falç, dalla) → garbes → carrejador → era → trill → forca y pala → garbell → barcella → granero / pallissa,
+  enlazando las fotos de aperos.
+
+- [ ] **T-31 (C) Planta esquemática de un mas** (5.1). Con reservas: sería una generalización a partir del texto
+  (orientación, corrales adosados, entrada y escalera, cocina con recuina y pastador, secador al NE). Mejor si la familia
+  dibuja la planta real del Mas de Julian.
+
+- [ ] **T-32 (C) Escenario del crimen de 1882** (8.1). Con reservas: ruta del recaudador desde Castellfort y Portell, Mas
+  del Racó, "los cuatro caminos"; el punto exacto no se conoce, marcar como aproximado.
+
+- [ ] **T-33 (C) Dibujos técnicos**: secciones del forn de calç (5.11) y de la carbonera (5.12), arreos de la caballería
+  (3.4). Descripciones suficientes, pero exigen dibujo y son las que más fácilmente contradicen un detalle del original.
+
+No se proponen gráficos de datos: las únicas cifras seriadas (174 hab. en 1895, 26 en 1986; 21 masías, 6 habitadas)
+caben en la cronología.
+
 ### Sitio y herramientas
 
 - [ ] **T-11 (C) Generar EPUB y PDF a partir del Markdown.**
