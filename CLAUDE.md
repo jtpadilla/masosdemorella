@@ -33,12 +33,12 @@ lo contrario explícitamente y se documente en `NOTES.md`).
   **"Masies de Morella"**. Se respeta tal cual.
 - **Imágenes**: 27 imágenes raster JPEG, 26 únicas (la de portada, "Mas de Julian", se repite en pág. física 48).
   Calidad muy buena: la mayoría ~2350×1570 px a ~600 ppi efectivos. Se extraen sin recomprimir con
-  `pdfimages -all`. Excepción: **"Mapa dels Ports"** (pág. física 8) es de solo 394×330 px — baja calidad,
-  candidata a sustituir/redibujar si se localiza una fuente mejor.
-- **4 ilustraciones perdidas ya en el original**: el índice lista 30, pero las figuras **"Dalla"** (pág. física 28),
+  `pdfimages -all`. Excepción: **"Mapa dels Ports"** (pág. física 8) es de solo 394×330 px — baja calidad;
+  sustituido por el SVG redibujado `01-mapa-dels-ports.svg` (T-06).
+- **4 ilustraciones perdidas en el PDF**: el índice lista 30, pero las figuras **"Dalla"** (pág. física 28),
   **"Carrejador"** (pág. 31), **"Trill"** (pág. 32) y **"Garbells"** (pág. 33) solo tienen el pie y un enlace de imagen roto
-  (cuadradito vacío). No son recuperables desde el PDF. En el sitio se dejan como lagunas documentadas
-  (placeholder + nota) por si la familia conserva las fotos.
+  (cuadradito vacío). **Ya recuperadas**: la familia aportó los originales (T-05) y están en `assets/images/`
+  (10, 12, 14, 15); las 30 ilustraciones del índice están completas.
 - Hay notas al pie, cursivas (términos locales), listas, citas y un poema/canciones al final. Ninguna tabla.
 
 ## Tecnología elegida

@@ -2,7 +2,9 @@
 
 Registro de todo lo detectado en el PDF de origen. Nada de esto se "corrige" en el texto recuperado sin decisión explícita.
 
-## Lagunas: ilustraciones perdidas en el propio PDF
+## Lagunas: ilustraciones perdidas en el propio PDF (resuelto el 2026-09-02, T-05)
+**Ya no faltan**: la familia aportó las cuatro fotos y están en `assets/images/` (ver "Las cuatro fotografías perdidas,
+recuperadas", más abajo). Se conserva el hallazgo como registro del estado del PDF de origen.
 El índice de ilustraciones lista 30 figuras; el PDF solo contiene 26 imágenes únicas. Cuatro tienen el pie de foto
 pero un enlace de imagen roto (cuadrado vacío) — se perdieron antes de generar el PDF:
 
@@ -13,11 +15,11 @@ pero un enlace de imagen roto (cuadrado vacío) — se perdieron antes de genera
 | 14        | Trill       | 32                | 27           |
 | 15        | Garbells    | 33                | 28           |
 
-Todas son fotos de aperos de labranza. Acción posible: pedir a la familia si conservan las fotos originales.
+Todas son fotos de aperos de labranza.
 
 ## Calidad de imágenes
 - 25 de las 26 fotos están a resolución de origen (≈2350×1570 px o similar). Se conservan los bytes JPEG originales.
-- **"Mapa dels Ports"** (nº 1) es de 394×330 px: muy baja. Candidata a sustituir por un mapa nuevo o mejor fuente.
+- **"Mapa dels Ports"** (nº 1) es de 394×330 px: muy baja. Sustituido por un mapa redibujado (T-06, ver más abajo).
 - La foto de portada es la misma que la figura 21 "Mas de Julian" (bytes idénticos).
 - Figuras 27, 28 y 29 son fotografías en escala de grises (fotos antiguas: 1925, romería, 1928).
 
