@@ -86,8 +86,8 @@ LICENSE / LICENSE-CONTINGUT.md  MIT para el código; CC BY-NC-ND 4.0 para texto 
 3. `extract/check.py` — verificación palabra a palabra PDF ↔ Markdown (recuento y orden). Debe seguir limpio tras
    cualquier cambio en el script.
 
-4. `site/` — sitio Astro 7 (**hecho**, 2026-09-02). `npm run build` = astro build + copia de los PDF de `source/` a `dist/original/` +
-   índice Pagefind. `npm run dev` para desarrollo (la búsqueda solo funciona en el build). Piezas:
+4. `site/` — sitio Astro 7 (**hecho**, 2026-09-02). `npm run build` = `scripts/llibre.mjs` (EPUB y PDF del libro → `public/llibre/`,
+   ignorado en git; T-11) + astro build + copia de los PDF de `source/` a `dist/original/` + índice Pagefind. `npm run dev` para desarrollo (la búsqueda solo funciona en el build). Piezas:
    - `astro.config.mjs`: procesador Markdown `unified()` de `@astrojs/markdown-remark` (Astro 7 usa otro por defecto),
      smartypants desactivado (no tocar la tipografía del original), `site`/`base` derivados de `GITHUB_REPOSITORY`;
      integración `@astrojs/sitemap`.
@@ -99,7 +99,11 @@ LICENSE / LICENSE-CONTINGUT.md  MIT para el código; CC BY-NC-ND 4.0 para texto 
      Las anclas de página llegan ya formadas desde el Markdown (HTML en bruto, rehype no las ve).
    - `src/lib/llibre.ts`: helpers (`href()` respeta `base`, `slugOf`, `figures()` extrae las figuras del propio Markdown).
    - Páginas: `/` portada+índice, `/[slug]/` capítulo con anterior/siguiente, `/il-lustracions/`, `/cerca/`, `/edicio/`, `/autora/`,
-     `robots.txt` (endpoint). `Base.astro` emite canonical, Open Graph (portada 1200×630) y JSON-LD schema.org/Book.
+     `robots.txt` (endpoint).
+   - `scripts/llibre.mjs`: EPUB 3 (XHTML por capítulo, nav con page-list de la paginación original, EB Garamond incrustada)
+     y PDF a 17×23 cm impreso con Chrome headless vía DevTools (cabecera, folios, índice con números calculados imprimiendo
+     cada parte, marcadores). Markdown→HTML con remark/rehype (devDependencies explícitas). Requiere `google-chrome`
+     (variable `CHROME`); en CI usa `--no-sandbox`. `Base.astro` emite canonical, Open Graph (portada 1200×630) y JSON-LD schema.org/Book.
    - Estilo en `src/styles/global.css`: EB Garamond (fontsource, autoalojada), claro/oscuro con botón, números de
      página al margen (`a.pag::after`), impresión. UI del sitio en valenciano, como el libro.
 5. `.github/workflows/deploy.yml` publica en GitHub Pages en cada push a `main` (**hecho**). Repositorio público

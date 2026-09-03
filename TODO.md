@@ -76,16 +76,16 @@ caben en la cronología.
 
 ### Sitio y herramientas
 
-- [ ] **T-11 (C) Generar EPUB y PDF a partir del Markdown.**
-  Los masters en `content/` permiten regenerar el libro: p. ej. `pandoc content/*.md -o llibre.epub` filtrando las
-  anclas de página y las figuras editoriales (o incluyéndolas, ya con licencia definida: CC BY-NC-ND 4.0). Publicarlos
-  junto al PDF original en `dist/original/` (ver script `build` en `site/package.json`).
-
 - [ ] **T-12 (C) Repasar el sitio en móvil real y con lector de pantalla.**
   Conocido: el botón de tema salta de línea en pantallas estrechas (`.capcalera nav` en `global.css`). Las capturas de
   comprobación se han hecho solo con Chrome headless (`google-chrome --headless=new --screenshot`).
 
 ## Resueltas
+
+- [x] **T-11** EPUB y PDF generados desde los masters por `site/scripts/llibre.mjs` (sin pandoc: remark/rehype + Chrome
+  headless + sharp), publicados en `/llibre/` y enlazados en "Sobre esta edició"; forman parte de `npm run build`.
+  PDF de 17×23 cm con folios, índice paginado, marcas de página del original en el margen y figuras de esta edición a
+  página completa (la rueda, apaisada); EPUB 3 con page-list de la paginación original (2026-09-03).
 
 - [x] **T-28** Mapa del relieve y los ríos del término: `extract/mapa/mapa_relleu.py` → `assets/images/ed-relleu-i-rius.svg`,
   tras el Mapa dels Ports en el capítulo 1. Cinco de las siete cumbres identificadas en OSM (dos en posición aproximada,

@@ -5,6 +5,16 @@ import Base from '../layouts/Base.astro';
 import { figuresEdicio, href, llibre } from '../lib/llibre';
 const imatges = import.meta.glob<ImageMetadata>('../../../assets/images/ed-*.svg', { eager: true, import: 'default' });
 const perFitxer = Object.fromEntries(Object.entries(imatges).map(([k, v]) => [k.split('/').pop()!, v]));
+// Fitxers del llibre generats per scripts/llibre.mjs (npm run llibre) a public/llibre/; si no hi són, no s'enllacen
+import { existsSync, statSync } from 'node:fs';
+import { resolve } from 'node:path';
+const llibreDir = resolve(process.cwd(), 'public/llibre');   // astro s'executa des de site/
+const llibreFitxers = [
+  { nom: 'masos-de-morella.epub', etiqueta: 'EPUB (per a lectors electrònics)' },
+  { nom: 'masos-de-morella.pdf', etiqueta: 'PDF (17 × 23 cm, per a imprimir)' },
+].filter((f) => existsSync(resolve(llibreDir, f.nom)))
+ .map((f) => ({ ...f, mb: (statSync(resolve(llibreDir, f.nom)).size / 1048576).toFixed(0) }));
+
 ---
 <Base title="Sobre esta edició">
   <article class="text">
@@ -57,5 +67,8 @@ const perFitxer = Object.fromEntries(Object.entries(imatges).map(([k, v]) => [k.
     <h2>Com s'ha fet</h2>
     <p>La recuperació és reproduïble: el text i les imatges s'han extret del PDF amb programari lliure (Poppler) i s'han convertit a fitxers de text pla (Markdown) i JPEG, que són els nous originals del llibre. Este lloc web és només una manera de llegir-los. Tot el procés, les decisions preses i els problemes trobats estan documentats al <a href="https://github.com/jtpadilla/masosdemorella">repositori del projecte</a>, on també es poden proposar correccions o aportar fotografies.</p>
     <p><a href={href('original/Masos_de_Morella_val1_17x23.pdf')}>Descarrega el PDF de 2016</a> (15 MB), la font d'esta edició.</p>
+    {llibreFitxers.length > 0 && (
+      <p>El llibre d'esta edició, generat a partir del text i les fotografies recuperats, amb les il·lustracions afegides i les marques de pàgina de l'original: {llibreFitxers.map((f, i) => (<>{i > 0 && ' · '}<a href={href(`llibre/${f.nom}`)}>{f.etiqueta}</a> ({f.mb} MB)</>))}.</p>
+    )}
   </article>
 </Base>

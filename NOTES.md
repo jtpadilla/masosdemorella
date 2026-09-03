@@ -252,3 +252,17 @@ Fusters = el Moletó (1295, junto al paraje "Moles de Fusters"), Nevera = Tossal
 aproximada (el paraje "el Pinar de Xiva" y el mas de Morella la Vella) y la leyenda lo dice. También van el Turmell y la
 Mola Garumba (citados en 1 y 2, sin altitud en el libro). Ortells, que el libro cita como límite oeste, no aparece como
 lugar en OSM y se omite. Se inserta tras el Mapa dels Ports (tabla `INSERTS`).
+
+## Llibre en EPUB i PDF (2026-09-03, T-11)
+`site/scripts/llibre.mjs` (`npm run llibre`; forma parte de `npm run build`) genera `public/llibre/masos-de-morella.epub`
+y `.pdf` desde `content/*.md` y `assets/images/`. No hay pandoc ni LaTeX en la máquina: Markdown→HTML con la misma
+cadena que el sitio (remark-gfm, sin smartypants; footnotes por capítulo con prefijo para que los ids no choquen),
+imágenes reducidas a 1400 px con sharp, EB Garamond de fontsource. EPUB 3 empaquetado con un zip mínimo propio
+(mimetype almacenado primero); nav con índice, `page-list` (las anclas `<a id="pNN">` del Markdown pasan a
+`<span epub:type="pagebreak">`) y landmarks; portada renderizada con Chrome. PDF: un HTML a 17×23 cm (formato del PDF
+de 2016) impreso con Chrome headless por el protocolo DevTools: Chrome 152 soporta los margin boxes de `@page`
+(cabecera y folio), páginas con nombre y tamaños mixtos (la rueda del año va apaisada, los mapas a página completa);
+los números del índice se calculan imprimiendo cada parte por separado y contando `/Type /Page`; marcadores a partir
+de los títulos (`generateDocumentOutline`). Las marcas de página del original van en un canal de 10 mm a la izquierda
+del texto (dentro del área imprimible: lo que cae en el margen de página no se imprime). Los ficheros no se versionan
+(`site/.gitignore`); en CI los genera el workflow, que necesita `google-chrome` (presente en ubuntu-latest).

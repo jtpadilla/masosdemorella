@@ -22,3 +22,7 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# Llibre generat (EPUB/PDF) i carpeta de treball: npm run llibre
+public/llibre/
+.llibre/
