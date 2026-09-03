@@ -119,3 +119,5 @@ Els últims dies d’abril comencen les romeries en les ermites que hi ha en tot
 Al juny i juliol es venien els corders i s’arreplegava la collita.
 
 <a id="p72" class="pag" data-p="72"></a>A la tardor es sembrava i es tenia sempre en compte les fases de la lluna. Arribava el temps de caça, les matances, els *bureos* i una altra vegada a començar.
+
+![L’any al mas: faenes del camp, del ramat i de la casa i festes de cada mes, segons el llibre](../assets/images/ed-roda-de-l-any.svg)

@@ -9,10 +9,11 @@ import rehypeBook from './src/lib/rehype-book.mjs';
 // SITE_URL i BASE_PATH permeten forçar-ho (domini propi, etc.).
 const [owner, repo] = (process.env.GITHUB_REPOSITORY ?? '').split('/');
 const userSite = repo && repo.toLowerCase() === `${owner.toLowerCase()}.github.io`;
+const base = process.env.BASE_PATH ?? (owner && !userSite ? `/${repo}` : '/');
 
 export default defineConfig({
   site: process.env.SITE_URL ?? (owner ? `https://${owner}.github.io` : 'http://localhost:4321'),
-  base: process.env.BASE_PATH ?? (owner && !userSite ? `/${repo}` : '/'),
+  base,
   trailingSlash: 'always',
   integrations: [sitemap()], // genera sitemap-index.xml a partir de `site` + `base` (T-10)
   image: { layout: 'constrained', responsiveStyles: true },
@@ -20,7 +21,7 @@ export default defineConfig({
     processor: unified({
       gfm: true,
       smartypants: false, // el text ja porta la tipografia de l'original; no tocar-la
-      rehypePlugins: [rehypeBook],
+      rehypePlugins: [[rehypeBook, { base }]],
       remarkRehype: {
         footnoteLabel: 'Notes',
         footnoteLabelProperties: { className: ['notes-titol'] },

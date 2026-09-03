@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Regenera los cuatro mapas SVG de esta edición (assets/images/01-mapa-dels-ports.svg y ed-*.svg).
+# Regenera los SVG de esta edición (assets/images/01-mapa-dels-ports.svg y ed-*.svg): cuatro mapas y la rueda del año.
 # Requiere python3, node y las dependencias del sitio instaladas (cd site && npm install: aporta opentype.js).
 # Con --png, exporta además una vista PNG de cada uno a extract/mapa/preview/ (requiere inkscape).
 set -euo pipefail
@@ -8,6 +8,7 @@ cd "$(dirname "$0")"
 for m in ports denes llivis julian; do
   python3 "mapa_$m.py"
 done
+python3 roda_any.py
 if [ "${1:-}" = "--png" ]; then
   mkdir -p preview
   for f in ../../assets/images/01-mapa-dels-ports.svg ../../assets/images/ed-*.svg; do

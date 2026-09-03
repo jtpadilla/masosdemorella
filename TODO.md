@@ -30,13 +30,7 @@ documentada, sin recuperar su texto (T-22 descartada). No queda ninguna tarea de
 
 Ilustraciones nuevas derivadas solo del texto del libro, sin tocarlo; entran como las tres existentes (figura
 `ed-*.svg` marcada "Il·lustració d'esta edició", tabla `INSERTS` de `to_markdown.py`, generador en `extract/mapa/`).
-Orden recomendado: T-23, T-24, T-25.
-
-- [ ] **T-23 (B) Rueda del año en el mas** (final del cap. 6 o inicio del 7).
-  Diagrama circular con las fechas dispersas por el libro: siembra de cereal (oct-nov), matanza y bureos (dic-ene),
-  Sant Antoni (17 ene), creïlles d'hort (marzo), pago del arriendo y cambio de masía (3 abril), romerías (25 y 29 abril),
-  esquileo y miel (mayo-junio), siega y venta de corderos (junio-julio), Fira (2.º domingo de septiembre), trufa (nov-marzo),
-  bolets (otoño), carboneras (invierno). Todo sale de 3.6, 3.8, 4.6, 4.11, 5.6, 5.9, 5.10, 6.4 y 7.
+Orden recomendado: T-24, T-25 (T-23 hecha).
 
 - [ ] **T-24 (B) Árbol genealógico de la familia Julian** (8.2).
   Tres generaciones: Ramon Julian + Felipa Segura (Mas de Clara); hijos Antoni (hereu), Ramon (†Cuba), Josep (avi) + Manuela
@@ -97,6 +91,10 @@ caben en la cronología.
   comprobación se han hecho solo con Chrome headless (`google-chrome --headless=new --screenshot`).
 
 ## Resueltas
+
+- [x] **T-23** Rueda del año al mas: `extract/mapa/roda_any.py` → `assets/images/ed-roda-de-l-any.svg`, insertada al final
+  del capítulo 6 (tras "una altra vegada a començar"), en la galería y en "Sobre esta edició". Cada entrada de la tabla
+  `MESOS` lleva el apartado del libro del que sale (2026-09-03).
 
 - [x] **T-13** Mantenimiento (2026-09-03): `npm outdated` solo señala `opentype.js` 2.0 (**no actualizar**: cambia la
   serialización de los trazados y los cuatro SVG dejan de ser reproducibles; se queda en 1.3.4). `check.py` limpio

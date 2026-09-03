@@ -66,8 +66,8 @@ extract/                salida de extract/extract.sh: text/pNNN.txt, text/book.x
 content/                MASTERS RECUPERADOS: un .md por capítulo, frontmatter con título/número
 assets/images/          las 30 fotos del índice de ilustraciones, NN-figura.jpg (NN = orden en el índice), a partir de los originales de source/Fotos/;
                         SVG generados: 01-mapa-dels-ports.svg (sustituye al JPEG de baja calidad), ed-*.svg (ilustraciones de esta edición)
-extract/mapa/           generadores de mapas SVG (mapalib.py, mapa_ports/denes/llivis/julian.py, text2path.mjs) y datos filtrados;
-                        `extract/mapa/genera.sh [--png]` (o `npm run mapes` en site/) regenera los cuatro; opentype.js viene con `npm install` en site/
+extract/mapa/           generadores SVG (mapalib.py, mapa_ports/denes/llivis/julian.py, roda_any.py, text2path.mjs) y datos filtrados;
+                        `extract/mapa/genera.sh [--png]` (o `npm run mapes` en site/) regenera los cinco; opentype.js viene con `npm install` en site/
 site/                   proyecto Astro 7 (lee content/ y assets/); .github/workflows/deploy.yml lo publica
 NOTES.md                decisiones editoriales, lagunas, discrepancias detectadas
 TODO.md                 tareas pendientes numeradas (T-nn)
@@ -93,7 +93,9 @@ LICENSE / LICENSE-CONTINGUT.md  MIT para el código; CC BY-NC-ND 4.0 para texto 
      integración `@astrojs/sitemap`.
    - `src/content.config.ts`: colección `llibre` (glob sobre `../content/*.md`) y `meta` (file sobre `../content/llibre.yaml`,
      que por eso tiene la clave superior `llibre:`). Vite tiene `fs.allow: ['..']` porque content/ y assets/ están fuera.
-   - `src/lib/rehype-book.mjs`: `<p><img></p>` → `<figure class="figura">` + figcaption, ancho máx. 1200 px.
+   - `src/lib/rehype-book.mjs`: `<p><img></p>` → `<figure class="figura">` + figcaption, ancho máx. 1200 px; los SVG
+     (`ed-*`) llevan su ancho real, sin srcset, y enlace a `/imatges/<fichero>` (endpoint `src/pages/imatges/[file].ts`)
+     para abrirlos a tamaño completo; recibe `{ base }` desde `astro.config.mjs`.
      Las anclas de página llegan ya formadas desde el Markdown (HTML en bruto, rehype no las ve).
    - `src/lib/llibre.ts`: helpers (`href()` respeta `base`, `slugOf`, `figures()` extrae las figuras del propio Markdown).
    - Páginas: `/` portada+índice, `/[slug]/` capítulo con anterior/siguiente, `/il-lustracions/`, `/cerca/`, `/edicio/`, `/autora/`,

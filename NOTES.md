@@ -222,3 +222,19 @@ en "Sobre esta edició" y como JSON-LD (schema.org/Book) en todas las páginas.
   PDF de `source/` a `dist/original/`. La dedicatoria del `Llegeix-me.txt` no se incorpora.
 - **T-21 cerrada**: el mapa manuscrito `source/Fotos/Mapa_Dena.jpg`, de procedencia sin confirmar, no se publica;
   su función la cumple `assets/images/ed-mapa-dena-llivis.svg`.
+
+## Roda de l'any al mas (2026-09-03, T-23) — ilustración nueva de esta edición
+`extract/mapa/roda_any.py` genera `assets/images/ed-roda-de-l-any.svg` con la misma librería que los mapas (rótulos en
+EB Garamond como trazados). Es un diagrama circular con los doce meses, cuatro anillos (camp, ramat, casa, festes) y un
+bloque de texto por mes. Todo el contenido sale del libro; cada línea de la tabla `MESOS` del script cita el apartado
+(3.6 sembra, 3.8 sega, 4.11 esquiló, 5.5 bolets y calç, 5.6 matança, 5.8 llenya y ferramentes, 5.9 trufa, 5.10 mel,
+5.12 carboneres, 6.4 arrendament, parròquia, venda de corders, caça, 7.1-7.5 festes). Decisiones: la venta de corderos
+se fecha en junio-julio como dice 6.4 (4.6 la sitúa en "primavera", a los 4-5 meses); el Sexenni y el Anunci se marcan
+como "cada sis anys"; los días fijos van como puntos sobre el anillo de fiestas; los periodos cortos (Fira, Vallivana) se
+dibujan con la duración de una semana para que se vean. No se representan como arcos la caza ni las carboneras (solo
+en el texto del mes) para no amontonar el anillo de invierno. Se inserta al final del capítulo 6, después del párrafo
+que resume el ciclo del año ("…i una altra vegada a començar"), mediante la tabla `INSERTS` de `to_markdown.py`.
+Presentación en el sitio: a la anchura de la columna (36rem) los rótulos no se leen, así que desde este cambio las
+figuras `ed-*` salen de la columna hasta su anchura real (`.figura.editorial` en `global.css`; `rehype-book.mjs` toma
+la anchura del `viewBox`) y todo SVG del texto va enlazado a `/imatges/<fichero>` (endpoint `src/pages/imatges/[file].ts`,
+sin hash) para abrirlo a tamaño completo, como ya hacían la galería y "Sobre esta edició".

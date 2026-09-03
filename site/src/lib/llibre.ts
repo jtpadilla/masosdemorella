@@ -68,6 +68,11 @@ export const figuresEdicio = [
     caption: 'El Mas de Julian: croquis de l’entorn i lloc des d’on es van fer les fotografies del llibre',
     note: 'Traçat per a esta edició sobre l’ortofotografia PNOA (IGN, CC-BY 4.0), amb el camí d’OpenStreetMap; les posicions de càmera són aproximades. S’insereix a l’apartat 5.1, després de la fotografia del mas.',
   },
+  {
+    file: 'ed-roda-de-l-any.svg',
+    caption: 'L’any al mas: faenes del camp, del ramat i de la casa i festes de cada mes, segons el llibre',
+    note: 'Diagrama fet per a esta edició que reuneix les dates i faenes que el llibre dóna disperses pels capítols 3 a 7 (sembra, sega, esquiló, matança, trufa, romeries, Sant Antoni, Sexenni, Fira…); no hi ha cap dada que no siga del text. S’insereix al final del capítol 6, on l’autora resumeix el cicle de l’any.',
+  },
 ];
 
 export { render };
