@@ -16,9 +16,11 @@ const apartats = headings.filter((h) => h.depth === 2 && h.slug !== 'footnote-la
 const num = numeroCapitol(c.data.title);
 const titol = c.data.title.replace(/^\d+\.\s*/, '');
 const [p1, p2] = c.data.pages;
+// L'índex d'il·lustracions és una llista de noms: pesa menys en la cerca perquè no encapçale els resultats (T-09)
+const pes = slugOf(c) === 'index-d-illustracions' ? '0.3' : undefined;
 ---
 <Base title={titolCurt(c.data.title)}>
-  <article data-pagefind-body>
+  <article data-pagefind-body data-pagefind-weight={pes}>
     <header class="capcalera-capitol capitol-cap">
       {num && <p class="capitol-num">Capítol {num}</p>}
       <h1 class:list={[{ majuscules: titol === titol.toUpperCase() }]}>{titol}</h1>

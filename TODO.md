@@ -28,11 +28,6 @@ documentada, sin recuperar su texto (T-22 descartada). No queda ninguna tarea de
 
 ### Sitio y herramientas
 
-- [ ] **T-09 (C) Bajar el peso del índice de ilustraciones en la búsqueda.**
-  La página `/index-d-illustracions/` sale la primera para muchas palabras porque es una lista de nombres.
-  Añadir `data-pagefind-weight="0.3"` (o excluirla con `data-pagefind-ignore`) en `site/src/pages/[slug].astro`
-  cuando `slugOf(c) === 'index-d-illustracions'`.
-
 - [ ] **T-10 (C) Metadatos sociales y sitemap.**
   `og:title`, `og:description`, `og:image` (portada) en `site/src/layouts/Base.astro`; `@astrojs/sitemap` en
   `astro.config.mjs`. La URL del sitio ya es definitiva (https://jtpadilla.github.io/masosdemorella/).
@@ -53,6 +48,9 @@ documentada, sin recuperar su texto (T-22 descartada). No queda ninguna tarea de
   están en sus versiones actuales (checkout v7, setup-node v7, upload-pages-artifact v5, deploy-pages v5).
 
 ## Resueltas
+
+- [x] **T-09** El índice de ilustraciones lleva `data-pagefind-weight="0.3"` (`[slug].astro`): para "trill", "mas" o
+  "era" pasa de las primeras posiciones a la última; sigue apareciendo cuando es pertinente ("foto") (2026-09-03).
 
 - [x] **T-08** Búsqueda migrada a la Component UI de Pagefind (`pagefind-component-ui.js`, elementos `<pagefind-input>`,
   `<pagefind-summary>`, `<pagefind-results>`); traducciones en valenciano vía `setTranslations`, tema claro/oscuro con las
