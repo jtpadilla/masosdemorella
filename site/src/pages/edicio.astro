@@ -37,7 +37,7 @@ const perFitxer = Object.fromEntries(Object.entries(imatges).map(([k, v]) => [k.
     <p>El text del llibre no s'ha tocat, però esta edició hi afig, sempre identificades com a pròpies («Il·lustració d'esta edició» al peu), algunes imatges que ajuden a situar-se: el mapa de les denes va al capítol 1, després de la llista de les dotze denes, el de la Dena dels Llivis a l'apartat 1.1, després de la llista dels vint-i-un masos, i el croquis del Mas de Julian amb les fotografies a l'apartat 5.1. Es poden veure també al final de la <a href={href('il-lustracions/#edicio')}>galeria</a>.</p>
     {figuresEdicio.map((f) => (
       <figure class="figura">
-        <a href={perFitxer[f.file].src} title="Obri la imatge a mida completa"><Image src={perFitxer[f.file]} alt={f.caption} width={900} /></a>
+        <a href={perFitxer[f.file].src} title="Obri la imatge a mida completa"><Image src={perFitxer[f.file]} alt={f.caption} width={900} layout="none" /></a>
         <figcaption>{f.caption}. {f.note}</figcaption>
       </figure>
     ))}

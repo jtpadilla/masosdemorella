@@ -37,13 +37,13 @@ documentada, sin recuperar su texto (T-22 descartada). No queda ninguna tarea de
   Conocido: el botón de tema salta de línea en pantallas estrechas (`.capcalera nav` en `global.css`). Las capturas de
   comprobación se han hecho solo con Chrome headless (`google-chrome --headless=new --screenshot`).
 
-- [ ] **T-13 (C) Mantenimiento.**
-  Revisar `npm outdated` en `site/` de vez en cuando; `npm run build` y `python3 extract/check.py` son la prueba de
-  regresión. Astro emite varias copias del mismo SVG para el `srcset` de las figuras editoriales (unos 2 MB en `dist/`
-  por mapa); si molesta, excluir los SVG del procesado responsive en `rehype-book.mjs`. Las acciones del workflow ya
-  están en sus versiones actuales (checkout v7, setup-node v7, upload-pages-artifact v5, deploy-pages v5).
-
 ## Resueltas
+
+- [x] **T-13** Mantenimiento (2026-09-03): `npm outdated` solo señala `opentype.js` 2.0 (**no actualizar**: cambia la
+  serialización de los trazados y los cuatro SVG dejan de ser reproducibles; se queda en 1.3.4). `check.py` limpio
+  (ver NOTES). Acciones del workflow en su última mayor. Los SVG ya no generan `srcset` (`layout: 'none'` en
+  `rehype-book.mjs`, galería y "Sobre esta edició"): de 36 copias / ~10 MB a 15 / 3,5 MB en `dist/`. Rutina: `npm run
+  build` + `python3 extract/check.py` antes de cualquier cambio de dependencias.
 
 - [x] **T-10** Open Graph / Twitter card en `Base.astro` (título, descripción, URL canónica, portada recortada a 1200×630
   con `getImage`), `image` en el JSON-LD, `@astrojs/sitemap` en `astro.config.mjs` (`sitemap-index.xml`) y

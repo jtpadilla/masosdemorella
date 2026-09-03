@@ -19,7 +19,7 @@ const perdudes = figs.filter((f) => !f.file).length;
         <figure>
           {f.file ? (
             <a href={perFitxer[f.file].src} title="Obri la imatge a resolució original">
-              <Image src={perFitxer[f.file]} alt={f.caption} width={640} />
+              <Image src={perFitxer[f.file]} alt={f.caption} width={640} layout={f.file.endsWith('.svg') ? 'none' : undefined} />
             </a>
           ) : (
             <div class="perduda-mini">Il·lustració perduda</div>
@@ -40,7 +40,7 @@ const perdudes = figs.filter((f) => !f.file).length;
       <li>
         <figure>
           <a href={perFitxer[f.file].src} title="Obri la imatge a mida completa">
-            <Image src={perFitxer[f.file]} alt={f.caption} width={640} />
+            <Image src={perFitxer[f.file]} alt={f.caption} width={640} layout={f.file.endsWith('.svg') ? 'none' : undefined} />
           </a>
           <figcaption>{f.caption}<span class="on">{f.note}</span></figcaption>
         </figure>

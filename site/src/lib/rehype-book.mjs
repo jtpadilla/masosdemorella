@@ -20,6 +20,8 @@ function walk(node) {
         const img = meaningful[0];
         const caption = img.properties.alt ?? '';
         img.properties.width = 1200;
+        // Els SVG no necessiten srcset (Astro en copiava una desena de variants idèntiques per mapa): layout fix
+        if (/\.svg$/i.test(String(img.properties.src ?? ''))) img.properties.layout = 'none';
         const editorial = /(^|\/)ed-[^/]*$/.test(String(img.properties.src ?? ''));
         return {
           type: 'element',

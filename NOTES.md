@@ -58,7 +58,9 @@ Todas son fotos de aperos de labranza.
 - **Portada y portadilla** (págs. físicas 1 y 5): transcritas en `content/llibre.yaml`.
 - Página impresa 81 (física 86) está en blanco en el original; el ancla `p81` se emite junto a la de la 82.
 - Verificación: `extract/check.py` compara palabra a palabra PDF ↔ Markdown (recuento y orden). Resultado limpio:
-  las únicas diferencias son guiones de clítico que pdftotext elimina (posar-lo), exponentes (m²) y números de nota.
+  las únicas diferencias son guiones de clítico que pdftotext elimina (posar-lo), exponentes (m²), números de nota y
+  la lista de días del Sexenni (pág. 78, `p083.txt`), que pdftotext lee por columnas (primero los días, luego los
+  gremios) y por eso da 12 "desajustes de orden" que no son tales. Comprobado el 2026-09-03 (T-13).
 
 ## Revisión visual página a página (2026-09-02)
 Cotejadas las 100 páginas impresas del PDF (`extract/render/`) contra el Markdown (`extract/segment.py N` imprime el
