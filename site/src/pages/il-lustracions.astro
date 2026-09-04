@@ -5,8 +5,15 @@ import Base from '../layouts/Base.astro';
 import { figures, figuresEdicio, href, slugOf, titolCurt } from '../lib/llibre';
 
 const imatges = import.meta.glob<ImageMetadata>('../../../assets/images/*.{jpg,svg}', { eager: true, import: 'default' });
+// Capa HD opcional: assets/images-hd/ repetix els mateixos noms de fitxer amb una versió de més
+// resolució, quan la tenim. S'usa només per a l'enllaç «a resolució original»; la miniatura ix
+// d'assets/images/. Ara està buida: vegeu assets/images-hd/README.md.
+const hd = import.meta.glob<ImageMetadata>('../../../assets/images-hd/*.{jpg,svg}', { eager: true, import: 'default' });
 const nota: Record<string, string> = { '01-mapa-dels-ports.svg': 'Redibuixat per a esta edició' };
 const perFitxer = Object.fromEntries(Object.entries(imatges).map(([k, v]) => [k.split('/').pop()!, v]));
+const perFitxerHd = Object.fromEntries(Object.entries(hd).map(([k, v]) => [k.split('/').pop()!, v]));
+/** La millor versió d'una il·lustració: la HD si existix, si no la publicada. */
+const gran = (file: string) => perFitxerHd[file] ?? perFitxer[file];
 const figs = await figures();
 const perdudes = figs.filter((f) => !f.file).length;
 ---
@@ -18,7 +25,7 @@ const perdudes = figs.filter((f) => !f.file).length;
       <li>
         <figure>
           {f.file ? (
-            <a href={perFitxer[f.file].src} title="Obri la imatge a resolució original">
+            <a href={gran(f.file).src} title="Obri la imatge a resolució original">
               <Image src={perFitxer[f.file]} alt={f.caption} width={640} layout={f.file.endsWith('.svg') ? 'none' : undefined} />
             </a>
           ) : (
@@ -39,7 +46,7 @@ const perdudes = figs.filter((f) => !f.file).length;
     {figuresEdicio.map((f) => (
       <li>
         <figure>
-          <a href={perFitxer[f.file].src} title="Obri la imatge a mida completa">
+          <a href={gran(f.file).src} title="Obri la imatge a mida completa">
             <Image src={perFitxer[f.file]} alt={f.caption} width={640} layout={f.file.endsWith('.svg') ? 'none' : undefined} />
           </a>
           <figcaption>{f.caption}<span class="on">{f.note}</span></figcaption>
