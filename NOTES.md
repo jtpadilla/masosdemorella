@@ -270,3 +270,11 @@ los números del índice se calculan imprimiendo cada parte por separado y conta
 de los títulos (`generateDocumentOutline`). Las marcas de página del original van en un canal de 10 mm a la izquierda
 del texto (dentro del área imprimible: lo que cae en el margen de página no se imprime). Los ficheros no se versionan
 (`site/.gitignore`); en CI los genera el workflow, que necesita `google-chrome` (presente en ubuntu-latest).
+
+---
+
+## 2026-09-09 · Enlace al otro libro de la autora
+
+La familia ha recuperado también el estudio del pavimento de Santjoans como libro (`jtpadilla/santjoanslibro`,
+https://jtpadilla.github.io/santjoanslibro/). Este sitio lo enlaza donde ya enlazaba a la portada de la autora: en el pie de todas las
+páginas («L'altre llibre de l'autora») y en «L'autora», en la frase sobre santjoans.es. Es la T-12 de franciscajulianquerol.
